@@ -1,6 +1,18 @@
+---
+
+---
+
 @charset "utf-8";
 
-// Define defaults for each variable.
+@font-face {
+   font-family: 'FavoritRegular';
+   src: url('../fonts/Favorit-Regular.eot');
+   src: url('../fonts/Favorit-Regular.eot?#iefix') format('embedded-opentype'), 
+   url('../fonts/Favorit-Regular.woff2') format('woff2'), 
+   url('../fonts/Favorit-Regular.woff') format('woff'),
+   url('../fonts/Favorit-Regular.ttf') format('truetype'),
+   url('../fonts/Favorit-Regular.svg#FavoritRegular') format('svg');
+}
 
 $base-font-family: -apple-system,
 BlinkMacSystemFont,

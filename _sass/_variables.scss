@@ -1,8 +1,8 @@
 // Typography
-$favorit:          "Favorit", sans-serif;
+$favorit:          "FavoritRegular", sans-serif;
 //$monospace:        "Roboto Mono", monospace;
-$base-font-family: $sans-serif;
-$title-font:       $monospace;
+$base-font-family: $favorit;
+$title-font:       $favorit;
 $base-font-size:   1.25rem;
 $base-font-weight: 400;
 $base-line-height: 1.5;
