@@ -1,6 +1,10 @@
 ---
-layout: page
-title: About
+
+
+layout:      home
+title:       About
+keywords:    dfg,df,sdf,asd
+description: dfghdsfgfhdgjhgfasdgshdgjfhgsfasdgshdgjfhgsdfsdfadgsfhdgjfh sfdhgfjhk asgdhjf sdgfdhgfj afdgsfhdg afdsgfdh dsgfh asdsgfdh adfsgd  adsfga dsgfdha sdgfdh
 permalink: /about/
 ---
 

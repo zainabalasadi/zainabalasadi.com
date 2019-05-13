@@ -1,0 +1,27 @@
+// Typography
+$favorit:          "Favorit", sans-serif;
+//$monospace:        "Roboto Mono", monospace;
+$base-font-family: $sans-serif;
+$title-font:       $monospace;
+$base-font-size:   1.25rem;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$sans-serif-letter-spacing: -0.037em;
+$serif-letter-spacing: -0.01em;
+
+// Media queries
+$mobile:           600px;
+$laptop:           880px;
+
+// Colors
+$text-color:       #222222;
+$background-color: #ffffff;
+$brand-yellow:     #FBCB00;
+$white:            #FFFFFF;
+$black:            #000000;
+$gray:             #EEEEEE;
+$mid-gray:         darken($gray, 12%);
+$dark-gray:        darken($gray, 25%);
+
+// Misc
+$transition: all 0.2s ease-in-out 0s;
