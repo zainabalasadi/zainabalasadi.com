@@ -1,7 +1,7 @@
 ---
 
 
-layout:      home
+layout:      default
 title:       About
 keywords:    dfg,df,sdf,asd
 description: dfghdsfgfhdgjhgfasdgshdgjfhgsfasdgshdgjfhgsdfsdfadgsfhdgjfh sfdhgfjhk asgdhjf sdgfdhgfj afdgsfhdg afdsgfdh dsgfh asdsgfdh adfsgd  adsfga dsgfdha sdgfdh
