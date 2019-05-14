@@ -1,6 +1,5 @@
 // Typography
-$favorit:          "FavoritRegular", sans-serif;
-//$monospace:        "Roboto Mono", monospace;
+$favorit:          'FavoritRegular', sans-serif !default;
 $base-font-family: $favorit;
 $title-font:       $favorit;
 $base-font-size:   1.25rem;
@@ -8,20 +7,30 @@ $base-font-weight: 400;
 $base-line-height: 1.5;
 $sans-serif-letter-spacing: -0.037em;
 $serif-letter-spacing: -0.01em;
+$small-font-size: $base-font-size * 0.875;
+
+$spacing-unit: 30px;
+$table-text-align: left;
 
 // Media queries
+$content-width:    1140px;
 $mobile:           600px;
 $laptop:           880px;
 
 // Colors
 $text-color:       #222222;
 $background-color: #ffffff;
-$brand-yellow:     #FBCB00;
+$brand-color:      #FBCB00;
 $white:            #FFFFFF;
 $black:            #000000;
 $gray:             #EEEEEE;
 $mid-gray:         darken($gray, 12%);
 $dark-gray:        darken($gray, 25%);
+
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
+
 
 // Misc
 $transition: all 0.2s ease-in-out 0s;

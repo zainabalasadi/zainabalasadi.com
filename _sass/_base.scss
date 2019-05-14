@@ -1,12 +1,17 @@
 // Reset some basic elements
-body, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, hr, dl, 
-dd, ol, ul, figure {
+html, body,
+blockquote, pre, hr,
+dl, dd, ol, ul, figure {
    margin: 0;
    padding: 0;
 }
 
-//Basic styling
+h1, h2, h3, h4, h5, h6 {
+   // margin-top: 0;
+   font-weight: $base-font-weight;
+}
+
+// Basic styling
 body {
    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
    color: $text-color;
@@ -22,7 +27,7 @@ body {
    flex-direction: column;
 }
 
-//Set `margin-bottom` to maintain vertical rhythm
+// Set `margin-bottom` to maintain vertical rhythm
 h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, ul, ol,
 dl, figure,
@@ -30,19 +35,19 @@ dl, figure,
    margin-bottom: $spacing-unit / 2;
 }
 
-//'main` element
+// 'main` element
 main {
    display: block;
    /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-//Images
+// Images
 img {
    max-width: 100%;
    vertical-align: middle;
 }
 
-//Figures
+// Figures
 figure>img {
    display: block;
 }
@@ -51,7 +56,7 @@ figcaption {
    font-size: $small-font-size;
 }
 
-//Lists
+// Lists
 ul,
 ol {
    margin-left: $spacing-unit;
@@ -64,23 +69,22 @@ li {
    }
 }
 
-//Headings
+// Headings
 h1, h2, h3, h4, h5, h6 {
    font-weight: $base-font-weight;
 }
 
-//Links
+// Links
 a {
-   color: $brand-color;
-   text-decoration: none;
+   color: $text-color;
+   text-decoration: underline;
 
-   &:visited {
+   /*&:visited {
       color: darken($brand-color, 15%);
-   }
+   }*/
 
    &:hover {
-      color: $text-color;
-      text-decoration: underline;
+      color: $brand-color;
    }
 
    .social-media-list &:hover {
@@ -92,7 +96,7 @@ a {
    }
 }
 
-//Blockquotes
+// Blockquotes
 blockquote {
    color: $grey-color;
    border-left: 4px solid $grey-color-light;
@@ -106,7 +110,7 @@ blockquote {
    }
 }
 
-//Code formatting
+// Code formatting
 pre,
 code {
    @include relative-font-size(0.9375);
@@ -130,7 +134,7 @@ pre {
    }
 }
 
-//Wrapper
+// Wrapper
 .wrapper {
    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -140,7 +144,7 @@ pre {
    padding-left: $spacing-unit;
    @extend %clearfix;
 
-   @include media-query($on-laptop) {
+   @include media-query($laptop) {
       max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
       max-width: calc(#{$content-width} - (#{$spacing-unit}));
       padding-right: $spacing-unit / 2;
@@ -148,14 +152,14 @@ pre {
    }
 }
 
-//Clearfix
+// Clearfix
 %clearfix:after {
    content: "";
    display: table;
    clear: both;
 }
 
-//Icons
+// Icons
 .svg-icon {
    width: 16px;
    height: 16px;
@@ -171,7 +175,7 @@ pre {
    }
 }
 
-//Tables
+// Tables
 table {
    margin-bottom: $spacing-unit;
    width: 100%;
