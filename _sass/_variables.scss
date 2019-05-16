@@ -1,30 +1,50 @@
 // Typography
-$favorit:          'FavoritRegular', sans-serif;
-$base-font-family: $favorit;
-$title-font:       $favorit;
-$base-font-size:   1.10rem;
-$base-font-weight: 400;
-$base-line-height: 1.5;
-$sans-serif-letter-spacing: -0.037em;
-$serif-letter-spacing: -0.01em;
-$small-font-size: $base-font-size * 0.875;
+$favoritRegular:      'FavoritRegular', sans-serif;
+$favoritLight:        'FavoritLight', sans-serif;
 
-$spacing-unit: 32px;
+// Base
+$base-font-family:    $favoritLight;
+$base-font-size:      1.10rem;
+$base-font-weight:    400;
+$base-line-height:    1.5;
+$base-letter-spacing: 0rem;
+
+// Headings & Titles
+$title-font:          $favoritRegular;
+$title-font-size:     $base-font-size;
+$title-font-weight:   $base-font-weight;
+$title-font-height:   $base-line-height;
+$title-font-spacing:  $base-letter-spacing;
+
+// Spacing
+$spacing-unit:        32px;
 
 // Media queries
-$content-width:    1152px;
-$mobile:           600px;
-$laptop:           880px;
+$content-width:       1152px;
+$mobile:              600px;
+$laptop:              880px;
+$desktop:             1200px;
+
+// Grid
+$max-width:           $content-width;
+$grid-columns:        12;
+//$micro-spacing:       8;
+$gutter:              32px;
 
 // Colors
-$text-color:       #222222;
-$background-color: #FFFFFF;
-$brand-color:      #FBCB00;
-$white:            #FFFFFF;
-$black:            #000000;
-$gray:             #EEEEEE;
+$text-color:          #222222;
+$background-color:    #FFFFFF;
+$brand-color:         #FBCB00;
+$white:               #FFFFFF;
+$black:               #000000;
+$grey:                #EEEEEE;
 
-$grey-color:       #000000;
+
 
 // Misc
-$transition: all 0.2s ease-in-out 0s;
+$transition:          all 0.2s ease-in-out 0s;
+
+
+
+
+

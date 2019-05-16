@@ -8,8 +8,13 @@ url:                "http://127.0.0.1:4000"
 site_image:         assets/images/site-image.png
 linkedin_username:  zainabalasadi
 github_username:    zainabalasadi
+medium_username:    zainabalasadi
 instagram_username: zayalas
 twitter_username:   hizainab
 
 # Build settings
 markdown:           kramdown
+kramdown:
+   auto_ids:        false
+
+style:              ph6-l ph4-m ph3 mt6-l mt5 mb5-l mb4 center

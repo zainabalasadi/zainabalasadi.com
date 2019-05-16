@@ -1,37 +1,9 @@
-// Reset some basic elements
-html, body,
-blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-   margin: 0;
-   padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-   font-weight: $base-font-weight;
-}
-
-// Basic styling
-body {
-   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-   color: $text-color;
-   background-color: $background-color;
-   -webkit-text-size-adjust: 100%;
-   -webkit-font-feature-settings: "kern"1;
-   -moz-font-feature-settings: "kern"1;
-   -o-font-feature-settings: "kern"1;
-   font-feature-settings: "kern"1;
-   font-kerning: normal;
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-}
-
-// Set `margin-bottom` to maintain vertical rhythm
-h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, ul, ol,
-dl, figure,
-%vertical-rhythm {
-   margin-bottom: $spacing-unit / 2;
+// HTML Overrides
+html {
+   font-kerning: none;
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
 }
 
 // 'main` element
@@ -40,56 +12,37 @@ main {
    /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-// Images
-img {
-   max-width: 100%;
-   vertical-align: middle;
+// Reset some basic elements
+html, body,
+blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+   margin: 0;
+   padding: 0;
 }
 
-// Lists
-ul,
-ol {
-   margin-left: $spacing-unit;
-}
-
-li {
-   >ul,
-   >ol {
-      margin-bottom: 0;
-   }
-}
-
-// Links
-a {
+// Basic styling
+body {
+   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
    color: $text-color;
-   text-decoration: underline;
-
-   &:hover {
-      color: $brand-color;
-   }
+   background-color: $background-color;
+   -webkit-text-size-adjust: 100%;
+   min-height: 100vh;
 }
 
-// Blockquotes
-blockquote {
-   color: $grey-color;
-   border-left: 4px solid $grey-color;
-   padding-left: $spacing-unit / 2;
-   @include relative-font-size(1.125);
-   letter-spacing: -1px;
-   font-style: italic;
-
-   > :last-child {
-      margin-bottom: 0;
-   }
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, ul, ol,
+dl, %vertical-rhythm {
+   margin-bottom: $spacing-unit / 2;
 }
 
 // Code formatting
 pre,
 code {
    @include relative-font-size(0.9375);
-   border: 1px solid $grey-color;
+   border: 1px solid $grey;
    border-radius: 3px;
-   background-color: #eef;
+   background-color: lighten($brand-color, 60%);
 }
 
 code {
@@ -107,6 +60,53 @@ pre {
    }
 }
 
+// Blockquotes
+blockquote {
+   color: $text-color;
+   font-family: $title-font;
+   @include relative-font-size(1.125);
+
+   > :last-child {
+      margin-bottom: 0;
+   }
+}
+
+// Links
+a {
+   color: $text-color;
+   text-decoration: underline;
+
+   &:hover {
+      color: $brand-color;
+   }
+}
+
+// Lists
+ul, ol {
+   margin-left: $spacing-unit;
+}
+
+li {
+   >ul, >ol {
+      margin-bottom: 0;
+   }
+}
+
+// Images
+img {
+   max-width: 100%;
+   vertical-align: middle;
+   // add padding
+}
+
+// Icons
+.svg-icon {
+   width: 16px;
+   display: inline-block;
+   fill: #{$text-color};
+   vertical-align: text-top;
+}
+
 // Clearfix
 %clearfix:after {
    content: "";
@@ -114,18 +114,11 @@ pre {
    clear: both;
 }
 
-// Icons
-.svg-icon {
-   width: 16px;
-   height: 16px;
-   display: inline-block;
-   fill: #{$text-color};
-   padding-right: 5px;
-   vertical-align: text-top;
+// Heading Styles
+h1 {
+   font-family: $title-font;
 }
 
-.social-media-list {
-   li+li {
-      padding-top: 5px;
-   }
+h1, h2, h3, h4, h5, h6 {
+   font-weight: $base-font-weight;
 }
