@@ -18,3 +18,9 @@ kramdown:
    auto_ids:        false
 
 style:              ph6-l ph4-m ph3 mt6-l mt5 mb5-l mb4 center
+site-intro:         w-100 f7 f6-m f5-l
+site-footer-sig:    fl w-100 w-60-ns
+site-footer-social: socials tr fl w-100 w-40-ns
+
+
+

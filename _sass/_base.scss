@@ -9,7 +9,7 @@ html {
 // 'main` element
 main {
    display: block;
-   /* Default value of `display` of `main` element is 'inline' in IE 11. */
+   flex: 1;
 }
 
 // Reset some basic elements
@@ -27,6 +27,9 @@ body {
    background-color: $background-color;
    -webkit-text-size-adjust: 100%;
    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
-<body class="{{site.style}}"> 
-   <div >
+<body class="{{ site.style }}"> 
+   <main>
       {{ content }}
-   </div>
+   </main>
       
    {% include footer.html %}
 

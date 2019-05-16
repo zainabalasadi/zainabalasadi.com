@@ -7992,7 +7992,7 @@ html {
 
 main {
   display: block;
-  /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+  flex: 1; }
 
 html, body,
 blockquote, pre, hr,
@@ -8005,7 +8005,10 @@ body {
   color: #222222;
   background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, ul, ol,
