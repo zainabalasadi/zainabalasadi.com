@@ -111,6 +111,12 @@ img {
    }
 }
 
+.socials {
+   @include media-query($tachyon-break) {
+      text-align: left !important;
+   }
+}
+
 // Heading Styles
 h1 {
    font-family: $title-font;
