@@ -8058,6 +8058,8 @@ img {
   display: inline-block;
   fill: #222222;
   vertical-align: text-top; }
+  .svg-icon:hover {
+    fill: #FBCB00; }
 
 h1 {
   font-family: "FavoritRegular", sans-serif; }

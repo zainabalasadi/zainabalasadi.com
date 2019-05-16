@@ -105,13 +105,10 @@ img {
    display: inline-block;
    fill: #{$text-color};
    vertical-align: text-top;
-}
 
-// Clearfix
-%clearfix:after {
-   content: "";
-   display: table;
-   clear: both;
+   &:hover {
+      fill: #{$brand-color};
+   }
 }
 
 // Heading Styles
