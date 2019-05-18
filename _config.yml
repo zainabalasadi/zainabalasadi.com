@@ -17,8 +17,10 @@ markdown:           kramdown
 kramdown:
    auto_ids:        false
 
-style:              ph6-l ph4-m ph3 mt6-l mt5 mb5-l mb4 center
-site-intro:         w-100 f7 f6-m f5-l
+style:              ph6-l ph4-m ph3 center
+site-intro:         w-100 w-100-m w-60-ns f7 f7-m f7-l pt6-l pb6-l pt5 pb5
+site-intro-space:   w-100 w-100-m w-40-ns
+site-intros:         w-100 f7 f6-m f5-l
 site-footer-sig:    fl w-100 w-60-ns
 site-footer-social: socials tr fl w-100 w-40-ns
 

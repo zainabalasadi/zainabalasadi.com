@@ -9,7 +9,9 @@ description: dfgh
 ---
 
 <div class="{{ site.site-intro }}" markdown="1">
-# Hi, I'm Zainab Alasadi—a product designer with an engineering background. Previously designed at [Oscar](http://www.sharewithoscar.com/){:target="_blank"} 💛, a platform that makes cities more liveable through everyday sharing.
+# Hi! My name is Zainab Alasadi 👋🏼 I'm a Product Designer with a background in Computer Science. 
 
-# I love [tinkering with type](#){:target="_blank"} and building [intelligent things](https://github.com/zainabalasadi){:target="_blank"}. I also occasionally ramble on [Medium](https://medium.com/@zainabalasadi){:target="_blank"}.
+# I’ve previously interned at [Oscar](#){:target="_blank"}, led design at [180DC](#){:target="_blank"} and studied at [UNSW](#){:target="_blank"}. Lover of 📚, 🏃🏻‍♀️, 🐶, 📷 and 🍣. Avid supporter of the em dash and lifelong investor in 🍰. I love to take pictures of [food](#){:target="_blank"} and [write](#){:target="_blank"} stories. In my free time, I enjoy [reading](#){:target="_blank"}, admiring [pretty fonts](#){:target="_blank"}, exploring the [coasts of Sydney](#){:target="_blank"} and stressing out over a [missing semicolon](#){:target="_blank"}.
+</div>
+<div class="{{ site.site-intro-space }}" markdown="1">
 </div>

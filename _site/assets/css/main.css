@@ -8098,7 +8098,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-right: 20px; }
 
 /** Site footer **/
-.site-footer {
+footer {
   border-top: 1px solid #222222;
   padding: 32px 0; }
 
