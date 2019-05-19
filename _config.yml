@@ -20,9 +20,13 @@ kramdown:
 style:              ph6-l ph4-m ph3 center
 site-intro:         w-100 w-100-m w-60-ns f7 f7-m f7-l pt6-l pb6-l pt5 pb5
 site-intro-space:   w-100 w-100-m w-40-ns
-site-intros:         w-100 f7 f6-m f5-l
-site-footer-sig:    fl w-100 w-60-ns
+
+site-footer:        pt5-l pt5 pb5-l pb5 pv4 
+site-footer-sig:    fl w-100 w-60-ns pb2-l pb1
+site-coded:         f6
 site-footer-social: socials tr fl w-100 w-40-ns
 
 
 
+
+site-intros:         w-100 f7 f6-m f5-l

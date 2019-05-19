@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
+<!-- Body -->
 <body class="{{ site.style }}"> 
+   <!-- Main -->
    <main>
       {{ content }}
    </main>
-      
+   <!-- End Main -->
+   
    {% include footer.html %}
-
 </body>
 </html>

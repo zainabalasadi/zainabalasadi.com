@@ -8000,6 +8000,12 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+::-moz-selection {
+  background: #FBCB00; }
+
+::selection {
+  background: #FBCB00; }
+
 body {
   font: 400 1.1rem/1.5 "FavoritLight", sans-serif;
   color: #222222;
@@ -8018,7 +8024,7 @@ dl, .highlight {
 pre,
 code {
   font-size: 1.03125rem;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #a1a1a1;
   border-radius: 3px;
   background-color: white; }
 
@@ -8060,7 +8066,8 @@ img {
   width: 16px;
   display: inline-block;
   fill: #222222;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  margin-right: .7rem; }
   .svg-icon:hover {
     fill: #FBCB00; }
 
@@ -8073,6 +8080,9 @@ h1 {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
+
+p {
+  margin-block-start: 0rem !important; }
 
 /** Site header **/
 .site-header {
