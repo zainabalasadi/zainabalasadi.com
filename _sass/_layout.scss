@@ -1,4 +1,23 @@
+.hover-item-show {
+   position: absolute;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 0.5s;
+   z-index: 100;
+   top: 0;
+   right: 0
+}
 
+.hover-item:hover .hover-item-show {
+   opacity: 1;
+   visibility: inherit;
+   transition: opacity 0.5s
+}
+
+.styled-list-img {
+   max-width: 400px;
+   width: 48vw
+}
 
 // body {
 //    max-width: $content-width;
@@ -12,7 +31,6 @@ p {
 
 .work {
    margin-block-start: 0rem !important;
-   //margin-block-end: 4rem;
 }
 /** Site header **/
 .site-header {
