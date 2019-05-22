@@ -7,11 +7,31 @@
 // }
 p {
    margin-block-start: 0rem !important;
+   margin-block-end: 0rem !important
+}
+
+.work {
+   margin-block-start: 0rem !important;
+   //margin-block-end: 4rem;
 }
 /** Site header **/
 .site-header {
    min-height: $spacing-unit * 1.865;
 }
+
+@media screen and (min-width: 60em) {
+   .w-48-l {
+      width: 48%;
+  }
+}
+
+
+@media screen and (max-width: 60em) and (min-width: 30em) {
+   .w-48-m {
+      width: 48%;
+  }
+}
+
 
 .site-title {
    @include relative-font-size(1.625);
@@ -43,7 +63,7 @@ p {
 
 /** Site footer **/
 footer {
-   border-top: 1px solid $text-color;
+   border-top: 1px solid $grey;
    padding: $spacing-unit 0;
 }
 

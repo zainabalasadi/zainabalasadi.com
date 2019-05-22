@@ -16,9 +16,10 @@ twitter_username:   hizainab
 markdown:           kramdown
 kramdown:
    auto_ids:        false
+permalink:          /:slug/
 
 style:              ph6-l ph4-m ph3 center
-site-intro:         w-100 w-100-m w-60-ns f7 f7-m f7-l pt6-l pb6-l pt5 pb5
+site-intro:         w-100 w-100-m w-60-ns pt6-l pt5 pb6-l pb5
 site-intro-space:   w-100 w-100-m w-40-ns
 
 site-footer:        pt5-l pt5 pb5-l pb5 pv4 

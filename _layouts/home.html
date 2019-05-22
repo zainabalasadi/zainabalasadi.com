@@ -4,4 +4,17 @@ layout: default
 
 <div class="home">
    {{ content }}
+
+   <h3 class="ttu tracked f6 f6-m f6-l">My work</h3>
+
+   {% for post in site.posts %}
+      {% if post.categories contains 'case-study' %}
+         <div>
+            <p>{{ post.company }} — {{ post.year }}</p>
+            <a href="{{ post.url }}">
+               <h1 class="f3 f3-m f3-l work mb5 mb5-m mb5-l">{{ post.catchy-title }}</h1>
+            </a>
+         </div>
+      {% endif %}
+   {% endfor %}
 </div>

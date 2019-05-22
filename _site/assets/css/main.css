@@ -8075,19 +8075,32 @@ img {
   .socials {
     text-align: left !important; } }
 
-h1 {
+h1, h2, h3 {
   font-family: "FavoritRegular", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
+h3 {
+  font-weight: 700; }
+
 p {
+  margin-block-start: 0rem !important;
+  margin-block-end: 0rem !important; }
+
+.work {
   margin-block-start: 0rem !important; }
 
 /** Site header **/
 .site-header {
   min-height: 59.68px; }
 
+@media screen and (min-width: 60em) {
+  .w-48-l {
+    width: 48%; } }
+@media screen and (max-width: 60em) and (min-width: 30em) {
+  .w-48-m {
+    width: 48%; } }
 .site-title {
   font-size: 1.7875rem;
   font-weight: 300;
@@ -8109,7 +8122,7 @@ p {
 
 /** Site footer **/
 footer {
-  border-top: 1px solid #222222;
+  border-top: 1px solid #a1a1a1;
   padding: 32px 0; }
 
 /** Page content **/

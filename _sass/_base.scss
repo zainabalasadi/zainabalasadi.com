@@ -130,10 +130,21 @@ img {
 }
 
 // Heading Styles
-h1 {
+h1, h2, h3 {
    font-family: $title-font;
 }
 
 h1, h2, h3, h4, h5, h6 {
    font-weight: $base-font-weight;
 }
+
+h3 {
+   font-weight: $base-font-strong;
+}
+
+// H1 = PAGE HEADINGS + INTRO
+// H2 = SUBHEADING
+// H3 = OVERLINE
+// H4 = SMALL TEXT (FOOTER, ETC)
+// H5 = 
+// H6 =
