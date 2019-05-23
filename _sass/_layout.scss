@@ -2,16 +2,20 @@
    position: absolute;
    visibility: hidden;
    opacity: 0;
-   transition: opacity 0.5s;
+   transition: opacity $transition;
    z-index: 100;
    top: 0;
    right: 0
 }
 
+.hover-item {
+   display: table;
+}
+
 .hover-item:hover .hover-item-show {
    opacity: 1;
    visibility: inherit;
-   transition: opacity 0.5s
+   transition: opacity $transition
 }
 
 .styled-list-img {

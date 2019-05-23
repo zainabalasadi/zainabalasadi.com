@@ -8088,15 +8088,18 @@ h3 {
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity all 0.5s ease-in-out 0s;
   z-index: 100;
   top: 0;
   right: 0; }
 
+.hover-item {
+  display: table; }
+
 .hover-item:hover .hover-item-show {
   opacity: 1;
   visibility: inherit;
-  transition: opacity 0.5s; }
+  transition: opacity all 0.5s ease-in-out 0s; }
 
 .styled-list-img {
   max-width: 400px;
