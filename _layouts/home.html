@@ -8,15 +8,16 @@ layout: default
    <h3 class="ttu tracked f6 f6-m f6-l">My work</h3>
 
    <!-- Posts -->
+
    {%- for post in site.posts -%}
-   <div class="hover-item">
-      {%- if post.categories contains 'case-study' -%}
-      <p>{{ post.company }} — {{ post.year }}</p>
-      <a href="{{ post.url }}">
-         <h1 class="f3 f3-m f3-l work mb5 mb5-m mb5-l ">{{ post.catchy-title }}</h1>
-      </a>
-      <img class="hover-item-show styled-list-img" src="{{ post.image }}" alt=""/>
-      {%- endif -%}
-   </div>
+      {% if post.categories contains 'case-study' %}
+      <div class="hover-item">
+         <p>{{ post.company }} — {{ post.year }}</p>
+         <a href="{{ post.url }}">
+            <h1 class="f3 f3-m f3-l work mb5 mb5-m mb5-l ">{{ post.catchy-title }}</h1>
+         </a>
+         <img class="hover-item-show styled-list-img" src="{{ post.image }}" alt=""/>
+      </div>
+      {% endif %}
    {%- endfor -%}   
 </div>
