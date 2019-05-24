@@ -86,7 +86,9 @@ blockquote {
 a {
    color: $text-color;
    text-decoration: underline;
-
+   text-decoration-skip-ink: auto;
+   -webkit-text-decoration-skip-ink: auto;
+   
    &:hover {
       color: $brand-color;
    }
