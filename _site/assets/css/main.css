@@ -8049,8 +8049,7 @@ blockquote {
 a {
   color: #222222;
   text-decoration: underline;
-  text-decoration-skip-ink: auto;
-  -webkit-text-decoration-skip-ink: auto; }
+  -webkit-text-decoration-skip: auto !important; }
   a:hover {
     color: #FBCB00; }
 
