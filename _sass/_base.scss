@@ -85,7 +85,7 @@ blockquote {
 // Links
 a {
    color: $text-color;
-   
+   text-decoration: underline;
    -webkit-text-decoration-skip: auto !important;
    
    &:hover {
