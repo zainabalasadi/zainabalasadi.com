@@ -24,6 +24,16 @@
    url('../fonts/Favorit-Light.svg#FavoritLight') format('svg');
 }
 
+@font-face {
+   font-family: 'FavoritBold';
+   src: url('../fonts/Favorit-Bold.eot');
+   src: url('../fonts/Favorit-Bold.eot?#iefix') format('embedded-opentype'), 
+   url('../fonts/Favorit-Bold.woff2') format('woff2'), 
+   url('../fonts/Favorit-Bold.woff') format('woff'),
+   url('../fonts/Favorit-Bold.ttf') format('truetype'),
+   url('../fonts/Favorit-Bold.svg#FavoritBold') format('svg');
+}
+
 // Font scaling
 @mixin relative-font-size($ratio) {
    font-size: $base-font-size * $ratio;

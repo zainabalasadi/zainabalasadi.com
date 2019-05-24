@@ -6,6 +6,10 @@
   font-family: 'FavoritLight';
   src: url("../fonts/Favorit-Light.eot");
   src: url("../fonts/Favorit-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Favorit-Light.woff2") format("woff2"), url("../fonts/Favorit-Light.woff") format("woff"), url("../fonts/Favorit-Light.ttf") format("truetype"), url("../fonts/Favorit-Light.svg#FavoritLight") format("svg"); }
+@font-face {
+  font-family: 'FavoritBold';
+  src: url("../fonts/Favorit-Bold.eot");
+  src: url("../fonts/Favorit-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Favorit-Bold.woff2") format("woff2"), url("../fonts/Favorit-Bold.woff") format("woff"), url("../fonts/Favorit-Bold.ttf") format("truetype"), url("../fonts/Favorit-Bold.svg#FavoritBold") format("svg"); }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -8083,7 +8087,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 h3 {
-  font-weight: 700; }
+  font-family: "FavoritBold", sans-serif; }
 
 .hover-item-show {
   position: absolute;
