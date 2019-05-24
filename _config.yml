@@ -5,7 +5,7 @@ description: >-
                     Hi, I'm Zainab Alasadi. Product Designer and Developer.
 baseurl:            ""
 url:                "http://127.0.0.1:4000"
-site_image:         assets/images/site-image.png
+site_image:         "assets/images/site-image.png"
 linkedin_username:  zainabalasadi
 github_username:    zainabalasadi
 medium_username:    zainabalasadi

@@ -8,7 +8,12 @@
       {{ content }}
    </main>
    <!-- End Main -->
-   
+
    {% include footer.html %}
+
+   {% if page.layout == 'home' %}<!-- Script includes -->
+   <script src="../assets/js/jquery.slim.min.js"></script>
+   <script src="../assets/js/index.js"></script>    
+   {% endif %}
 </body>
 </html>
