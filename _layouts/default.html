@@ -9,6 +9,12 @@
    </main>
    <!-- End Main -->
 
+   {% if page.id %}<!-- Back Link -->
+      <a href="{{ site.url }}">
+         <p>Back link</p>
+      </a>
+   {% endif %}
+
    {% include footer.html %}
 
    {% if page.layout == 'home' %}<!-- Script includes -->

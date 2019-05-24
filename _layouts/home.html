@@ -3,12 +3,10 @@ layout: default
 ---
 <div class="home">
    {{ content }}
-
    <!-- Title -->
    <h3 class="ttu tracked f6 f6-m f6-l">My work</h3>
 
    <!-- Posts -->
-
    {%- for post in site.posts -%}
       {% if post.categories contains 'case-study' %}
       <div class="hover-item">
