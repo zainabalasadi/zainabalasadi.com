@@ -1,5 +1,5 @@
 // Typography
-$favoritBold:       'FavoritBold', sans-serif;
+$favoritBold:         'FavoritBold', sans-serif;
 $favoritRegular:      'FavoritRegular', sans-serif;
 $favoritLight:        'FavoritLight', sans-serif;
 
@@ -30,11 +30,11 @@ $desktop:             1200px;
 
 // Colors
 $text-color:          #222222;
-$background-color:    #FFFFFF;
-$brand-color:         #FBCB00;
 $white:               #FFFFFF;
+$brand-color:         #FBCB00;
 $black:               #000000;
 $grey:                #a1a1a1;
+$background-color:    $white;
 
 // Misc
 $transition:          all 0.5s ease-in-out 0s;

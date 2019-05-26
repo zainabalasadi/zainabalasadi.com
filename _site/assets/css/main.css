@@ -8154,34 +8154,7 @@ footer {
   padding: 32px 0; }
 
 /** Page content **/
-.page-content {
-  padding: 32px 0;
-  flex: 1; }
-
-.page-heading {
-  font-size: 2.2rem; }
-
-.post-list-heading {
-  font-size: 1.925rem; }
-
-.post-list {
-  margin-left: 0;
-  list-style: none; }
-  .post-list > li {
-    margin-bottom: 32px; }
-
 /** Posts **/
-.post-header {
-  margin-bottom: 32px; }
-
-.post-title {
-  font-size: 2.8875rem;
-  letter-spacing: -1px;
-  line-height: 1; }
-  @media screen and (max-width: 880px) {
-    .post-title {
-      font-size: 2.475rem; } }
-
 .post-content {
   margin-bottom: 32px; }
   .post-content h2 {

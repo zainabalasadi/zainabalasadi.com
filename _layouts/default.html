@@ -5,14 +5,18 @@
 <body class="{{ site.style }}"> 
    <!-- Main -->
    <main>
+      {% if page.id %}
+      <!-- Back Link -->
+      <p><a href="{{ site.url }}">↤ Back Home</a></p>
+      {% endif %}
       {{ content }}
    </main>
    <!-- End Main -->
-
-   {% if page.id %}<!-- Back Link -->
-      <a href="{{ site.url }}">
-         <p>Back link</p>
-      </a>
+   {% if page.id %}
+   <!-- Back Link -->
+   <p><a href="{{ site.url }}">↤ Back Home</a></p>
+   <!-- Next Page -->
+   {% include next.html %}
    {% endif %}
 
    {% include footer.html %}

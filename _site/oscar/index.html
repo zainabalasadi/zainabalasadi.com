@@ -30,9 +30,9 @@
    <link rel="stylesheet" href="../assets/css/main.css">
    
    <!-- Favicon -->
-   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/site/favicon-180x180.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/site/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/site/favicon-16x16.png">  
+   <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/site/favicon-180x180.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/site/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/site/favicon-16x16.png">  
    
    <!-- Analytics -->
 </head>
@@ -41,25 +41,38 @@
 <body class="ph6-l ph4-m ph3 center pt6-l pt5"> 
    <!-- Main -->
    <main>
-      <article class="post">
+      
+      <!-- Back Link -->
+      <p><a href="http://localhost:4000">↤ Back Home</a></p>
+      
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
    <header class="post-header">
-      <h1 class="post-title">Oscar</h1>
+      <h1 class="post-title p-name" itemprop="name headline">Redesigning the sharing experience</h1>
    </header>
 
-   <div class="post-content">
+   <div class="post-content e-content" itemprop="articleBody">
       
 
    </div>
 
+
+   <a class="u-url" href="/oscar/" hidden></a>
 </article>
    </main>
    <!-- End Main -->
-
+   
    <!-- Back Link -->
-      <a href="http://localhost:4000">
-         <p>Back link</p>
+   <p><a href="http://localhost:4000">↤ Back Home</a></p>
+   <!-- Next Page -->
+      
+   <div>
+      <a href="/playlist-mixer/" title="Next Post: Playlist Mixer">
+         <div>
+            <p>Next Project →</p>
+         </div>
       </a>
+   </div>
    
 
    <!-- Footer -->

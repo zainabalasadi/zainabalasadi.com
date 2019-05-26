@@ -23,11 +23,6 @@
    width: 48vw
 }
 
-// body {
-//    max-width: $content-width;
-//    margin-left: auto;
-//    margin-right: auto;
-// }
 p {
    margin-block-start: 0rem !important;
    margin-block-end: 0rem !important;
@@ -50,7 +45,6 @@ p {
       width: 48%;
   }
 }
-
 
 @media screen and (max-width: 60em) and (min-width: 30em) {
    .w-48-m {
@@ -89,47 +83,15 @@ p {
 
 /** Site footer **/
 footer {
-   // border-top: 1px solid $grey;
    padding: $spacing-unit 0;
 }
 
 /** Page content **/
-.page-content {
-   padding: $spacing-unit 0;
-   flex: 1;
-}
 
-.page-heading {
-   @include relative-font-size(2);
-}
 
-.post-list-heading {
-   @include relative-font-size(1.75);
-}
-
-.post-list {
-   margin-left: 0;
-   list-style: none;
-
-   >li {
-      margin-bottom: $spacing-unit;
-   }
-}
 
 /** Posts **/
-.post-header {
-   margin-bottom: $spacing-unit;
-}
 
-.post-title {
-   @include relative-font-size(2.625);
-   letter-spacing: -1px;
-   line-height: 1;
-
-   @include media-query($laptop) {
-      @include relative-font-size(2.25);
-   }
-}
 
 .post-content {
    margin-bottom: $spacing-unit;
