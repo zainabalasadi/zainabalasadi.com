@@ -8094,6 +8094,11 @@ h3 {
     padding-left: 9rem;
     padding-right: 9rem; } }
 
+@media screen and (max-width: 30em) {
+  .ph3 {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem; } }
+
 .hover-item-show {
   position: absolute;
   visibility: hidden;
