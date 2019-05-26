@@ -2,28 +2,30 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
 <!-- Body -->
-<body class="{{ site.style }}"> 
+<body class="{% if page.id %}{{ site.post-style }}{% else %}{{ site.style }}{% endif %}"> 
    <!-- Main -->
    <main>
       {% if page.id %}
       <!-- Back Link -->
-      <p><a href="{{ site.url }}">↤ Back Home</a></p>
+      {% include back.html %}
       {% endif %}
       {{ content }}
    </main>
    <!-- End Main -->
+
    {% if page.id %}
    <!-- Back Link -->
-   <p><a href="{{ site.url }}">↤ Back Home</a></p>
+   {% include back.html %}
+   
    <!-- Next Page -->
    {% include next.html %}
    {% endif %}
 
    {% include footer.html %}
-
-   {% if page.layout == 'home' %}<!-- Script includes -->
+   {% if page.layout == 'home' %}
+   <!-- Script includes -->
    <script src="../assets/js/jquery.slim.min.js"></script>
    <script src="../assets/js/index.js"></script>    
-   {% endif %}
+   {%- endif -%}
 </body>
 </html>

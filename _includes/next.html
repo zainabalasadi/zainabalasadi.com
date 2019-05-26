@@ -1,8 +1,8 @@
-   {% if page.previous %}
+   {%- if page.previous -%}
       {% assign next = page.previous %}
    {% else %}
       {% assign next = site.posts[0] %}
-   {% endif %}
+   {%- endif -%}
    <div>
       <a href="{{site.baseurl}}{{next.url}}" title="Next Post: {{next.title}}">
          <div>

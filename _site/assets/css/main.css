@@ -8089,6 +8089,11 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   font-family: "FavoritBold", sans-serif; }
 
+@media screen and (min-width: 60em) {
+  .ph6x-l {
+    padding-left: 9rem;
+    padding-right: 9rem; } }
+
 .hover-item-show {
   position: absolute;
   visibility: hidden;
