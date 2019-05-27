@@ -14,7 +14,7 @@ $base-letter-spacing: 0rem;
 $title-font:          $favoritRegular;
 $title-font-size:     $base-font-size;
 $title-font-weight:   $base-font-weight;
-$title-font-height:   $base-line-height;
+$title-font-height:   1.35;
 $title-font-spacing:  $base-letter-spacing;
 $strong:              $favoritBold;
 
@@ -38,6 +38,7 @@ $background-color:    $white;
 
 // Misc
 $transition:          all 0.5s ease-in-out 0s;
+$time:                0.5s;
 
 
 

@@ -4,18 +4,18 @@ layout: default
 <div class="home">
    {{ content }}
    <!-- Title -->
-   <h3 class="ttu tracked f6 f6-m f6-l">My work</h3>
+   <h3 class="{{ site.site-text-overline }}">My work</h3>
 
    <!-- Posts -->
    {%- for post in site.posts -%}
-      {% if post.categories contains 'case-study' %}
-      <div class="hover-item">
-         <p>{{ post.company }} — {{ post.year }}</p>
-         <a href="{{ post.url }}">
-            <h1 class="f3 f3-m f3-l work mb5 mb5-m mb5-l ">{{ post.catchy-title }}</h1>
-         </a>
-         <img class="hover-item-show styled-list-img" src="{{ post.image }}" alt=""/>
-      </div>
-      {% endif %}
+   {% if post.categories contains 'case-study' %}
+   <p>{{ post.company }} — {{ post.year }}</p>
+   <div class="{{ site.site-hover-div }}">
+      <a href="{{ post.url }}">
+         <h1 class="{{ site.site-intro-text }} {{ site.site-work-title }}">{{ post.catchy-title }}</h1>
+      </a>
+      <img class="{{ site.site-hover-img }}" src="{{ post.image }}" alt="{{ post.company }}"/>
+   </div>
+   {% endif %}
    {%- endfor -%}   
 </div>

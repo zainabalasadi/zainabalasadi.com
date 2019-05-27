@@ -1,3 +1,7 @@
+/** Width overrides **/
+.w-55-ns{ 
+   width: 55%;
+}
 
 .ph6x-l {
    @media screen and (min-width: 60em) {
@@ -13,41 +17,43 @@
    }
 }
 
-.hover-item-show {
-   position: absolute;
-   visibility: hidden;
-   opacity: 0;
-   transition: opacity $transition;
-   z-index: 100;
-   top: 0;
-   right: 0
-}
-
-.hover-item {
-   display: table;
-}
-
-.hover-item:hover .hover-item-show {
-   opacity: 1;
-   visibility: inherit;
-   transition: opacity $transition
-}
-
+/** Image Hover **/
 .styled-list-img {
    max-width: 400px;
    width: 48vw
 }
 
-p {
-   margin-block-start: 0rem !important;
-   margin-block-end: 0rem !important;
-   -webkit-margin-before: 0rem;
-   -webkit-margin-after: 0rem;
+@media (min-width: 768px) {
+   .styled-list-img {
+       width:30vw
+   }
 }
 
-.work {
-   margin-block-start: 0rem !important;
-   -webkit-margin-before: 0rem;
+.styled-list-img.horizontal {
+   width: 56vw;
+   max-width: 580px
+}
+
+@media (min-width: 768px) {
+   .styled-list-img.horizontal {
+      width:38vw
+   }
+}
+
+.hover-item-show {
+   position: absolute;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity $time;
+   z-index: 100;
+   top: 0;
+   right: 0
+}
+
+.hover-item:hover .hover-item-show {
+   opacity: 1;
+   visibility: inherit;
+   transition: opacity $time;
 }
 
 /** Site header **/
@@ -67,47 +73,12 @@ p {
   }
 }
 
-
-.site-title {
-   @include relative-font-size(1.625);
-   font-weight: 300;
-   line-height: $base-line-height * $base-font-size * 2.25;
-   letter-spacing: -1px;
-   margin-bottom: 0;
-   float: left;
-
-   &, &:visited {
-      color: $text-color;
-   }
-}
-
-.site-nav {
-   float: right;
-   line-height: $base-line-height * $base-font-size * 2.25;
-
-   .page-link {
-      color: $text-color;
-      line-height: $base-line-height;
-
-      // Gaps between nav items, but not on the last one
-      &:not(:last-child) {
-         margin-right: 20px;
-      }
-   }
-}
-
 /** Site footer **/
 footer {
    padding: $spacing-unit 0;
 }
 
 /** Page content **/
-
-
-
-/** Posts **/
-
-
 .post-content {
    margin-bottom: $spacing-unit;
 
