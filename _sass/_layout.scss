@@ -17,12 +17,6 @@
    }
 }
 
-.w-65-ns {
-   @media screen and (min-width: 30em) {
-      width: 65%;
-   }
-}
-
 /** Image Hover **/
 .styled-list-img {
    max-width: 400px;
@@ -44,6 +38,9 @@
    .styled-list-img.horizontal {
       width:38vw
    }
+}
+.hover-item{
+   display: inline-block;
 }
 
 .hover-item-show {
@@ -89,7 +86,7 @@ footer {
    margin-bottom: $spacing-unit;
 
    h2 {
-      @include relative-font-size(2);
+      @include relative-font-size(1.65);
 
       @include media-query($laptop) {
          @include relative-font-size(1.75);
