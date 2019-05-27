@@ -27,7 +27,7 @@ twitter_username:   hizainab
 
 # Global style
 style:              ph6x-l ph5-m ph3 center pt6-l pt5 
-post-style:         ph6x-l ph5-m ph3 center pt5-l pt5
+post-style:         ph6x-l ph5-m ph3 center pt5-l pt4
 
 # Homepage
 site-intro:         w-100 w-100-m w-60-ns

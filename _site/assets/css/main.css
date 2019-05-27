@@ -8084,10 +8084,14 @@ h3 {
   font-family: "FavoritBold", sans-serif; }
 
 h1 {
-  line-height: 1.35; }
+  line-height: 1.45; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
+
+.post-content h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0rem; }
 
 /** Width overrides **/
 .w-55-ns {
@@ -8102,6 +8106,10 @@ h1, h2, h3, h4, h5, h6 {
   .ph3 {
     padding-left: 1.3rem;
     padding-right: 1.3rem; } }
+
+@media screen and (min-width: 30em) {
+  .w-65-ns {
+    width: 65%; } }
 
 /** Image Hover **/
 .styled-list-img {

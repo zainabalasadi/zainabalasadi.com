@@ -140,6 +140,11 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: $base-font-weight;
 }
 
+.post-content h2 {
+   margin-bottom: 0.5rem;
+   margin-top: 0rem;
+}
+
 // H1 = PAGE HEADINGS + INTRO
 // H2 = SUBHEADING
 // H3 = OVERLINE

@@ -17,6 +17,12 @@
    }
 }
 
+.w-65-ns {
+   @media screen and (min-width: 30em) {
+      width: 65%;
+   }
+}
+
 /** Image Hover **/
 .styled-list-img {
    max-width: 400px;
