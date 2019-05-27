@@ -22,8 +22,8 @@ favicon-16:         "assets/images/site/favicon-16x16.png"
 linkedin_username:  zainabalasadi
 github_username:    zainabalasadi
 medium_username:    zainabalasadi
-instagram_username: zayalas
-twitter_username:   hizainab
+instagram_username: wowzainab
+twitter_username:   wowzainab
 
 # Global style
 style:              "ph6x-l ph5-m ph3 center pt6-l pt5"
@@ -34,9 +34,9 @@ site-intro:         "w-100 w-100-m w-60-ns"
 site-intro-margin:  "pb6-l pb5"
 site-intro-space:   "w-100 w-100-m w-40-ns"
 site-intro-text:    "f3 f3-m f3-l"
-site-work-title:    "work mb5 mb5-m mb5-l"
+site-work-title:    "work"
 site-hover-img:     "hover-item-show styled-list-img"
-site-hover-div:     "hover-item dib"
+site-hover-div:     "hover-item dib mb5 mb5-m mb5-l"
 
 # Footer
 site-footer-margin: "pt5-l pt4 pb5-l pb4"
@@ -49,4 +49,8 @@ site-text-overline: "ttu tracked f6 f6-m f6-l"
 
 # Case Studies
 site-case-margin:   "center w-100 w-100-m w-60-ns"
+site-case-header:   "mt5-l mt5 post-header"
+site-case-title:    "f2 work mb4-l mb4"
+site-case-desc:     "fr w-100 w-100-m w-60-ns mb0-l mb0-m mb4"
+site-case-details:  "fl w-100 w-100-m w-25-ns"
 
