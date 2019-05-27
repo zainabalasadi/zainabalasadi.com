@@ -26,25 +26,27 @@ instagram_username: zayalas
 twitter_username:   hizainab
 
 # Global style
-style:              ph6x-l ph5-m ph3 center pt6-l pt5 
-post-style:         ph6x-l ph5-m ph3 center pt5-l pt4
+style:              "ph6x-l ph5-m ph3 center pt6-l pt5"
+post-style:         "ph6x-l ph5-m ph3 center pt5-l pt4"
 
 # Homepage
-site-intro:         w-100 w-100-m w-60-ns
-site-intro-margin:  pb6-l pb5
-site-intro-space:   w-100 w-100-m w-40-ns
-site-intro-text:    f3 f3-m f3-l
-site-work-title:    work mb5 mb5-m mb5-l
-site-hover-img:     hover-item-show styled-list-img
-site-hover-div:     hover-item
+site-intro:         "w-100 w-100-m w-60-ns"
+site-intro-margin:  "pb6-l pb5"
+site-intro-space:   "w-100 w-100-m w-40-ns"
+site-intro-text:    "f3 f3-m f3-l"
+site-work-title:    "work mb5 mb5-m mb5-l"
+site-hover-img:     "hover-item-show styled-list-img"
+site-hover-div:     "hover-item"
 
 # Footer
-site-footer-margin: pt5-l pt4 pb5-l pb4
-site-footer-email:  f3 f3-m f3-l work mb1
-site-footer-social: f5
-site-footer-coded:  f6 gray pt2
+site-footer-margin: "pt5-l pt4 pb5-l pb4"
+site-footer-email:  "f3 f3-m f3-l work mb1"
+site-footer-social: "f5"
+site-footer-coded:  "f6 gray pt2"
 
 # Text
-site-text-overline: ttu tracked f6 f6-m f6-l   
+site-text-overline: "ttu tracked f6 f6-m f6-l"
 
+# Case Studies
+site-case-margin:   "center w-100 w-100-m w-65-ns"
 
