@@ -6,6 +6,7 @@
 // Font Imports
 @font-face {
    font-family: 'FavoritRegular';
+   font-display: auto;
    src: url('../fonts/Favorit-Regular.eot');
    src: url('../fonts/Favorit-Regular.eot?#iefix') format('embedded-opentype'), 
    url('../fonts/Favorit-Regular.woff2') format('woff2'), 
@@ -16,6 +17,7 @@
 
 @font-face {
    font-family: 'FavoritLight';
+   font-display: auto;
    src: url('../fonts/Favorit-Light.eot');
    src: url('../fonts/Favorit-Light.eot?#iefix') format('embedded-opentype'), 
    url('../fonts/Favorit-Light.woff2') format('woff2'), 
@@ -26,6 +28,7 @@
 
 @font-face {
    font-family: 'FavoritBold';
+   font-display: auto;
    src: url('../fonts/Favorit-Bold.eot');
    src: url('../fonts/Favorit-Bold.eot?#iefix') format('embedded-opentype'), 
    url('../fonts/Favorit-Bold.woff2') format('woff2'), 
