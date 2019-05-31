@@ -109,3 +109,15 @@ footer {
       }
    }
 }
+
+/** Post content **/
+.post-content img {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+
+   @media screen and (min-width: 60em) {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+   }
+}
+

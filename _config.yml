@@ -22,7 +22,7 @@ favicon-16:         "assets/images/site/favicon-16x16.png"
 linkedin_username:  zainabalasadi
 github_username:    zainabalasadi
 medium_username:    zainabalasadi
-instagram_username: wowzainab
+instagram_username: zayalas
 twitter_username:   wowzainab
 
 # Global style
@@ -48,7 +48,7 @@ site-footer-coded:  "f6 gray pt2"
 site-text-overline: "ttu tracked f6 f6-m f6-l"
 
 # Case Studies
-site-case-margin:   "center w-100 w-100-m w-60-ns"
+site-case-margin:   "center w-100 w-100-m w-70-ns"
 site-case-header:   "mt5-l mt5 post-header"
 site-case-title:    "f2 work mb4-l mb4"
 site-case-desc:     "fr w-100 w-100-m w-60-ns mb0-l mb0-m mb4"

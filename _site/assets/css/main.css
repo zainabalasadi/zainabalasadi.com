@@ -8175,6 +8175,15 @@ footer {
       .post-content h4 {
         font-size: 1.18125rem; } }
 
+/** Post content **/
+.post-content img {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 60em) {
+    .post-content img {
+      margin-top: 4rem;
+      margin-bottom: 4rem; } }
+
 /** Syntax highlighting styles **/
 .highlight {
   background: #fff; }
