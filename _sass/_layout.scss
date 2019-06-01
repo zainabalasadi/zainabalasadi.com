@@ -121,8 +121,8 @@ footer {
    }
 }
 
-.hover-item-show {
-   @media screen and (max-width: 60em) {
+.hover-item-show, .styled-list-img {
+   @include media-query($mobile) {
       display: none !important;
    }
 }
