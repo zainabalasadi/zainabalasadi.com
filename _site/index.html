@@ -117,6 +117,10 @@
    </footer>
    
    <!-- Script includes -->
-   <script src="../assets/js/jquery.slim.min.js"></script>
-   <script src="../assets/js/index.js"></script></body>
+   if (window.screen.width > 600) {
+      document.write( 
+        '<script type="text/javascript" src="../assets/js/jquery.slim.min.js"></script>' +
+        '<script type="text/javascript" src="../assets/js/index.js"></script>'
+      )
+    }</body>
 </html>

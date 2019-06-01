@@ -121,8 +121,8 @@ footer {
    }
 }
 
-.hover-item-show, .styled-list-img {
-   @include media-query($mobile) {
-      display: none !important;
-   }
-}
+// .hover-item-show, .styled-list-img {
+//    @include media-query($mobile) {
+//       display: none !important;
+//    }
+// }
