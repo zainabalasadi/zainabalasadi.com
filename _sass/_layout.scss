@@ -120,3 +120,9 @@ footer {
       margin-bottom: 4rem;
    }
 }
+
+.hover-item-show {
+   @media screen and (max-width: 60em) {
+      display: none !important;
+   }
+}
