@@ -8193,6 +8193,10 @@ footer {
       margin-top: 4rem;
       margin-bottom: 4rem; } }
 
+@media screen and (max-width: 600px) {
+  .hover-item-show, .styled-list-img {
+    display: none !important; } }
+
 /** Syntax highlighting styles **/
 .highlight {
   background: #fff; }
