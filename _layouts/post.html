@@ -4,20 +4,23 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
    <!-- Case study header -->
    <header class="{{ site.site-case-header }}">
-      <h3 class="{{ site.site-text-overline }} mb0">{{ page.company }}</h3>
-      <h1 class="f2 work mb4-l mb4" itemprop="name headline">{{ page.catchy-title }}</h1>
+      <h2 class="f4x mb0">{{ page.company }}</h2>
+      <h1 class="f2-l f2 work mb3-l mb3 w-100 w-70-ns" itemprop="name headline">{{ page.catchy-title }}</h1>
 
       <div>
          <div class="cf">
-            <div class="{{ site.site-case-desc }}">
+            <div class="fl w-100 w-100-m w-50-ns mb3">
                <p>{{ page.description }}</p>
             </div>
-            <div class="{{ site.site-case-details }}">
-               <div><p class="bold di">Role:</p> {{ page.role }}</div>
-               <div><p class="bold di">Team:</p> {{ page.team }}</div>
-               <div><p class="bold di">Timeline:</p> {{ page.timeline }}</div>
+            <div class="fr w-100 w-100-m w-25-ns mb5-l mb5-m mb5">
+               <div class="f5"><p class="bold di">Role</p> {{ page.role }}</div>
+               <div class="f5"><p class="bold di">Team</p> {{ page.team }}</div>
+               <div class="f5"><p class="bold di">Timeline</p> {{ page.timeline }}</div>
             </div>            
          </div>
+
+         <img class="mt5-l mt4 mb5-l mb4" src="{{ page.image }}">
+   
    </header>
 
    <div class="post-content e-content" itemprop="articleBody">

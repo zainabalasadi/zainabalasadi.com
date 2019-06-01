@@ -5,37 +5,27 @@
 
 // Font Imports
 @font-face {
-   font-family: 'FavoritRegular';
+   font-family: 'TTCommons-Regular';
    font-display: auto;
-   src: url('../fonts/Favorit-Regular.eot');
-   src: url('../fonts/Favorit-Regular.eot?#iefix') format('embedded-opentype'), 
-   url('../fonts/Favorit-Regular.woff2') format('woff2'), 
-   url('../fonts/Favorit-Regular.woff') format('woff'),
-   url('../fonts/Favorit-Regular.ttf') format('truetype'),
-   url('../fonts/Favorit-Regular.svg#FavoritRegular') format('svg');
+   src: url('../fonts/TTCommons-Regular.eot');
+   src: url('../fonts/TTCommons-Regular.eot?#iefix') format('embedded-opentype'), 
+   url('../fonts/TTCommons-Regular.woff2') format('woff2'), 
+   url('../fonts/TTCommons-Regular.woff') format('woff'),
+   url('../fonts/TTCommons-Regular.ttf') format('truetype'),
+   url('../fonts/TTCommons-Regular.svg#TTCommons-Regular') format('svg');
 }
 
 @font-face {
-   font-family: 'FavoritLight';
+   font-family: 'TTCommons-DemiBold';
    font-display: auto;
-   src: url('../fonts/Favorit-Light.eot');
-   src: url('../fonts/Favorit-Light.eot?#iefix') format('embedded-opentype'), 
-   url('../fonts/Favorit-Light.woff2') format('woff2'), 
-   url('../fonts/Favorit-Light.woff') format('woff'),
-   url('../fonts/Favorit-Light.ttf') format('truetype'),
-   url('../fonts/Favorit-Light.svg#FavoritLight') format('svg');
+   src: url('../fonts/TTCommons-DemiBold.eot');
+   src: url('../fonts/TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'), 
+   url('../fonts/TTCommons-DemiBold.woff2') format('woff2'), 
+   url('../fonts/TTCommons-DemiBold.woff') format('woff'),
+   url('../fonts/TTCommons-DemiBold.ttf') format('truetype'),
+   url('../fonts/TTCommons-DemiBold.svg#TTCommons-DemiBold') format('svg');
 }
 
-@font-face {
-   font-family: 'FavoritBold';
-   font-display: auto;
-   src: url('../fonts/Favorit-Bold.eot');
-   src: url('../fonts/Favorit-Bold.eot?#iefix') format('embedded-opentype'), 
-   url('../fonts/Favorit-Bold.woff2') format('woff2'), 
-   url('../fonts/Favorit-Bold.woff') format('woff'),
-   url('../fonts/Favorit-Bold.ttf') format('truetype'),
-   url('../fonts/Favorit-Bold.svg#FavoritBold') format('svg');
-}
 
 // Font scaling
 @mixin relative-font-size($ratio) {

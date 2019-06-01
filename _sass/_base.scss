@@ -151,3 +151,29 @@ h1, h2, h3, h4, h5, h6 {
 // H4 = SMALL TEXT (FOOTER, ETC)
 // H5 = 
 // H6 =
+
+
+.f3x-l {
+   @media screen and (min-width: 60em) {
+      font-size: 1.6rem;
+   }
+}
+
+
+.f3x-m {
+   @media screen and (max-width: 60em) and (min-width: 30em) {
+      font-size: 1.6rem;
+   }
+}
+
+.light {
+   color: $grey;
+}
+
+.f4x {
+   font-size: 1.1rem;
+}
+
+// p {
+//    color: $grey;
+// }

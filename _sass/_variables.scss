@@ -1,22 +1,21 @@
 // Typography
-$favoritBold:         'FavoritBold', sans-serif;
-$favoritRegular:      'FavoritRegular', sans-serif;
-$favoritLight:        'FavoritLight', sans-serif;
+$commonsRegular:      'TTCommons-Regular', sans-serif;
+$commonsDemi:         'TTCommons-DemiBold', sans-serif;
 
 // Base
-$base-font-family:    $favoritLight;
-$base-font-size:      1.05rem;
+$base-font-family:    $commonsRegular;
+$base-font-size:      1.115rem;
 $base-font-weight:    400;
-$base-line-height:    1.5;
+$base-line-height:    1.4;
 $base-letter-spacing: 0rem;
 
 // Headings & Titles
-$title-font:          $favoritRegular;
+$title-font:          $commonsRegular;
 $title-font-size:     $base-font-size;
 $title-font-weight:   $base-font-weight;
 $title-font-height:   1.5;
 $title-font-spacing:  $base-letter-spacing;
-$strong:              $favoritBold;
+$strong:              $commonsDemi;
 
 // Spacing
 $spacing-unit:        32px;
@@ -29,11 +28,11 @@ $laptop:              880px;
 $desktop:             1200px;
 
 // Colors
-$text-color:          #222222;
+$text-color:          #000000;
 $white:               #FFFFFF;
-$brand-color:         #FBCB00;
+$brand-color:         #dadad8;
 $black:               #000000;
-$grey:                #a1a1a1;
+$grey:                #808080;
 $background-color:    $white;
 
 // Misc

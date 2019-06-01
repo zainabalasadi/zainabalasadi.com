@@ -1,18 +1,13 @@
 @font-face {
-  font-family: 'FavoritRegular';
+  font-family: 'TTCommons-Regular';
   font-display: auto;
-  src: url("../fonts/Favorit-Regular.eot");
-  src: url("../fonts/Favorit-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Favorit-Regular.woff2") format("woff2"), url("../fonts/Favorit-Regular.woff") format("woff"), url("../fonts/Favorit-Regular.ttf") format("truetype"), url("../fonts/Favorit-Regular.svg#FavoritRegular") format("svg"); }
+  src: url("../fonts/TTCommons-Regular.eot");
+  src: url("../fonts/TTCommons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff"), url("../fonts/TTCommons-Regular.ttf") format("truetype"), url("../fonts/TTCommons-Regular.svg#TTCommons-Regular") format("svg"); }
 @font-face {
-  font-family: 'FavoritLight';
+  font-family: 'TTCommons-DemiBold';
   font-display: auto;
-  src: url("../fonts/Favorit-Light.eot");
-  src: url("../fonts/Favorit-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Favorit-Light.woff2") format("woff2"), url("../fonts/Favorit-Light.woff") format("woff"), url("../fonts/Favorit-Light.ttf") format("truetype"), url("../fonts/Favorit-Light.svg#FavoritLight") format("svg"); }
-@font-face {
-  font-family: 'FavoritBold';
-  font-display: auto;
-  src: url("../fonts/Favorit-Bold.eot");
-  src: url("../fonts/Favorit-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Favorit-Bold.woff2") format("woff2"), url("../fonts/Favorit-Bold.woff") format("woff"), url("../fonts/Favorit-Bold.ttf") format("truetype"), url("../fonts/Favorit-Bold.svg#FavoritBold") format("svg"); }
+  src: url("../fonts/TTCommons-DemiBold.eot");
+  src: url("../fonts/TTCommons-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-DemiBold.woff2") format("woff2"), url("../fonts/TTCommons-DemiBold.woff") format("woff"), url("../fonts/TTCommons-DemiBold.ttf") format("truetype"), url("../fonts/TTCommons-DemiBold.svg#TTCommons-DemiBold") format("svg"); }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -8008,14 +8003,14 @@ dl, dd, ol, ul, figure {
   padding: 0; }
 
 ::-moz-selection {
-  background: #FBCB00; }
+  background: #dadad8; }
 
 ::selection {
-  background: #FBCB00; }
+  background: #dadad8; }
 
 body {
-  font: 400 1.05rem/1.5 "FavoritLight", sans-serif;
-  color: #222222;
+  font: 400 1.115rem/1.4 "TTCommons-Regular", sans-serif;
+  color: #000000;
   background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
@@ -8040,8 +8035,8 @@ p {
 
 pre,
 code {
-  font-size: 0.984375rem;
-  border: 1px solid #a1a1a1;
+  font-size: 1.0453125rem;
+  border: 1px solid #808080;
   border-radius: 3px;
   background-color: white; }
 
@@ -8057,18 +8052,18 @@ pre {
     padding-left: 0; }
 
 blockquote {
-  color: #222222;
-  font-family: "FavoritRegular", sans-serif;
-  font-size: 1.18125rem; }
+  color: #000000;
+  font-family: "TTCommons-Regular", sans-serif;
+  font-size: 1.254375rem; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
 a {
-  color: #222222;
+  color: #000000;
   text-decoration: underline;
   -webkit-text-decoration-skip: auto !important; }
   a:hover {
-    color: #FBCB00; }
+    color: #dadad8; }
 
 ul, ol {
   margin-left: 32px; }
@@ -8081,10 +8076,10 @@ img {
   vertical-align: middle; }
 
 h1, h2 {
-  font-family: "FavoritRegular", sans-serif; }
+  font-family: "TTCommons-Regular", sans-serif; }
 
 h3, .bold {
-  font-family: "FavoritBold", sans-serif; }
+  font-family: "TTCommons-DemiBold", sans-serif; }
 
 h1 {
   line-height: 1.5; }
@@ -8095,6 +8090,20 @@ h1, h2, h3, h4, h5, h6 {
 .post-content h2 {
   margin-bottom: 0.5rem;
   margin-top: 0rem; }
+
+@media screen and (min-width: 60em) {
+  .f3x-l {
+    font-size: 1.6rem; } }
+
+@media screen and (max-width: 60em) and (min-width: 30em) {
+  .f3x-m {
+    font-size: 1.6rem; } }
+
+.light {
+  color: #808080; }
+
+.f4x {
+  font-size: 1.1rem; }
 
 /** Width overrides **/
 .w-55-ns {
@@ -8160,20 +8169,20 @@ footer {
 .post-content {
   margin-bottom: 32px; }
   .post-content h2 {
-    font-size: 1.7325rem; }
+    font-size: 1.83975rem; }
     @media screen and (max-width: 880px) {
       .post-content h2 {
-        font-size: 1.8375rem; } }
+        font-size: 1.95125rem; } }
   .post-content h3 {
-    font-size: 1.70625rem; }
+    font-size: 1.811875rem; }
     @media screen and (max-width: 880px) {
       .post-content h3 {
-        font-size: 1.44375rem; } }
+        font-size: 1.533125rem; } }
   .post-content h4 {
-    font-size: 1.3125rem; }
+    font-size: 1.39375rem; }
     @media screen and (max-width: 880px) {
       .post-content h4 {
-        font-size: 1.18125rem; } }
+        font-size: 1.254375rem; } }
 
 /** Post content **/
 .post-content img {
