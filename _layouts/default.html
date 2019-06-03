@@ -5,29 +5,34 @@
 <body class="{% if page.id %}{{ site.post-style }}{% else %}{{ site.style }}{% endif %}"> 
    <!-- Main -->
    <main>
-      {% if page.id %}
+      {% if page.id or page.url == "/about/" %}
       <!-- Back Link -->
-      {% include back.html %}
+      <p><a href="{{ site.url }}" alt="Go back home">←</a></p>
       {% endif %}
       {{ content }}
    </main>
    <!-- End Main -->
 
    {% if page.id %}
-   <!-- Back Link -->
-   {% include back.html %}
-   
-   <!-- Next Page -->
-   {% include next.html %}
+   <div class="cf">
+      <div class="fl w-50">
+         <!-- Back Link -->
+         {% include back.html %}
+      </div>
+      <div class="fr tr w-50">
+         <!-- Next Page -->
+         {% include next.html %}
+      </div>
+   </div>
    {% endif %}
 
    {% include footer.html %}
    {% if page.layout == 'home' %}
    <!-- Script includes -->
-   <script type="text/javascript" src="../assets/js/jquery.slim.min.js"></script>
    <script>
       if (screen && screen.width > 600) {
-      document.write('<script type="text/javascript" src="../assets/js/index.js"><\/script>');
+      document.write('<script type="text/javascript" src="../assets/js/jquery.slim.min.js"><\/script>' +
+                     '<script type="text/javascript" src="../assets/js/index.js"><\/script>');
       }
    </script>
    {%- endif -%}

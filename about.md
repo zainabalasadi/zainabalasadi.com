@@ -1,5 +1,5 @@
 ---
-layout:      default
+layout:      page
 title:       Zainab Alasadi · About
 keywords:    zainab alasadi, zainab alasadi designer, product designer, sydney, computer science, designer unsw, zainab, ux, design
 description: Zainab Alasadi is a product designer. 
@@ -7,9 +7,20 @@ description: Zainab Alasadi is a product designer.
 
 
 <div class="{{ site.site-intro }} {{ site.site-intro-margin }}" markdown="1">
-   <h1 class="{{ site.site-intro-text }}"> Hi! My name is <a href="about">Zainab Alasadi</a> 👋🏼 I'm a Product Designer with a background in Computer Science.</h1>
+   <h1 class="{{ site.site-intro-text }}">Hey there, thanks for clicking!
 
-   <h1 class="{{ site.site-intro-text }}">I’ve previously interned at <a href="https://www.sharewithoscar.com" target="_blank">Oscar</a>, led design at <a href="https://www.180dc.org" target="_blank">180DC</a> and studied at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a>. Lover of 📚, 🏃🏻‍♀️, 🐶, 📷 and 🍣. Avid supporter of the <a href="#" target="_blank">em dash</a> and lifelong investor in 🍰. I love to take <a href="#" target="_blank">pictures of food</a> and <a href="https://medium.com/@zainabalasadi" target="_blank">write about design</a>. I spend my free time admiring <a href="#" target="_blank">pretty fonts</a>, exploring the <a href="#" target="_blank">coasts of Sydney</a> and stressing out over a <a href="#" target="_blank">missing semicolon</a>.</h1>
+My name is Zainab and I’m a designer with a background in computer science. As you already read (or deciphered), I’m a lover of books, running, dogs, cameras and sushi. 
+
+Apart from attempts at creating interesting introductions, I spend my time designing products, services and experiences that are purposeful, joyful and empowering. As a final year computer science and media arts student at UNSW (with a triple-major in artificial intelligence, graphic design and animation/VFX), I work somewhere in the intersection between design, technology and business and have a deep thirst to create, whatever the medium.
+
+When I’m not designing screens or interviewing users about their experiences, you can find me binge-watching tv shows, advocating for women in tech or organising my shirts by rainbow order. If you want to learn more about me, my work or where to get the best cheesecake in Sydney, feel free to contact me.
+
+Reading
+Just finished:
+Currently reading:
+Up next:
+
+</h1>
 </div>
 
 <div class="{{ site.site-intro-space }}" markdown="1">

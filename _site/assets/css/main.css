@@ -8089,7 +8089,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h2 {
   margin-bottom: 0.5rem;
-  margin-top: 0rem; }
+  margin-top: 0rem;
+  color: #808080;
+  font: 400 1.115rem/1.4 "TTCommons-Regular", sans-serif; }
 
 @media screen and (min-width: 60em) {
   .f3x-l {
@@ -8168,21 +8170,6 @@ footer {
 /** Page content **/
 .post-content {
   margin-bottom: 32px; }
-  .post-content h2 {
-    font-size: 1.83975rem; }
-    @media screen and (max-width: 880px) {
-      .post-content h2 {
-        font-size: 1.95125rem; } }
-  .post-content h3 {
-    font-size: 1.811875rem; }
-    @media screen and (max-width: 880px) {
-      .post-content h3 {
-        font-size: 1.533125rem; } }
-  .post-content h4 {
-    font-size: 1.39375rem; }
-    @media screen and (max-width: 880px) {
-      .post-content h4 {
-        font-size: 1.254375rem; } }
 
 /** Post content **/
 .post-content img {

@@ -35,14 +35,14 @@ site-intro-margin:  "pb6-l pb5"
 site-intro-space:   "w-100 w-100-m w-40-ns"
 site-intro-text:    "f4 f3x-m f3x-l"
 site-work-title:    "work"
-site-hover-img:     "hover-item-show styled-list-img"
+site-hover-img:     "hover-item-show styled-list-img horizontal"
 site-hover-div:     "hover-item dib mb5 mb5-m mb5-l"
 
 # Footer
 site-footer-margin: "pt5-l pt4 pb5-l pb4"
 site-footer-email:  "work mb1"
 site-footer-social: "f5"
-site-footer-coded:  "f6 gray pt2"
+site-footer-coded:  "f6 light pt2"
 
 # Text
 site-text-overline: "ttu tracked f6 f6-m f6-l"
@@ -50,7 +50,8 @@ site-text-overline: "ttu tracked f6 f6-m f6-l"
 # Case Studies
 site-case-margin:   "center w-100 w-100-m w-70-ns"
 site-case-header:   "mt5-l mt5 post-header"
-site-case-title:    "f2 work mb4-l mb4"
-site-case-desc:     "fr w-100 w-100-m w-60-ns mb0-l mb0-m mb4"
-site-case-details:  "fl w-100 w-100-m w-25-ns"
+site-case-title:    "f2-l f2 work mb3-l mb3 w-100 w-70-ns lh-title"
+site-case-desc:     "fl w-100 w-100-m w-50-ns mb4"
+site-case-details:  "fr w-100 w-100-m w-25-ns mb5-l mb4-m mb4"
+site-case-image:    "mt5-l mt4 mb5-l mb4"
 

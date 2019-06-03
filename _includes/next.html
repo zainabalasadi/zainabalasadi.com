@@ -3,10 +3,4 @@
    {% else %}
       {% assign next = site.posts[0] %}
    {%- endif -%}
-   <div>
-      <a href="{{site.baseurl}}{{next.url}}" title="Next Post: {{next.title}}">
-         <div>
-            <p>Next Project →</p>
-         </div>
-      </a>
-   </div>
+<p><a href="{{site.baseurl}}{{next.url}}" alt="Next Post">Next Project →</a></p>

@@ -9,7 +9,7 @@ layout: default
    <!-- Posts -->
    {%- for post in site.posts -%}
    {% if post.categories contains 'case-study' %}
-   <p class="light">{{ post.company }} — {{ post.year }}</p>
+   <p class="f5 light">{{ post.company }} — {{ post.year }}</p>
    <div class="{{ site.site-hover-div }}">
       <a href="{{ post.url }}">
          <h1 class="{{ site.site-intro-text }} {{ site.site-work-title }}">{{ post.catchy-title }}</h1>

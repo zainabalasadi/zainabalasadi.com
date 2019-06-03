@@ -143,6 +143,9 @@ h1, h2, h3, h4, h5, h6 {
 .post-content h2 {
    margin-bottom: 0.5rem;
    margin-top: 0rem;
+   color: $grey;
+   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+
 }
 
 // H1 = PAGE HEADINGS + INTRO
@@ -152,13 +155,11 @@ h1, h2, h3, h4, h5, h6 {
 // H5 = 
 // H6 =
 
-
 .f3x-l {
    @media screen and (min-width: 60em) {
       font-size: 1.6rem;
    }
 }
-
 
 .f3x-m {
    @media screen and (max-width: 60em) and (min-width: 30em) {
