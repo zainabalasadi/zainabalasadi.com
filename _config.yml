@@ -28,6 +28,7 @@ twitter_username:   wowzainab
 # Global style
 style:              "ph6x-l ph5-m ph3 center pt6-l pt5"
 post-style:         "ph6x-l ph5-m ph3 center pt5-l pt4"
+small-text:         "f5"
 
 # Homepage
 site-intro:         "w-100 w-100-m w-60-ns"
@@ -54,4 +55,4 @@ site-case-title:    "f2-l f2 work mb3-l mb3 w-100 w-70-ns lh-title"
 site-case-desc:     "fl w-100 w-100-m w-50-ns mb4"
 site-case-details:  "fr w-100 w-100-m w-25-ns mb5-l mb4-m mb4"
 site-case-image:    "mt5-l mt4 mb5-l mb4"
-
+site-case-company:  "pb3"
