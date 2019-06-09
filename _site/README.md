@@ -6,4 +6,5 @@ My little corner of the world wide web.
 * Deployments — [Netlify](http://www.netlify.com)
 * Design system — [Tachyons](https://tachyons.io)
 * Editor — [Visual Studio Code](https://code.visualstudio.com/)
-* Love :yellow_heart: (of course) 
+* Text — [TT Commons](https://typetype.org/fonts/commons/)
+* Lots and lots of coffee :coffee:
