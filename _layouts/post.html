@@ -4,13 +4,13 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
    <!-- Case study header -->
    <header class="{{ site.site-case-header }}">
-      <p class="{{ site.site-case-company }} {{ site.small-text }}">{{ page.company }}</p>
+      <p class="{{ site.site-case-company }} {{ site.small-text }} {{ site.remove-margin }}">{{ page.company }}</p>
       <h1 class="{{ site.site-case-title }}" itemprop="name headline">{{ page.catchy-title }}</h1>
 
       <div>
          <div class="cf">
             <div class="{{ site.site-case-desc }}">
-               <p>{{ page.description }}</p>
+               <p class="{{ site.remove-margin }}">{{ page.description }}</p>
             </div>
             <div class="{{ site.site-case-details }}">
                <div class="{{ site.small-text }}"><p class="bold di">Role</p><p class="di"> {{ page.role }}</p></div>

@@ -7,7 +7,7 @@
    <main>
       {% if page.id or page.url == "/about/" %}
       <!-- Back Link -->
-      <p><a href="{{ site.url }}" alt="Go back home">←</a></p>
+      <p class="{{ site.remove-margin }}"><a href="{{ site.url }}" alt="Go back home">←</a></p>
       {% endif %}
       {{ content }}
    </main>
