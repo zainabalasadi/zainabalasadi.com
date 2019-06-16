@@ -12,9 +12,9 @@ Hey there, thanks for clicking!
 
 My name is Zainab and I’m a designer with a background in computer science. As you already read (or deciphered), I’m a lover of books, running, dogs, cameras and sushi.
 
-Apart from attempts at creating interesting introductions, I spend my time designing products, services and experiences that are purposeful, joyful and empowering. As a final year computer science and media arts student at UNSW (with a triple-major in artificial intelligence, graphic design and animation/VFX), I work somewhere in the intersection between design, technology and business and have a deep thirst to create, whatever the medium.
+Apart from attempts at creating interesting introductions, I spend my time designing products, services and experiences that are purposeful, joyful and empowering. As a final year Computer Science and Media Arts student at UNSW (with a triple-major in artificial intelligence, graphic media and animation/VFX), I work somewhere in the intersection between design, technology and business and have a deep thirst to create, whatever the medium.
 
-When my nose isn’t pressed up against the screen and when I’m not interviewing users about their experiences, you can find me binge-watching tv shows, advocating for women in tech or organising my shirts by rainbow order. If you want to learn more about me, my work or where to get the best cheesecake in Sydney, feel free to [contact me](mailto:hello@zainabalasadi.com).
+When my nose isn’t pressed up against the screen and when I’m not interviewing users about their experiences, you can find me binge-watching TV shows, advocating for women in tech or organising my shirts by rainbow order. If you want to learn more about me, my work or where to get the best cheesecake in Sydney, feel free to [contact me](mailto:hello@zainabalasadi.com).
 
 <br>
 <h3 class="{{ site.site-text-overline }}">Reading</h3>

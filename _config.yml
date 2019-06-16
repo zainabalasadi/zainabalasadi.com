@@ -44,7 +44,7 @@ site-hover-div:     "hover-item dib mb5 mb5-m mb5-l"
 site-footer-margin: "pt5-l pt4 pb5-l pb4"
 site-footer-email:  "work mb1"
 site-footer-social: "f5"
-site-footer-coded:  "f6 light pt2"
+site-footer-coded:  "f6 light pt2 mt0 mb4"
 
 # Text
 site-text-overline: "ttu tracked f6 f6-m f6-l"
