@@ -4,7 +4,7 @@ email:              hello@zainabalasadi.com
 description: >-     
                     Hi, I'm Zainab Alasadi. Product Designer and Developer.
 baseurl:            ""
-url:                "http://127.0.0.1:4000"
+url:                ""
 
 # Build settings
 markdown:           kramdown
