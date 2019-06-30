@@ -10,7 +10,7 @@ description: "Zainab Alasadi is a product designer."
 <div class="{{ site.site-intro }} {{ site.site-intro-margin }}" markdown="1">
 Hey there, thanks for clicking!
 
-My name is Zainab and I’m a designer with a background in computer science. As you already read (or deciphered), I’m a lover of books, running, dogs, cameras and sushi.
+My name is Zainab and I’m a designer with a background in Computer Science. As you already read (or deciphered), I’m a lover of books, running, dogs, cameras and sushi.
 
 Apart from attempts at creating interesting introductions, I spend my time designing products, services and experiences that are purposeful, joyful and empowering. As a final year Computer Science and Media Arts student at UNSW (with a triple-major in artificial intelligence, graphic design and animation/VFX), I work somewhere in the intersection between design, technology and business and have a deep thirst to create, whatever the medium.
 

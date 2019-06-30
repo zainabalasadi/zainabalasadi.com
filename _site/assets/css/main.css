@@ -8009,7 +8009,7 @@ dl, dd, ol, ul, figure {
   background: #dadad8; }
 
 body {
-  font: 400 1.115rem/1.4 "TTCommons-Regular", sans-serif;
+  font: 400 1.12rem/1.5 "TTCommons-Regular", sans-serif;
   color: #000000;
   background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
@@ -8029,7 +8029,7 @@ dl, .highlight {
 
 pre,
 code {
-  font-size: 1.0453125rem;
+  font-size: 1.05rem;
   border: 1px solid #808080;
   border-radius: 3px;
   background-color: white; }
@@ -8047,8 +8047,9 @@ pre {
 
 blockquote {
   color: #000000;
-  font-family: "TTCommons-Regular", sans-serif;
-  font-size: 1.254375rem; }
+  font-family: "TTCommons-DemiBold", sans-serif;
+  margin: 3rem 0 3rem 0;
+  font-size: 2.24rem; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -8060,19 +8061,21 @@ a {
     color: #dadad8; }
 
 ul, ol {
-  margin-left: 32px; }
+  margin-left: 48px; }
 
-li > ul, li > ol {
-  margin-bottom: 0; }
+li {
+  padding-left: 8px; }
+  li > ul, li > ol {
+    margin-bottom: 0; }
 
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-h1, h2 {
+h1 {
   font-family: "TTCommons-Regular", sans-serif; }
 
-h3, .bold {
+h2, h3, .bold {
   font-family: "TTCommons-DemiBold", sans-serif; }
 
 h1 {
@@ -8082,10 +8085,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 .post-content h2 {
-  margin-bottom: 0.5rem;
-  margin-top: 0rem;
-  color: #808080;
-  font: 400 1.115rem/1.4 "TTCommons-Regular", sans-serif; }
+  margin-bottom: 0.1rem;
+  margin-top: 0rem; }
 
 @media screen and (min-width: 60em) {
   .f3x-l {

@@ -50,10 +50,11 @@ site-footer-coded:  "f6 light pt2 mt0 mb4"
 site-text-overline: "ttu tracked f6 f6-m f6-l"
 
 # Case Studies
-site-case-margin:   "center w-100 w-100-m w-70-ns"
+site-case-margin:   "center w-100 w-100-m w-60-ns"
 site-case-header:   "mt5-l mt5 post-header"
 site-case-title:    "f2-l f2 work mb3-l mb3 w-100 w-70-ns lh-title"
 site-case-desc:     "fl w-100 w-100-m w-50-ns mb0-l mb4"
 site-case-details:  "fr w-100 w-100-m w-25-ns"
 site-case-image:    "mt55-l mt4 mb55-l mb4"
 site-case-company:  "pb3"
+site-case-break:    "mb5"
