@@ -8047,11 +8047,7 @@ pre {
 
 blockquote {
   color: #000000;
-  font-family: "TTCommons-DemiBold", sans-serif;
-  margin: 3rem 0 3rem 0;
-  font-size: 2.24rem; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
+  font-family: "TTCommons-DemiBold", sans-serif; }
 
 a {
   color: #000000;
@@ -8084,6 +8080,9 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
+.post-header h1 {
+  font-family: "TTCommons-DemiBold", sans-serif; }
+
 .post-content h2 {
   margin-bottom: 0.1rem;
   margin-top: 0rem; }
@@ -8101,6 +8100,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .f4x {
   font-size: 1.1rem; }
+
+.caption {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem; }
 
 /** Width overrides **/
 .w-55-ns {
@@ -8182,6 +8186,9 @@ footer {
     .post-content img {
       margin-top: 4rem;
       margin-bottom: 4rem; } }
+
+.post-content .cap {
+  margin-bottom: 0rem !important; }
 
 @media screen and (max-width: 600px) {
   .hover-item-show, .styled-list-img {

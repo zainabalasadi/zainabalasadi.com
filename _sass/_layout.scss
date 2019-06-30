@@ -112,6 +112,10 @@ footer {
    }
 }
 
+.post-content .cap {
+   margin-bottom: 0rem !important;
+}
+
 .hover-item-show, .styled-list-img {
    @include media-query($mobile) {
       display: none !important;
