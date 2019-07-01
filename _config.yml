@@ -5,6 +5,7 @@ description: >-
                     Hi, I'm Zainab Alasadi. Product Designer and Developer.
 baseurl:            ""
 url:                ""
+google_analytics:   UA-118638009-1
 
 # Build settings
 markdown:           kramdown
