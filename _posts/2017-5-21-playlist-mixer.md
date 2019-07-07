@@ -1,4 +1,5 @@
 ---
+# status: draft
 title:        "Zainab Alasadi · Playlist Mixer"
 catchy-title: "Humanising music suggestions with voice"
 company:      "Amazon Alexa"
@@ -43,7 +44,11 @@ Delving deeper into the pain points surrounding music discovery,  I undertook my
 
 ![](../assets/images/site/grey.jpg)
 
+
 <div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
+### The findings 
+{: {{site.site-text-overline1}}}
+
 ### Overwhelming
 The biggest problem with music discoverability wasn’t actually discoverability. 
 
@@ -73,7 +78,7 @@ Through extensive primary and secondary research, from observation, interviews, 
 - Provide users with options to further research a song or artist
 </div>
 
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
+<div class="{{ site.site-case-margin }}" markdown="1">
 ## Introducing Mixer
 Humanised through Amazon’s Alexa, Playlist Mixer is an Amazon skill that understands a your musical preferences and works with you—and not for you—to choose songs and create playlists.
 
@@ -120,7 +125,7 @@ I conducted WoZ testing with 8 participants in order to get a rough idea of the 
 </div>
 
 <div class="{{ site.site-case-break }}" markdown="0">
-   <img class="cap" src="../assets/images/oscar/oscar_old.jpg">
+   <img class="cap" src="../assets/images/mixer/mixer_testing.jpg">
    <p class="caption light">The testing environment: command line Alexa emulator and Mr Pringle, the stand in for Alexa.</p>
 </div>
 
@@ -130,7 +135,7 @@ Following the WoZ testing, I gave participants a satisfaction questionnaire to c
 I grouped questions into similar categories and analysed the questionnaire and interview answers to derive scores for aspects such as warmth, competence and discomfort.  
 </div>
 
-![](../assets/images/site/grey.jpg)
+![](../assets/images/mixer/mixer_testing_results.jpg)
 
 <div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
 Analysis of the questionnaires revealed that users found Playlist Mixer to be highly reliable and energetic. Furthermore, 95% users stated that they were comfortable conversing with Playlist Mixer and describe the overall interaction as fun.

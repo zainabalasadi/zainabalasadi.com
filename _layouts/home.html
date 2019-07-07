@@ -8,7 +8,7 @@ layout: default
 
    <!-- Posts -->
    {%- for post in site.posts -%}
-   {% if post.categories contains 'case-study' %}
+   {% if post.categories contains 'case-study' and post.status != 'draft' %}
    <p class="f5 light mb0 mt0">{{ post.company }}</p>
    <div class="{{ site.site-hover-div }}">
       <a href="{{ post.url }}">

@@ -2,7 +2,7 @@
 title:              Zainab Alasadi
 email:              hello@zainabalasadi.com
 description: >-     
-                    Hi, I'm Zainab Alasadi. Product Designer and Developer.
+                    Zainab Alasadi is a product designer and Developer.
 baseurl:            ""
 url:                ""
 google_analytics:   UA-118638009-1
@@ -49,6 +49,7 @@ site-footer-coded:  "f6 light pt2 mt0 mb4"
 
 # Text
 site-text-overline: "ttu tracked f6 f6-m f6-l"
+site-text-overline1: ".ttu .tracked .f6 .f6-m .f6-l"
 
 # Case Studies
 site-case-margin:   "center w-100 w-100-m w-60-ns"
