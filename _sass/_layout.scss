@@ -3,8 +3,6 @@
    width: 55%;
 }
 
-
-
 .mt55-l {
    @media screen and (min-width: 60em) {
       margin-top: 5.5rem;
@@ -16,7 +14,6 @@
       margin-bottom: 5.5rem;
    }
 }
-
 
 .ph6x-l {
    @media screen and (min-width: 60em) {
@@ -54,6 +51,7 @@
       width:38vw
    }
 }
+
 .hover-item{
    display: inline-block;
 }
@@ -96,12 +94,11 @@ footer {
    padding: $spacing-unit 0;
 }
 
-/** Page content **/
+/** Post content **/
 .post-content {
    margin-bottom: $spacing-unit;
 }
 
-/** Post content **/
 .post-content img {
    margin-top: 2rem;
    margin-bottom: 2rem;

@@ -9,4 +9,3 @@ layout:       post
 slug:         "maker-games"
 description:  
 ---
-![this is an image alt text](https://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/group.png)

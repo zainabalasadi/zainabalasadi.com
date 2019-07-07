@@ -8106,6 +8106,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-bottom: 0.5rem; }
 
+.emoji {
+  vertical-align: top;
+  width: 25px; }
+  @media screen and (max-width: 30em) {
+    .emoji {
+      width: 20px; } }
+
+.emoji-small {
+  vertical-align: top;
+  width: 13px; }
+
 /** Width overrides **/
 .w-55-ns {
   width: 55%; }
@@ -8174,11 +8185,10 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   padding: 32px 0; }
 
-/** Page content **/
+/** Post content **/
 .post-content {
   margin-bottom: 32px; }
 
-/** Post content **/
 .post-content img {
   margin-top: 2rem;
   margin-bottom: 2rem; }
