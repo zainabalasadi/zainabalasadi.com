@@ -8009,7 +8009,7 @@ dl, dd, ol, ul, figure {
   background: #dadad8; }
 
 body {
-  font: 400 1.12rem/1.5 "TTCommons-Regular", sans-serif;
+  font: 400 1.17rem/1.5 "TTCommons-Regular", sans-serif;
   color: #000000;
   background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
@@ -8029,7 +8029,7 @@ dl, .highlight {
 
 pre,
 code {
-  font-size: 1.05rem;
+  font-size: 1.096875rem;
   border: 1px solid #808080;
   border-radius: 3px;
   background-color: white; }

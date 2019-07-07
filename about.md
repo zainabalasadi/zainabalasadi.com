@@ -22,7 +22,7 @@ Just finished — [Ogilvy on Advertising](https://www.amazon.com/Ogilvy-Advertis
 <br>
 Currently reading — [Influence: The Psychology of Persuasion](https://www.amazon.com.au/influence-Psychology-Robert-PhD-Cialdini/dp/006124189X){:target="_blank"}
 <br>
-Up next — [The Best Interface Is No Interface](https://www.amazon.com/Best-Interface-No-brilliant-technology/dp/0133890333/ref=sr_1_1?keywords=The+Best+Interface+Is+No+Interface&qid=1560039062&s=books&sr=1-1)
+Up next — [The Best Interface Is No Interface](https://www.amazon.com/Best-Interface-No-brilliant-technology/dp/0133890333){:target="_blank"}
 </div>
 
 <div class="{{ site.site-intro-space }}" markdown="1">
