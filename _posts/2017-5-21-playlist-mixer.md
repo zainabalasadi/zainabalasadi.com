@@ -1,7 +1,7 @@
 ---
 # status: draft
 title:        "Zainab Alasadi · Playlist Mixer"
-catchy-title: "Humanising music suggestions with voice"
+catchy-title: "Humanising music discovery with voice"
 company:      "Amazon Alexa"
 year:         2019
 image:        "../assets/images/site/grey.jpg"
@@ -115,6 +115,11 @@ Asking these questions helped determine if VUI characteristics would help with u
 Users disliked manual music discovery because of the time and effort needed to invest into it. Alexa and Amazon Music could do the music discovery for the user. Manual music discovery is timely. Alexa and Amazon Music can find songs a user like in milliseconds. Not to mention that it would be more accurate and much more enjoyable.
 
 All systems were go.
+</div>
+
+<div class="{{ site.site-case-margin }}" markdown="1">
+## Design
+Borrowing from agile software methodologies, I began the wireframing process by defining a set of user stories for the Mixer. User stories represented the major scenarios; the purpose of the voice assistant and the way the user can interact with the voice assistant in short succinct sentences.
 </div>
 
 <div class="{{ site.site-case-margin }}" markdown="1">
