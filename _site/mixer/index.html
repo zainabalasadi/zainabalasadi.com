@@ -71,7 +71,7 @@
             </div>            
          </div>
 
-         <img class="mt55-l mt4 mb55-l mb4" src="../assets/images/site/grey.jpg">
+         <img class="mt55-l mt4 mb55-l mb4" src="../assets/images/mixer/alexa_hero.jpg">
    </header>
 
    <div class="post-content e-content" itemprop="articleBody">
@@ -80,7 +80,7 @@
   <p>How might we make new music discovery effortless?</p>
 </div>
 
-<div class="center w-100 w-100-m w-60-ns">
+<div class="center w-100 w-100-m w-60-ns mb5">
   <h2>The problem with music discovery</h2>
   <p>There exists many music streaming services that offer millions of songs for listening. Many of these services also provide a feature whereby they recommend music that they believe a listener might like. However, very few of these services make music discovery easy and exciting. These features are often buried within the product, waiting to be found by the listeners who are most eager to hunt for new tunes. Once they’re found, they’re often difficult to navigate and cognitively exhausting.</p>
 
@@ -90,8 +90,6 @@
 
   <p>Music recommendation solutions available on the market today haven’t solved the issue of easy and enjoyable music discovery. The solutions are inconvenient, inefficient and unrewarding.</p>
 </div>
-
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
 
 <div class="center w-100 w-100-m w-60-ns mb5">
   <h2>Understanding the issue</h2>
@@ -103,7 +101,7 @@
   <p>Delving deeper into the pain points surrounding music discovery,  I undertook my own surveys and interviews and extracted data from existing surveys on music recommendation.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_research.jpg" alt="The playlist mixer research toolkit" /></p>
 
 <div class="center w-100 w-100-m w-60-ns mb5">
   <h3 class="ttu tracked f6 f6-m f6-l">The findings</h3>
@@ -123,9 +121,7 @@
   <p>Whilst recommended music playlists do a decent job of recommending music that a user might like, many aren’t ready to leave it at that. Rather, listeners want to actively take part in finding new music and enjoy the journey of finding their next favourite song as much as the final destination. The algorithmic-driven recommendations strips the added excitement and emotional investment which is inherently part of discovery.</p>
 
   <h3>What you listen to is what you get</h3>
-  <p>Whilst its often assumed that listeners are content with listening to one or two particular genres of music, this isn’t always the case. Approximately 59% struggle to find music outside of their own ‘musical bubble’ due to the narrow-minded nature of recommended music playlists, basing recommendations on previous streamings.</p>
-
-  <p>although the sweet satisfaction of a new favourite song heavily outweighs the time it might take to flip through a range of artists you’ve never encountered before.</p>
+  <p>Whilst its often assumed that listeners are content with listening to one or two particular genres of music, this isn’t always the case. Approximately 59% struggle to find music outside of their own ‘musical bubble’ due to the narrow-minded nature of recommended music playlists, basing recommendations on previous streamings although the sweet satisfaction of a new favourite song heavily outweighs the time it might take to flip through a range of artists you’ve never encountered before.</p>
 </div>
 
 <div class="center w-100 w-100-m w-60-ns mb5">
@@ -155,7 +151,7 @@
   <p>Playlist Mixer works like this:</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_work.jpg" alt="How playlist mixer works" /></p>
 
 <div class="center w-100 w-100-m w-60-ns">
   <h2>The design process</h2>
@@ -172,7 +168,13 @@
   <p>And so, the dots connection and the Playlist Mixer concept was born but it was the question if VUI was an appropriate medium for this problem space.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<div class="mb5">
+   <img class="cap" alt="Exhausting the idea with questions" src="../assets/images/mixer/alexa_questions.jpg" />
+   <p class="caption light">Only some of the questions I had.</p>
+
+   <img class="cap" alt="Delving into how VUI music recommender could work" src="../assets/images/mixer/alexa_board.jpg" />
+   <p class="caption light">Delving into how VUI music recommender could work.</p>
+</div>
 
 <div class="center w-100 w-100-m w-60-ns mb5">
   <p>Like any technology going mainstream, I was cautious to jump on the VUI bandwagon as I wasn’t quite sure if it would be the correct medium for the problem.</p>
@@ -199,7 +201,7 @@
   <p>Borrowing from agile software methodologies, I began the wireframing process by defining a set of user stories for the Mixer. User stories represented the major scenarios; the purpose of the voice assistant and the way the user can interact with the voice assistant in short succinct sentences.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_story.jpg" alt="User stories to define functions" /></p>
 
 <div class="center w-100 w-100-m w-60-ns">
   <p>It was essential that Playlist Mixer didn’t just recommend music based on previous listening history, but rather, also on inputs such as mood, tempo, occasion and artist.</p>
@@ -209,7 +211,7 @@
   <p>I settled on referring to Playlist Mixer as a separate entity and set the invocation name as “Playlist Mixer”. Whenever Alexa would hear “Playlist Mixer”, it knew what to do, no matter how the user phrased the command.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_invocation.jpg" alt="Invocation ideation for playlist mixer" /></p>
 
 <div class="center w-100 w-100-m w-60-ns">
   <p>This resulted in a clearer division between the inbuilt empty playlist command and Playlist Mixer. In turn, I hypothesised that this would reduce the amount of errors.</p>
@@ -219,13 +221,13 @@
   <p>Unlike traditional UI where users can scroll through a list of songs to select a song, I didn’t have the luxury of playing users a consecutive list of songs and asking them to make a choice. Alexa could only provide one song at a time in order to reduce the cognitive and load and friction that is naturally found in VUI.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_path_sketches.jpg" alt="Playlist mixer paths" /></p>
 
 <div class="center w-100 w-100-m w-60-ns">
   <p>I then went on to writing repairs or errors for the conversation. Since there isn’t a clear signal of intent (like the signal of a button click in traditional UI), it was up to me to anticipate the users intent at each point in the conversation and shape an appropriate error response and recovery strategy.</p>
 </div>
 
-<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+<p><img src="../assets/images/mixer/alexa_conversational_repairs.jpg" alt="" /></p>
 
 <div class="center w-100 w-100-m w-60-ns mb5">
   <p>I went with two-tiered confidence for the Playlist Mixer in order to deliver the appropriate conversational repair to the circumstance. These tiers were:</p>
