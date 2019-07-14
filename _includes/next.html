@@ -1,6 +1,10 @@
    {%- if page.previous -%}
-      {% assign next = page.previous %}
+      {% if page.previous.slug == 'wiesoc' %}
+         {% assign next = page.previous.previous %}
+      {% else %}
+         {% assign next = page.previous %}
+      {%- endif -%}
    {% else %}
-      {% assign next = site.posts[0] %}
+      {% assign next = site.posts[1] %}
    {%- endif -%}
 <p><a href="{{site.baseurl}}{{next.url}}" alt="Next Post">Next Project →</a></p>
