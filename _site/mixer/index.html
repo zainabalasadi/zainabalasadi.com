@@ -157,9 +157,24 @@
 
 <p><img src="../assets/images/site/grey.jpg" alt="" /></p>
 
-<div class="center w-100 w-100-m w-60-ns mb5">
+<div class="center w-100 w-100-m w-60-ns">
   <h2>The design process</h2>
+  <p>Initially brainstorming was based around deciding what medium to pursue for the product solution. It was clear that listeners still craved that sense of being the driver of the discovery so it was essential that my solution didn’t muddle that.</p>
 
+  <p>Listeners didn’t like the algorithm that simply spit recommendations to them. Early explorations such as shorter recommended playlists, single recommendations and even a Tinder-eqsue swipe system still left listeners feeling like a witness of the discovery rather than the archeologist themselves.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns">
+  <p>Rather than an algorithm hiding behind UI elements and popping up in timed increments, what if the algorithm hid behind a voice?</p>
+
+  <p>And so, the dots connection and the Playlist Mixer concept was born but it was the question if VUI was an appropriate medium for this problem space.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns mb5">
   <p>Like any technology going mainstream, I was cautious to jump on the VUI bandwagon as I wasn’t quite sure if it would be the correct medium for the problem.</p>
 
   <p>Adapted from Yogesh Moorjani’s article on chatbot design, I asked myself 5 questions:</p>
@@ -182,6 +197,43 @@
 <div class="center w-100 w-100-m w-60-ns">
   <h2>Design</h2>
   <p>Borrowing from agile software methodologies, I began the wireframing process by defining a set of user stories for the Mixer. User stories represented the major scenarios; the purpose of the voice assistant and the way the user can interact with the voice assistant in short succinct sentences.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns">
+  <p>It was essential that Playlist Mixer didn’t just recommend music based on previous listening history, but rather, also on inputs such as mood, tempo, occasion and artist.</p>
+
+  <p>Next, I began ideating the keywords that could invoke the interaction. This was particularly difficult as the inbuilt Alexa phrase “Alexa, make me a playlist” or “Alexa, play me some songs” were already being used to carry out other commands.</p>
+
+  <p>I settled on referring to Playlist Mixer as a separate entity and set the invocation name as “Playlist Mixer”. Whenever Alexa would hear “Playlist Mixer”, it knew what to do, no matter how the user phrased the command.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns">
+  <p>This resulted in a clearer division between the inbuilt empty playlist command and Playlist Mixer. In turn, I hypothesised that this would reduce the amount of errors.</p>
+
+  <p>With the invocation name set and a list of the possible utterances (defined as whatever users say), I began crafting a few sample dialogues for the user stories.</p>
+
+  <p>Unlike traditional UI where users can scroll through a list of songs to select a song, I didn’t have the luxury of playing users a consecutive list of songs and asking them to make a choice. Alexa could only provide one song at a time in order to reduce the cognitive and load and friction that is naturally found in VUI.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns">
+  <p>I then went on to writing repairs or errors for the conversation. Since there isn’t a clear signal of intent (like the signal of a button click in traditional UI), it was up to me to anticipate the users intent at each point in the conversation and shape an appropriate error response and recovery strategy.</p>
+</div>
+
+<p><img src="../assets/images/site/grey.jpg" alt="" /></p>
+
+<div class="center w-100 w-100-m w-60-ns mb5">
+  <p>I went with two-tiered confidence for the Playlist Mixer in order to deliver the appropriate conversational repair to the circumstance. These tiers were:</p>
+
+  <ul>
+    <li>No speech was detected</li>
+    <li>Speech was detected but not understood</li>
+  </ul>
 </div>
 
 <div class="center w-100 w-100-m w-60-ns">

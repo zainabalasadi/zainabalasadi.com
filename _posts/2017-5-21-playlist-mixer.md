@@ -94,12 +94,24 @@ Playlist Mixer works like this:
 
 ![](../assets/images/site/grey.jpg)
 
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
+<div class="{{ site.site-case-margin }}" markdown="1">
 ## The design process
+Initially brainstorming was based around deciding what medium to pursue for the product solution. It was clear that listeners still craved that sense of being the driver of the discovery so it was essential that my solution didn’t muddle that. 
 
+Listeners didn’t like the algorithm that simply spit recommendations to them. Early explorations such as shorter recommended playlists, single recommendations and even a Tinder-eqsue swipe system still left listeners feeling like a witness of the discovery rather than the archeologist themselves.
+</div>
 
+![](../assets/images/site/grey.jpg)
 
+<div class="{{ site.site-case-margin }}" markdown="1">
+Rather than an algorithm hiding behind UI elements and popping up in timed increments, what if the algorithm hid behind a voice? 
 
+And so, the dots connection and the Playlist Mixer concept was born but it was the question if VUI was an appropriate medium for this problem space.
+</div>
+
+![](../assets/images/site/grey.jpg)
+
+<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
 Like any technology going mainstream, I was cautious to jump on the VUI bandwagon as I wasn’t quite sure if it would be the correct medium for the problem. 
  
 Adapted from Yogesh Moorjani’s article on chatbot design, I asked myself 5 questions:
@@ -120,6 +132,41 @@ All systems were go.
 <div class="{{ site.site-case-margin }}" markdown="1">
 ## Design
 Borrowing from agile software methodologies, I began the wireframing process by defining a set of user stories for the Mixer. User stories represented the major scenarios; the purpose of the voice assistant and the way the user can interact with the voice assistant in short succinct sentences.
+</div>
+
+![](../assets/images/site/grey.jpg)
+
+<div class="{{ site.site-case-margin }}" markdown="1">
+It was essential that Playlist Mixer didn’t just recommend music based on previous listening history, but rather, also on inputs such as mood, tempo, occasion and artist.
+
+Next, I began ideating the keywords that could invoke the interaction. This was particularly difficult as the inbuilt Alexa phrase “Alexa, make me a playlist” or “Alexa, play me some songs” were already being used to carry out other commands.
+
+I settled on referring to Playlist Mixer as a separate entity and set the invocation name as "Playlist Mixer". Whenever Alexa would hear "Playlist Mixer", it knew what to do, no matter how the user phrased the command.
+</div>
+
+![](../assets/images/site/grey.jpg)
+
+<div class="{{ site.site-case-margin }}" markdown="1">
+This resulted in a clearer division between the inbuilt empty playlist command and Playlist Mixer. In turn, I hypothesised that this would reduce the amount of errors.
+
+With the invocation name set and a list of the possible utterances (defined as whatever users say), I began crafting a few sample dialogues for the user stories.
+
+Unlike traditional UI where users can scroll through a list of songs to select a song, I didn’t have the luxury of playing users a consecutive list of songs and asking them to make a choice. Alexa could only provide one song at a time in order to reduce the cognitive and load and friction that is naturally found in VUI.
+</div>
+
+![](../assets/images/site/grey.jpg)
+
+<div class="{{ site.site-case-margin }}" markdown="1">
+I then went on to writing repairs or errors for the conversation. Since there isn’t a clear signal of intent (like the signal of a button click in traditional UI), it was up to me to anticipate the users intent at each point in the conversation and shape an appropriate error response and recovery strategy.
+</div>
+
+![](../assets/images/site/grey.jpg)
+
+<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
+I went with two-tiered confidence for the Playlist Mixer in order to deliver the appropriate conversational repair to the circumstance. These tiers were:
+
+- No speech was detected
+- Speech was detected but not understood
 </div>
 
 <div class="{{ site.site-case-margin }}" markdown="1">

@@ -8106,6 +8106,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-bottom: 0.5rem; }
 
+.caption-between {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0rem; }
+
 .emoji {
   vertical-align: top;
   width: 25px; }
