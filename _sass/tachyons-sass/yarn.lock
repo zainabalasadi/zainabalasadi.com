@@ -294,10 +294,10 @@ ava@^0.25.0:
     is-observable "^1.0.0"
     is-promise "^2.1.0"
     last-line-stream "^1.0.0"
-    lodash.clonedeepwith "^4.5.0"
-    lodash.debounce "^4.0.3"
-    lodash.difference "^4.3.0"
-    lodash.flatten "^4.2.0"
+    lodash.clonedeepwith "^4.17.13"
+    lodash.debounce "^4.17.13"
+    lodash.difference "^4.17.13"
+    lodash.flatten "^4.17.13"
     loud-rejection "^1.2.0"
     make-dir "^1.0.0"
     matcher "^1.0.0"
@@ -375,7 +375,7 @@ babel-core@^6.17.0, babel-core@^6.24.1:
     convert-source-map "^1.1.0"
     debug "^2.1.1"
     json5 "^0.5.0"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
     minimatch "^3.0.2"
     path-is-absolute "^1.0.0"
     private "^0.1.6"
@@ -391,7 +391,7 @@ babel-generator@^6.1.0, babel-generator@^6.24.1:
     babel-types "^6.24.1"
     detect-indent "^4.0.0"
     jsesc "^1.3.0"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
@@ -404,7 +404,7 @@ babel-generator@^6.26.0:
     babel-types "^6.26.0"
     detect-indent "^4.0.0"
     jsesc "^1.3.0"
-    lodash "^4.17.4"
+    lodash "^4.17.13"
     source-map "^0.5.7"
     trim-right "^1.0.1"
 
@@ -463,7 +463,7 @@ babel-helper-regex@^6.24.1:
   dependencies:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
 
 babel-helper-remap-async-to-generator@^6.24.1:
   version "6.24.1"
@@ -609,7 +609,7 @@ babel-register@^6.24.1:
     babel-runtime "^6.22.0"
     core-js "^2.4.0"
     home-or-tmp "^2.0.0"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
@@ -635,7 +635,7 @@ babel-template@^6.24.1:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
     babylon "^6.11.0"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
 
 babel-traverse@^6.24.1:
   version "6.24.1"
@@ -649,7 +649,7 @@ babel-traverse@^6.24.1:
     debug "^2.2.0"
     globals "^9.0.0"
     invariant "^2.2.0"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
 
 babel-types@^6.24.1:
   version "6.24.1"
@@ -657,7 +657,7 @@ babel-types@^6.24.1:
   dependencies:
     babel-runtime "^6.22.0"
     esutils "^2.0.2"
-    lodash "^4.2.0"
+    lodash "^4.17.13"
     to-fast-properties "^1.0.1"
 
 babel-types@^6.26.0:
@@ -666,7 +666,7 @@ babel-types@^6.26.0:
   dependencies:
     babel-runtime "^6.26.0"
     esutils "^2.0.2"
-    lodash "^4.17.4"
+    lodash "^4.17.13"
     to-fast-properties "^1.0.3"
 
 babylon@^6.1.0, babylon@^6.11.0, babylon@^6.15.0:
@@ -741,7 +741,7 @@ braces@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/braces/-/braces-2.3.1.tgz#ba77962e12dff969d6b76711e914b737857bf6a7"
   dependencies:
-    expand-range "^1.8.1"
+    expand-range "^2.3.1"
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
@@ -988,9 +988,9 @@ concordance@^3.0.0:
     fast-diff "^1.1.1"
     function-name-support "^0.2.0"
     js-string-escape "^1.0.1"
-    lodash.clonedeep "^4.5.0"
-    lodash.flattendeep "^4.4.0"
-    lodash.merge "^4.6.0"
+    lodash.clonedeep "^4.17.13"
+    lodash.flattendeep "^4.17.13"
+    lodash.merge "^4.17.13"
     md5-hex "^2.0.0"
     semver "^5.3.0"
     well-known-symbols "^1.0.0"
@@ -1081,11 +1081,11 @@ cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cryptiles@2.x.x:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-2.0.5.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
+cryptiles@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-4.1.2.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
   dependencies:
-    boom "2.x.x"
+    boom "4.1.2"
 
 crypto-random-string@^1.0.0:
   version "1.0.0"
@@ -1151,9 +1151,9 @@ deep-equal@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
-deep-extend@~0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
+deep-extend@~0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -1314,7 +1314,7 @@ eslint-plugin-import@~2.14.0:
     eslint-import-resolver-node "^0.3.1"
     eslint-module-utils "^2.2.0"
     has "^1.0.1"
-    lodash "^4.17.4"
+    lodash "^4.17.13"
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
@@ -1390,7 +1390,7 @@ eslint@~5.4.0:
     js-yaml "^3.11.0"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
-    lodash "^4.17.5"
+    lodash "^4.17.13"
     minimatch "^3.0.4"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
@@ -1817,7 +1817,7 @@ globule@^1.0.0:
   resolved "https://registry.yarnpkg.com/globule/-/globule-1.1.0.tgz#c49352e4dc183d85893ee825385eb994bb6df45f"
   dependencies:
     glob "~7.1.1"
-    lodash "~4.16.4"
+    lodash "~4.17.13"
     minimatch "~3.0.2"
 
 got@^6.7.1:
@@ -1913,7 +1913,7 @@ hawk@~3.1.3:
   resolved "https://registry.yarnpkg.com/hawk/-/hawk-3.1.3.tgz#078444bd7c1640b0fe540d2c9b73d59678e8e1c4"
   dependencies:
     boom "2.x.x"
-    cryptiles "2.x.x"
+    cryptiles "4.1.2"
     hoek "2.x.x"
     sntp "1.x.x"
 
@@ -1957,10 +1957,10 @@ hullabaloo-config-manager@^1.1.0:
     graceful-fs "^4.1.11"
     indent-string "^3.1.0"
     json5 "^0.5.1"
-    lodash.clonedeep "^4.5.0"
-    lodash.clonedeepwith "^4.5.0"
-    lodash.isequal "^4.5.0"
-    lodash.merge "^4.6.0"
+    lodash.clonedeep "^4.17.13"
+    lodash.clonedeepwith "^4.17.13"
+    lodash.isequal "^4.17.13"
+    lodash.merge "^4.17.13"
     md5-hex "^2.0.0"
     package-hash "^2.0.0"
     pkg-dir "^2.0.0"
@@ -2047,7 +2047,7 @@ inquirer@^5.2.0:
     cli-width "^2.0.0"
     external-editor "^2.1.0"
     figures "^2.0.0"
-    lodash "^4.3.0"
+    lodash "^4.17.13"
     mute-stream "0.0.7"
     run-async "^2.2.0"
     rxjs "^5.5.2"
@@ -2424,49 +2424,49 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+lodash.clonedeep@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.17.13.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
-lodash.clonedeepwith@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeepwith/-/lodash.clonedeepwith-4.5.0.tgz#6ee30573a03a1a60d670a62ef33c10cf1afdbdd4"
+lodash.clonedeepwith@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeepwith/-/lodash.clonedeepwith-4.17.13.tgz#6ee30573a03a1a60d670a62ef33c10cf1afdbdd4"
 
-lodash.debounce@^4.0.3:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+lodash.debounce@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.17.13.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
-lodash.difference@^4.3.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
+lodash.difference@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.17.13.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
 
-lodash.flatten@^4.2.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+lodash.flatten@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.17.13.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
 
-lodash.flattendeep@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
+lodash.flattendeep@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.17.13.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
 
-lodash.isequal@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+lodash.isequal@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.17.13.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
-lodash.merge@^4.6.0:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+lodash.merge@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.17.13.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
 
-lodash@^4.0.0, lodash@^4.2.0, lodash@^4.3.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.17.13, lodash@^4.17.13, lodash@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
+lodash@^4.17.13, lodash@^4.17.13, lodash@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
 
-lodash@~4.16.4:
-  version "4.16.6"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
+lodash@~4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
 
 loose-envify@^1.0.0:
   version "1.3.1"
@@ -2696,7 +2696,7 @@ node-sass@^4.9.3:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.13.2"
@@ -2870,7 +2870,7 @@ package-hash@^2.0.0:
   resolved "https://registry.yarnpkg.com/package-hash/-/package-hash-2.0.0.tgz#78ae326c89e05a4d813b68601977af05c00d2a0d"
   dependencies:
     graceful-fs "^4.1.11"
-    lodash.flattendeep "^4.4.0"
+    lodash.flattendeep "^4.17.13"
     md5-hex "^2.0.0"
     release-zalgo "^1.0.0"
 
@@ -3096,7 +3096,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.1.tgz#2e03e8e42ee450b8cb3dce65be1bf8974e1dfd95"
   dependencies:
-    deep-extend "~0.4.0"
+    deep-extend "~0.5.1"
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
@@ -3391,7 +3391,7 @@ sass-graph@^2.2.4:
   resolved "https://registry.yarnpkg.com/sass-graph/-/sass-graph-2.2.4.tgz#13fbd63cd1caf0908b9fd93476ad43a51d1e0b49"
   dependencies:
     glob "^7.0.0"
-    lodash "^4.0.0"
+    lodash "^4.17.13"
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
@@ -3695,7 +3695,7 @@ table@^4.0.3:
     ajv "^6.0.1"
     ajv-keywords "^3.0.0"
     chalk "^2.1.0"
-    lodash "^4.17.4"
+    lodash "^4.17.13"
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
