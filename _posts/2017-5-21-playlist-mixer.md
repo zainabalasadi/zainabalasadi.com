@@ -97,7 +97,7 @@ Initially brainstorming was based around deciding what medium to pursue for the 
 Listeners didn’t like the algorithm that simply spit recommendations to them. Early explorations such as shorter recommended playlists, single recommendations and even a Tinder-eqsue swipe system still left listeners feeling like a witness of the discovery rather than the archeologist themselves.
 </div>
 
-![](../assets/images/site/grey.jpg)
+<!-- ![](../assets/images/site/grey.jpg) -->
 
 <div class="{{ site.site-case-margin }}" markdown="1">
 Rather than an algorithm hiding behind UI elements and popping up in timed increments, what if the algorithm hid behind a voice? 
@@ -197,7 +197,7 @@ Analysis of the questionnaires revealed that users found Playlist Mixer to be hi
 Apart from the positive feedback, I gathered utterances which Mixer wouldn’t understand. For example, when asked if the user likes the previewed song, some users would reply with “Add it”. While this was an acceptable response, Alexa wouldn’t recognise this and reply with a conversational repair.
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div class="{{ site.site-case-margin }} mb6" markdown="1">
 ## Reflection
 Tackling my first ever VUI project brought me back to what I think is the original goal of UX, treating people like what they ultimately are: people.
 
@@ -206,4 +206,3 @@ It was interesting to see how I would cope designing something that didn’t hav
 Face-first into Alexa’s Skill Kit documentation, I’m currently developing the Mixer with Python and hope to release the open-source product in the coming months.
 </div>
 
-![](../assets/images/site/grey.jpg)
