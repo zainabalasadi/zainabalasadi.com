@@ -5,6 +5,6 @@
          {% assign next = page.previous %}
       {%- endif -%}
    {% else %}
-      {% assign next = site.posts[1] %}
+      {% assign next = site.posts[0] %}
    {%- endif -%}
 <p><a href="{{site.baseurl}}{{next.url}}" alt="Next Post">Next Project →</a></p>
