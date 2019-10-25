@@ -14,7 +14,7 @@ kramdown:
 permalink:          /:slug/
 
 # Images
-site_image:         "https://zainabalasadi.com/assets/images/site/site-image.png"
+site_image:         "http://zainabalasadi.com/assets/images/site/site-image.png"
 favicon-180:        "assets/images/site/favicon-180x180.png"
 favicon-32:         "assets/images/site/favicon-32x32.png"
 favicon-16:         "assets/images/site/favicon-16x16.png"
