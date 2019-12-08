@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'TTCommons-Regular';
-  font-display: auto;
+  font-family: 'TTCommons-Regular', "Helvetica", "Arial", sans-serif;
+  font-display: swap;
   src: url("../fonts/TTCommons-Regular.eot");
   src: url("../fonts/TTCommons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff"), url("../fonts/TTCommons-Regular.ttf") format("truetype"), url("../fonts/TTCommons-Regular.svg#TTCommons-Regular") format("svg"); }
 @font-face {
-  font-family: 'TTCommons-DemiBold';
-  font-display: auto;
+  font-family: 'TTCommons-DemiBold', "Helvetica", "Arial", sans-serif;
+  font-display: swap;
   src: url("../fonts/TTCommons-DemiBold.eot");
   src: url("../fonts/TTCommons-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-DemiBold.woff2") format("woff2"), url("../fonts/TTCommons-DemiBold.woff") format("woff"), url("../fonts/TTCommons-DemiBold.ttf") format("truetype"), url("../fonts/TTCommons-DemiBold.svg#TTCommons-DemiBold") format("svg"); }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */

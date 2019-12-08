@@ -26,8 +26,8 @@
 //    url('../fonts/BananaGrotesk-Medium.svg#Banana-Medium') format('svg');
 // }
 @font-face {
-   font-family: 'TTCommons-Regular';
-   font-display: auto;
+   font-family: 'TTCommons-Regular', "Helvetica", "Arial", sans-serif;
+   font-display: swap;
    src: url('../fonts/TTCommons-Regular.eot');
    src: url('../fonts/TTCommons-Regular.eot?#iefix') format('embedded-opentype'), 
    url('../fonts/TTCommons-Regular.woff2') format('woff2'), 
@@ -37,8 +37,8 @@
 }
 
 @font-face {
-   font-family: 'TTCommons-DemiBold';
-   font-display: auto;
+   font-family: 'TTCommons-DemiBold', "Helvetica", "Arial", sans-serif;
+   font-display: swap;
    src: url('../fonts/TTCommons-DemiBold.eot');
    src: url('../fonts/TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'), 
    url('../fonts/TTCommons-DemiBold.woff2') format('woff2'), 
