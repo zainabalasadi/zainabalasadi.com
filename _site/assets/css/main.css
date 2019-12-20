@@ -8003,10 +8003,10 @@ dl, dd, ol, ul, figure {
   padding: 0; }
 
 ::-moz-selection {
-  background: #dadad8; }
+  background: #DADAD8; }
 
 ::selection {
-  background: #dadad8; }
+  background: #DADAD8; }
 
 body {
   font: 400 1.17rem/1.5 "TTCommons-Regular", sans-serif;
@@ -8054,7 +8054,7 @@ a {
   text-decoration: underline;
   -webkit-text-decoration-skip: auto !important; }
   a:hover {
-    color: #dadad8; }
+    color: #DADAD8; }
 
 ul, ol {
   margin-left: 48px; }

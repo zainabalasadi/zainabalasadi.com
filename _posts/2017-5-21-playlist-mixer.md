@@ -8,6 +8,7 @@ image:        "../assets/images/mixer/alexa_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "mixer"
+weight:       3
 
 role:         "UX Designer"
 team:         "N/A"

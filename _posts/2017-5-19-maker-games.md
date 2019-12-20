@@ -7,6 +7,7 @@ image:        "../assets/images/ande/ande_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "maker-games"
+weight:       4
 
 role:         "UX Researcher and Developer"
 team:         "3 chemical engineers, 1 developer"
