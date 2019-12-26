@@ -1,0 +1,47 @@
+// Typography
+$body:                'Inter', sans-serif;
+$heading:             'Inter', sans-serif;
+$serif:               'GTSectra', serif;
+
+$tracked:             .04em;
+
+// Base
+$base-font-family:    $body;
+$base-font-size:      0.9375rem;
+$base-font-weight:    400;
+$base-line-height:    1.8;
+$base-letter-spacing: 0rem;
+
+// Headings & Titles
+$title-font:          $body;
+$title-font-size:     $base-font-size;
+$title-font-weight:   $base-font-weight;
+$title-font-height:   1.8;
+$title-font-spacing:  $base-letter-spacing;
+$strong:              $heading;
+
+// Spacing
+$spacing-unit:        2rem;
+$spacing-unit-sm:     1rem;
+
+// Media queries
+$content-width:       1160px;
+$small-mobile:        480px;
+$mobile:              600px;
+$laptop:              840px;
+$desktop:             1200px;
+
+$breakpoint-not-small: "(min-width: 30em)";
+$breakpoint-medium:    "(min-width: 30em) and (max-width: 60em)";
+$breakpoint-large:     "(min-width: 60em)";
+
+// Colors
+$white:               #FFFFFF;
+$black:               #000000;
+$grey:                #D9D9D9;
+$yellow:              #FFE310;
+$text-color:          #24292E;
+$background-color:      $white;
+
+// Misc
+$time:                0.5s;

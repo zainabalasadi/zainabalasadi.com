@@ -3,23 +3,23 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
    <!-- Case study header -->
-   <header class="{{ site.site-case-header }}">
-      <p class="{{ site.site-case-company }} {{ site.small-text }} {{ site.remove-margin }}">{{ page.company }}</p>
-      <h1 class="{{ site.site-case-title }}" itemprop="name headline">{{ page.catchy-title }}</h1>
+   <header>
+      <p class="company">{{ page.company }}</p>
+      <h1 class="post-title f2-l f2 work mb3-l mb3 w-100 w-70-ns lh-title" itemprop="name headline">{{ page.catchy-title }}</h1>
 
       <div>
          <div class="cf">
-            <div class="{{ site.site-case-desc }}">
-               <p class="{{ site.remove-margin }}">{{ page.description }}</p>
+            <div>
+               <p class="mb0 mt0">{{ page.description }}</p>
             </div>
-            <div class="{{ site.site-case-details }}">
-               <div class="{{ site.small-text }}"><p class="bold di">Role</p><p class="di">&nbsp;&nbsp;{{ page.role }}</p></div>
-               <div class="{{ site.small-text }}"><p class="bold di">Team</p><p class="di">&nbsp;&nbsp;{{ page.team }}</p></div>
-               <div class="{{ site.small-text }}"><p class="bold di">Timeline</p><p class="di">&nbsp;&nbsp;{{ page.timeline }}</p></div>
+            <div>
+               <div><p class="bold di">Role</p><p class="di">&nbsp;&nbsp;{{ page.role }}</p></div>
+               <div><p class="bold di">Team</p><p class="di">&nbsp;&nbsp;{{ page.team }}</p></div>
+               <div><p class="bold di">Timeline</p><p class="di">&nbsp;&nbsp;{{ page.timeline }}</p></div>
             </div>            
          </div>
 
-         <img class="{{ site.site-case-image }}" src="{{ page.image }}">
+         <img src="{{ page.image }}">
    </header>
 
    <div class="post-content e-content" itemprop="articleBody">

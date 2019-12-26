@@ -2,12 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
 <!-- Body -->
-<body class="{% if page.id %}{{ site.post-style }}{% else %}{{ site.style }}{% endif %}"> 
+<body> 
    <!-- Main -->
    <main>
       {% if page.id or page.url == "/about/" %}
       <!-- Back Link -->
-      <p class="{{ site.remove-margin }}"><a href="{{ relative }}" alt="Go back home">←</a></p>
+      <p class="mb0 mt0"><a href="{{ relative }}" alt="Go back home">←</a></p>
       {% endif %}
       {{ content }}
    </main>

@@ -36,7 +36,7 @@ Music recommendation solutions available on the market today haven’t solved th
 Music discovery has always been an issue of mine. Should I invest the time to go down the rabbit-hole that is the Spotify recommended playlist or should I just shuffle an old playlist of mine? From someone who used to count down the days till Monday where my beloved Spotify recommendations for the week were released, I barely give the playlist a second thought, scrolling past it with a shudder. It wasn’t always like this. I wanted to learn more about why this was happening. Were others experiencing the same problem?
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 ## The initial research
 Delving deeper into the pain points surrounding music discovery,  I undertook my own surveys and interviews and extracted data from existing surveys on music recommendation.
 </div>
@@ -75,7 +75,7 @@ Through extensive primary and secondary research, from observation, interviews, 
 - Provide users with options to further research a song or artist
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 ## Introducing Mixer
 Humanised through Amazon’s Alexa, Playlist Mixer is an Amazon skill that understands a your musical preferences and works with you—and not for you—to choose songs and create playlists.
 
@@ -91,7 +91,7 @@ Playlist Mixer works like this:
 
 ![How playlist mixer works](../assets/images/mixer/alexa_work.jpg)
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 ## The design process
 Initially brainstorming was based around deciding what medium to pursue for the product solution. It was clear that listeners still craved that sense of being the driver of the discovery so it was essential that my solution didn’t muddle that. 
 
@@ -100,13 +100,13 @@ Listeners didn’t like the algorithm that simply spit recommendations to them. 
 
 <!-- ![](../assets/images/site/grey.jpg) -->
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 Rather than an algorithm hiding behind UI elements and popping up in timed increments, what if the algorithm hid behind a voice? 
 
 And so, the dots connection and the Playlist Mixer concept was born but it was the question if VUI was an appropriate medium for this problem space.
 </div>
 
-<div class="{{ site.site-case-break }}" markdown="0">
+<div markdown="0">
    <img class="cap" alt="Exhausting the idea with questions" src="../assets/images/mixer/alexa_questions.jpg">
    <p class="caption light">Only some of the questions I had.</p>
 
@@ -132,14 +132,14 @@ Users disliked manual music discovery because of the time and effort needed to i
 All systems were go.
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 ## Design
 Borrowing from agile software methodologies, I began the wireframing process by defining a set of user stories for the Mixer. User stories represented the major scenarios; the purpose of the voice assistant and the way the user can interact with the voice assistant in short succinct sentences.
 </div>
 
 ![User stories to define functions](../assets/images/mixer/alexa_story.jpg)
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 It was essential that Playlist Mixer didn’t just recommend music based on previous listening history, but rather, also on inputs such as mood, tempo, occasion and artist.
 
 Next, I began ideating the keywords that could invoke the interaction. This was particularly difficult as the inbuilt Alexa phrase “Alexa, make me a playlist” or “Alexa, play me some songs” were already being used to carry out other commands.
@@ -149,7 +149,7 @@ I settled on referring to Playlist Mixer as a separate entity and set the invoca
 
 ![Invocation ideation for playlist mixer](../assets/images/mixer/alexa_invocation.jpg)
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 This resulted in a clearer division between the inbuilt empty playlist command and Playlist Mixer. In turn, I hypothesised that this would reduce the amount of errors.
 
 With the invocation name set and a list of the possible utterances (defined as whatever users say), I began crafting a few sample dialogues for the user stories.
@@ -159,7 +159,7 @@ Unlike traditional UI where users can scroll through a list of songs to select a
 
 ![Playlist mixer paths](../assets/images/mixer/alexa_path_sketches.jpg)
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 I then went on to writing repairs or errors for the conversation. Since there isn’t a clear signal of intent (like the signal of a button click in traditional UI), it was up to me to anticipate the users intent at each point in the conversation and shape an appropriate error response and recovery strategy.
 </div>
 
@@ -172,19 +172,19 @@ I went with two-tiered confidence for the Playlist Mixer in order to deliver the
 - Speech was detected but not understood
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 ## Testing the concept
 After creating a basic wireframe of the conversation, I took to testing. Wizard of Oz (WoZ) testing was the best testing method for this scenario. Often used for VUI, it is where humans interact with a system that seems real, when in reality, it’s controlled by someone behind the scenes.
 
 I conducted WoZ testing with 8 participants in order to get a rough idea of the types of responses that worked and didn’t. I not only noted how users interacted with Playlist Mixer and the utterances they used, but I also noted their facial expressions and body language. **Did they frown at a particular answer? Did they laugh at a response? Did they barge-in while Mixer was speaking?**
 </div>
 
-<div class="{{ site.site-case-break }}" markdown="0">
+<div markdown="0">
    <img class="cap" src="../assets/images/mixer/mixer_testing.jpg">
    <p class="caption light">The testing environment: command line Alexa emulator and Mr Pringle, the stand in for Alexa.</p>
 </div>
 
-<div class="{{ site.site-case-margin }}" markdown="1">
+<div markdown="1">
 Following the WoZ testing, I gave participants a satisfaction questionnaire to complete and a couple of interview questions. This was my opportunity to know about the performance of Mixer through the participants eyes and ensure that Playlist Mixer would we able to cope with the variety of things that people say and the words they use to communicate their intent.
 
 I grouped questions into similar categories and analysed the questionnaire and interview answers to derive scores for aspects such as warmth, competence and discomfort.  

@@ -7,7 +7,7 @@ description: "Zainab Alasadi is a product designer."
 ---
 
 
-<div class="{{ site.site-intro }} {{ site.site-intro-margin }}" markdown="1">
+<div markdown="1">
 Hey there, thanks for clicking!
 
 My name is Zainab and I’m a designer with a background in Computer Science. As you already read (or deciphered), I’m a lover of books, running, dogs, cameras and sushi.
@@ -23,7 +23,4 @@ Just finished — [Influence: The Psychology of Persuasion](https://www.amazon.c
 Currently reading — [The Best Interface Is No Interface](https://www.amazon.com/Best-Interface-No-brilliant-technology/dp/0133890333){:target="_blank"}
 <br>
 Up next — [Things That Make Us Smart](https://www.amazon.com/Things-That-Make-Smart-Attributes/dp/0201626950){:target="_blank"}
-</div>
-
-<div class="{{ site.site-intro-space }}" markdown="1">
 </div>
