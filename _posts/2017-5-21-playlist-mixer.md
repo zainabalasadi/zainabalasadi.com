@@ -3,11 +3,11 @@
 title:        "Zainab Alasadi · Playlist Mixer"
 catchy-title: "Humanising music discovery with voice"
 company:      "Amazon Alexa"
-year:         2019
 image:        "../assets/images/mixer/alexa_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "mixer"
+color:        "#1E8CFF"
 weight:       3
 
 role:         "UX Designer"

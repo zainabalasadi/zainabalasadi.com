@@ -2,11 +2,11 @@
 title:        "Zainab Alasadi · Oscar"
 catchy-title: "Redesigning the sharing experience"
 company:      "Oscar"
-year:         2018
 image:        "../assets/images/oscar/oscar_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "oscar"
+color:        "#00A8A6"
 weight:       1
 
 role:         "Lead Product Design Intern"

@@ -1,13 +1,13 @@
 ---
-title:        "Zainab Alasadi · CensAus"
-catchy-title: "Transforming census data into real narratives"
-product:      "CensAus"
+title:        "Zainab Alasadi · PractiCal"
+catchy-title: "Calendar events through natural language"
+product:      "PractiCal"
 image:        "../assets/images/2150/2150_book_binding.jpg"
 categories:   dev
 layout:       post
-slug:         "censaus"
-color:        "#3E4596"
-weight:       1
+slug:         "practical"
+color:        "#566EE9"
+weight:       2
 
 role:         "Developer"
 team:         "N/A"

@@ -1,13 +1,13 @@
 ---
-title:        "Zainab Alasadi · CensAus"
-catchy-title: "Transforming census data into real narratives"
-product:      "CensAus"
+title:        "Zainab Alasadi · Here's Wally"
+catchy-title: "Finding Wally using computer vision"
+product:      "Here's Wally"
 image:        "../assets/images/2150/2150_book_binding.jpg"
 categories:   dev
 layout:       post
-slug:         "censaus"
-color:        "#3E4596"
-weight:       1
+slug:         "heres-wally"
+color:        "#FF0000"
+weight:       3
 
 role:         "Developer"
 team:         "N/A"
