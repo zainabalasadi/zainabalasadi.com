@@ -26,5 +26,22 @@ medium_username:    zainabalasadi
 instagram_username: zayalas
 twitter_username:   ohhizainab
 
+# Dev work
+dev_work:           [{'product':'CensAus', 
+                      'color':'#3E4596', 
+                      'title':'Transforming census data into real narratives', 
+                      'image':'assets/images/site/wave.png'},
+                     {'product':'PractiCal', 
+                      'color':'#566EE9', 
+                      'title':'Calendar events through natural language', 
+                      'image':'assets/images/site/wave.png'},
+                     {'product':"Here's Wally", 
+                      'color':'#FF0000', 
+                      'title':'Finding Wally using computer vision', 
+                      'image':'assets/images/site/wave.png'},
+                     {'product':'ANDI', 
+                      'color':'#6500FF', 
+                      'title':'Smart clipboard for nuclear inspectors', 
+                      'image':'assets/images/site/wave.png'}]
 
 site-case-quote:    ".f2-l .f3 .mb5 .mt5"

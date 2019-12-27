@@ -15,7 +15,7 @@ layout: default
       {%- if post.categories contains 'case-study' and post.status != 'draft' -%}
 
       <a href="{{ post.url }}">
-         {% if forloop.last == true %}
+         {%- if forloop.last == true -%}
          <li class="hover-item styled-list-item border-top border-bottom">
          {% else %}
          <li class="hover-item styled-list-item border-top">
@@ -30,35 +30,31 @@ layout: default
 </section> 
 
 <section class="mt-medium">
-   <!-- Title Develop -->
+   <!-- Title Dev -->
    <h2 class="overline">A few things I’ve developed —</h2>
 
    <ul class="styled-list-container mb-3 mt-3">
       <!-- Dev Posts -->
-      {% assign posts = site.posts | sort: 'weight' %}
-      {%- for post in posts -%}
-      {%- if post.categories contains 'dev' and post.status != 'draft' -%}
+      {%- for work in site.dev_work -%}
 
       <a href="{{ post.url }}">
-         {% if forloop.first == true %}
-         <p>booooo</p>
+         {%- if forloop.last == true -%}
          <li class="hover-item styled-list-item border-top border-bottom">
          {% else %}
          <li class="hover-item styled-list-item border-top">
          {% endif %}
-            <h3 class="styled-list-title type-big"><span class="type-serif">{{ post.product }}</span><span class="shape-circle" style="background-color: {{ post.color }}"></span>{{ post.catchy-title }}</h3>
-            <img class="hover-item-show styled-list-img horizontal" src="{{ post.image }}" alt="{{ post.company }}" />
+            <h3 class="styled-list-title type-big"><span class="type-serif">{{ work.product }}</span><span class="shape-circle" style="background-color: {{ work.color }}"></span>{{ work.title }}</h3>
+            <img class="hover-item-show styled-list-img horizontal" src="{{ relative }}{{ work.image }}" alt="{{ work.product }}" />
          </li>
       </a>
-      {% endif %}
-      {%- endfor -%}  
-   </ul> 
-</section>
+      {%- endfor -%} 
+   </ul>
+</section> 
 
-<section class="mt-medium">
+<section class="mt-medium mb-medium">
    <!-- Title web -->
    <h2 class="overline">Elsewhere on the interwebs —</h2>
-
+   <!-- Social links -->
    <ul class="styled-list-container mb-3 mt-3">
       <a href="">
          <li class="hover-item styled-list-item border-top">
