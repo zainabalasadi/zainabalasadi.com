@@ -1,6 +1,6 @@
 ---
 title:        "Zainab Alasadi · Oscar"
-catchy-title: "Redesigning the onboarding experience"
+catchy-title: "Reimagining the onboarding experience"
 company:      "Oscar"
 image:        "../assets/images/oscar/oscar_hero.jpg"
 categories:   case-study
@@ -15,24 +15,15 @@ timeline:     "June 2018 - August 2018"
 description:  "Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living."
 ---
 
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
 In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience.
-{: .mt0}
-</div>
 
-<div markdown="1">
 ## The Problem
 Oscar’s premise is simple—tap a couple buttons to book a parking spot or tap a couple buttons to list your parking spot and start earning. However, as the product and user base began to grow, more features were piled on that generated a myriad of friction points that effectively impeded users from completing their goals.
-</div>
 
-<div markdown="0">
-   <img class="cap" src="../assets/images/oscar/oscar_old.jpg">
-   <p class="caption light">The evolution of Oscar. Screenshots taken from the Oscar archives, June 2018.</p>
-</div>
+{% include image.html url="../assets/images/oscar/oscar_old.jpg" caption="My cat, Robert Downey Jr." %}
 
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
 ## The Challenge
-Quite simply, our goal was to restore the original premise of Oscar but to also create strong foundation that evolves with user needs. 
+Quite simply, our goal was to restore the original premise of Oscar but to also create strong foundation that evolves with user needs.
 
 The high level goals were to:
 1. Make it fast for everyone to use
@@ -40,15 +31,13 @@ The high level goals were to:
 3. Derive a scalable and unified design system
 
 As a sole UX designer on this effort, I joined a team of 2 developers and a project manager to create a vision for sharing experiences of the future all in under 3 short months.
-</div>
 
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
 ## Picking up the Pieces
 Besides heuristic analysis and initial chats with the team, I had little insight into where—within the product—usability issues were arising from. I began speaking to stakeholders at Oscar to learn about the business and the product goals. These interviews helped in learning about previous research, determining the scope for the project and to better understand the opportunity for the redesign.
-</div>
 
-<div markdown="1">
 ## Learning from the Users
+With these early insights, I went ahead and conducted a mixture of remote user interviews, surveys, usability testing and cafe studies with a spectrum of expert and new Oscar users. The goals for this initial round of user research were to:  
+
 With these early insights, I went ahead and conducted a mixture of remote user interviews, surveys, usability testing and cafe studies with a spectrum of expert and new Oscar users. The goals for this initial round of user research were to:
 - Understand a users’ day-to-day workflows and pain points
 - Learn more about how users interact with the product and the common habits that they have
@@ -63,227 +52,6 @@ To further cement the impact that each feature had on the user when conducting u
 5. What happens afterwards?
 6. After the interaction with this feature, how do I want users to feel?
 7. What do I want users to take away from the experience?
-</div>
-
-![The Oscar research toolkit](../assets/images/oscar/oscar_research_toolkit.jpg)
-
-<div markdown="1">
-## Opportunities and insights 
-### Helping users onboard with ease
-The onboarding flow is the first point of contact and impression a user has with the product. The current first impression wasn’t working so well. My research uncovered that the existing product generated around 10% in drop-off rates at every screen in the onboarding process, with the most being attributed to the very first screen. 
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="The old onboarding flow" src="../assets/images/oscar/oscar_old_onboard.jpg">
-   <p class="caption light">The Oscar onboarding flow, featuring lengthy forms and double confirmations.</p>
-</div>
-
-<div markdown="1">
-The process included a monotonous sequence of input fields, some of which, provided little context of how their purpose would aid in creating a profile.
 
 >“Why do I need to put in my birthday?” — New user I tested the product with.
-{: {{site.site-case-quote}}}
 
-What was most alarming, aside from the drop-off rates, was that users often bounced back between Sign Up and Log In buttons, attempting each method until they found the one that would end in success. Coupled with a set of unsupportive error messages that pointed out user mistakes rather than supportive directives to help the user solve the issue, most users would resort to resetting their password in order to access their account, a lengthy process in its own right. 
-</div>
-
-![The problematic onboarding user flow](../assets/images/oscar/oscar_onboard_usecase.jpg)
-
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
-This debacle resulted in higher error rates, lower conversion rates, increased churn and an overall bumpy entry-point into the app. Users assumed that if it was this difficult to get into the meat of the product, booking/listing their parking spot would be even bigger headache.
-</div>
-
-<div markdown="1">
-### Searching for a Spot
-Every time a user entered the app, they were greeted with the search screen. Comprising of a search form and map, the search screen is where the majority of our driver personas spend their time.
-
-Users search for a parking spot through inputting three key pieces of information: their desired parking location, the start time of their booking and the end time of their booking. These three components were displayed as a combination of input bars and time selectors and allowed users to find a suitable parking spot for their needs. It was amazing when it worked.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="The old search flow" src="../assets/images/oscar/oscar_old_search.jpg">
-   <p class="caption light">The Oscar search and booking flow.</p>
-</div>
-
-<div markdown="1">
-I first had a hunch of experience issues within the search screen during initial user testing, users spent an abnormally long time to take in this screen despite its visual simplicity. Probing further, I noticed that around 40% experienced issues with search at some point which resulted in costly mistakes such as:
-- Booking spots for time periods that users weren’t even looking for. A common behaviour were users booking a spot for the default 1 hour and later extending their booking to the actual time period that they required
-- Booking spots at locations they weren’t looking for
-
-These combination of issues led to repeated rapid-clicks, a clear signal of user frustration. This resulted in some users to abandon interaction with the search bar altogether and utilise other methods like navigating through a map manually. 
-
-Analysis of user behaviour over the long term uncovered that almost 80% of our users have at least one location where they repeatedly book. These repeat bookings would occur in the same suburb, street or even the exact same parking spot. We also noticed that our users followed the exact same flow to do this every time. Having to repeatedly follow the exact process was a huge friction point and left them feeling unsupported.
-</div>
-
-![The repeat user behaviour](../assets/images/oscar/oscar_repeat_behaviour.jpg)
-
-<div markdown="1">
-### Listing a Spot
-The chief complaint about the listing experience was that it felt like a generic form and lacked and lacked excitement. This resulted in users leaving the listing flow prematurely. Through user interviews, I uncovered the three main reasons for this action:
-
-- A user leaves to gather information they might not have on hand. For example, not all homeowners know what size car their parking spot will fit.
-- A user leaves the listing flow to complete another task
-- A user has difficulty answering questions and leaves to ask/contact Oscar assistance
-
-Since the product didn’t include a way to still retain inputted information, users rarely returned to complete their listing and a whopping 80% of users never even visited the listing flow after their first attempt.
-</div>
-
-<div markdown="0">
-   <img class="cap" src="../assets/images/oscar/oscar_old_listing.jpg">
-   <p class="caption light">The Oscar listing flow.</p>
-</div>
-
-<div markdown="1">
-## Introducing Oscar 2.0
-In an age where everything is demanding your time an attention, Oscar gives you your time back by making parking and listing effortless and easy. Oscar understands you and provides you with options that are understandable and actionable.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="Introducing Oscar 2.0" src="../assets/images/oscar/oscar_2.0.jpg">
-
-   <img class="cap" alt="The new onboarding" src="../assets/images/oscar/oscar_2.0_onboard.jpg">
-
-   <img class="cap" alt="The new search" src="../assets/images/oscar/oscar_2.0_search.jpg">
-
-   <img class="cap" alt="The new list" src="../assets/images/oscar/oscar_2.0_list.jpg">
-</div>
-
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
-## How we got there
-To jumpstart creativity, I came up with four key design challenges that revolved around the four main issues within the current product:
-
-1. How might we better give users quick access to their account?
-2. How might we better adapt the search screen to minimise booking errors?
-3. How can we support repeat user actions?
-4. How might we support users to list with ease?
-</div>
-
-<div markdown="1">
-## Giving users quick access to their account
-Understanding why users were confused between Sign Up and Log In was a challenge on its own.
-
-My first hypothesis was that there wasn't a clear division between Sign Up and Log in as the terminology for these buttons wasn't quite right. So I experimented with new UIs that did just that but to my surprise, this had no benefit… new and existing users still occasionally switched between the two.
-</div>
-
-![First instinct was to change the terminology](../assets/images/oscar/oscar_onboard_experiment.jpg)
-
-<div markdown="1">
-Questioning further, a majority of participants revealed that the major reason that they experienced problematic entry to the app was that they simply didn’t know that they had an account.
-
->“It’d be nice if I was told I have an account before I fill out the rest of the form” — a user I tested the product with.
-{: {{site.site-case-quote}}}
-
-Based on this insight, I realised that simply modifying the error messages to be clearer and more supportive wasn’t going to solve the issue or create a calm experience. So instead of placing the responsibility of the user to recall that they have an account, know their email and their password, I began experimenting with an an alternate flow that offloaded the responsibility to Oscar.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="Onboarding testing feedback" src="../assets/images/oscar/oscar_onboard_testing_feedback.jpg">
-
-   <img class="cap" alt="The evolution of the onboarding flow" src="../assets/images/oscar/oscar_evolution_onboarding.jpg">
-   <p class="caption-between light">Going back to the drawing board.</p>
-
-   <img class="cap" alt="The evolution of the onboarding flow" src="../assets/images/oscar/oscar_evolution_onboarding_mobile.jpg">
-   <p class="caption-between light">Experimenting with removing divisions of Sign Up and Login.</p>
-</div>
-
-<div markdown="1">
-The new proposed onboarding flow works by removing concrete decisions between Sign Up and Login and asks the user upfront for an easily recallable piece of information: a mobile number. After the mobile number is provided, the product would then intelligently determine if this information exists in its database and then discreetly deliver the remaining flow custom to the user’s circumstance. 
-
-Central to this feature, were these key ideas:
-1. Stop relying on user recall. Do the heavy lifting for them.
-2. Establish the feeling of support as early as early as possible.
-3. Ask as little questions as possible. Get users sharing as soon as you can.
-</div>
-
-![The new onboarding flow](../assets/images/oscar/oscar_new_onboard.jpg)
-
-<div markdown="1">
-To get new users up and going as soon as possible and creating a lower barrier to entry, I experimented with delaying additional information that the user would need to input (such as vehicle registration and account verification) until deeper in the user journey, such as booking or listing a spot. Once a user has found a spot that they’d like to book or list, spending an extra minute to confirm details is as much of a friction point.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="Friction versus motivation" src="../assets/images/oscar/oscar_friction.jpg">
-   <p class="caption-between light">Friction versus motivation.</p>
-   <img class="cap" alt="Utilising friction and motivation" src="../assets/images/oscar/oscar_friction_profile.jpg">
-</div>
-
-
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
-Fearing that the fundamentally new onboarding flow would cause friction of its own, I began testing early stages of the designs as soon as possible. To my surprise, not a single participant had trouble with the sequencing of the new flow and the design resonated well with participants.
-</div>
-
-<div markdown="1">
-## Minimising booking errors
-A culprit of many headaches, the search screen resulted in many users incorrectly booking a parking spot. 
-
-My first hypothesis on why this screen was causing so many issues was that the search bar appeared “optional”. With so much emphasis on the map, user attention was skewed towards it.
-
-Early explorations of the new search screen played around with depth and scale.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="Search bar sketches" src="../assets/images/oscar/oscar_search_sketches.jpg">
-
-   <img class="cap" alt="Final search bar design" src="../assets/images/oscar/oscar_new_home_map.jpg">
-</div>
-
-<div markdown="1">
-The new search screen features a search bar floating on top of the map, creating a greater understanding of its function and importance. Whilst the map still takes up a majority of the screen real estate, it’s no longer the big star of the interface.
-
-Introducing a default valid approach to the search bar and time selectors further reduces mental friction and speaks to the user, “you don’t need to do anything, but feel free to customise the search to better suit your needs”.
-
-To further accelerate bookings and cater for the 80% of users that make repeat bookings, I designed an accelerators feature that gives users quick access to their most likely destinations. 
-
-Accelerators work by intelligently remembering how often a user visits a location and prompt the user to add the location to a list of saved places, asking simply for the name of the saved place.
-</div>
-
-<div markdown="0">
-   <img class="cap" alt="Search bar sketches" src="../assets/images/oscar/oscar_search_tests.jpg">
-
-   <img class="cap" alt="Final search bar design" src="../assets/images/oscar/oscar_accelerators_feature.jpg">
-</div>
-
-<div markdown="1">
-## Listing
-I hypothesised that breaking the listing flow into digestible chunks would result in increased excitement and further understanding of each section. 
-
-Contextually chunking sections of the listing flow (like address, type, maximum fit) and embellishment sections (like description and photos) better aligned to the users mental model and decreased the amount of “huh?” and “what does this mean?!”
-</div>
-
-![The new listing flow](../assets/images/oscar/oscar_listing_flow.jpg)
-
-<div markdown="1">
-In an effort to increase completion rates, I incorporated a progress bar helps users speed through the flow. By allowing our users to see how much longer they have left in the listing process, we can motivate those who contemplate dropping off early in the funnel.
-
-To combat the issue of incomplete spot listings, I introduced a draft spot listing feature whereby users can save and exit at any stage of the spot listing process. Not only does this save time of re-inputting information when the user chooses to list their spot but this feature opened the gates to prompts, utilising the completion rate data and introducing pop-ups triggered after incremental periods of time to assist the user to finish their listing and start earning.
-</div>
-
-![Save and exit the listing process at any time](../assets/images/oscar/oscar_save_exit_draft.jpg)
-
-<div class="{{ site.site-case-margin }} {{ site.site-case-break }}" markdown="1">
-## The Results
-The redesign of the Oscar app on iOS and Android has had a positive impact on both the driver and spot owner experience, at the time of writing this (3 months since launch). 
-
-- User activation increased by 500%
-- Booking error rates decreased by 30%
-- Booking time decreased by 20%
-
-**For confidentiality reasons I have omitted the actual values for these metrics*. 
-</div>
-
-<div class="{{ site.site-case-margin }} mb6" markdown="1">
-## What I learned
-Looking back at the initial scribbles and sketches I made in my notebook during initial brainstorming sessions, I’m highly surprised at the amount of progress I was able to make.
-
-Choosing my first internship to be at a startup was a decision that I strongly stand by. I could never have imagined being pushed so hard, learning so much (cool things outside my bubble of design and tech!) and having a tonne of fun, all in just 3 short months. 
-
-I personally learned so much throughout the course of the project, especially the importance of being curious and continually reaching out to different types of people for feedback and criticism. Each person plays an essential role and has a plethora of knowledge to offer.
-
-I can gladly say that I’ve walked away from my time at Oscar more challenged and ambitious than ever before but also happier than I could’ve imagined having been able to learn from this experience and evolve as a designer, creator and maker.
-
-Key takeaways
-{: .bold}
-- Get over the feeling of making mistakes and being wrong. Learning from mistakes is the fastest and most effective way to grow as a designer.
-- It’s important to give users choice but its also important to understand when choice is a barrier. 
-- Make informed design decisions. Designers intuition is good starting point but it shouldn’t be the only reason for a design choice.
-</div>

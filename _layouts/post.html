@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="mt-4" itemscope itemtype="http://schema.org/BlogPosting">
    <!-- Case study header -->
    <header>
       <h2 class="overline">{{ page.company }}</h2>
-      <h1 class="type-extra-big" itemprop="name headline">{{ page.catchy-title }}</h1>
+      <h1 class="heading" itemprop="name headline">{{ page.catchy-title }}</h1>
 
       <section class="grid">
          <div class="flush-left w-100 w-100-m w-65-ns">
-            <p>{{ page.description }}</p>
+            <p class="mb-4">{{ page.description }}</p>
          </div>
          <div class="flush-right w-100 w-100-m w-25-ns">
             <h3>Role &nbsp;&nbsp;{{ page.role }}</h3>
@@ -17,13 +17,12 @@ layout: default
             <h3>Timeline &nbsp;&nbsp;{{ page.timeline }}</h3>
          </div>            
       </section>
-
-      <img src="{{ page.image }}">
    </header>
 
-   <div class="post-content e-content" itemprop="articleBody">
+   <div class="post-content" itemprop="articleBody">
+      <img class="img-mt img-mb" src="{{ page.image }}">
       {{ content }}
    </div>
-   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+   <a href="{{ page.url | relative_url }}" hidden></a>
 </article>
 

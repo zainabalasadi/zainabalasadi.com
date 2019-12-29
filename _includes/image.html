@@ -1,0 +1,9 @@
+{% if include.caption %}
+<div class="img-mt img-mb">
+   <img class="mb-2" src="{{ include.url }}" alt="{{ include.description }}">
+   <figcaption>{{ include.caption }}</figcaption>
+</div>
+{% else %}
+<img class="img-mt img-mb" src="{{ include.url }}" alt="{{ include.description }}">
+{% endif %}
+

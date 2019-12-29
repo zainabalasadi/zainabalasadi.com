@@ -30,18 +30,22 @@ twitter_username:   ohhizainab
 dev_work:           [{'product':'CensAus', 
                       'color':'#3E4596', 
                       'title':'Transforming census data into real narratives', 
-                      'image':'assets/images/site/wave.png'},
+                      'link': "https://github.com/zainabalasadi/CensAus",
+                      'image':'assets/images/site/wave.jpg'},
                      {'product':'PractiCal', 
                       'color':'#566EE9', 
                       'title':'Calendar events through natural language', 
-                      'image':'assets/images/site/wave.png'},
+                      'link': "https://github.com/zainabalasadi/PractiCal",
+                      'image':'assets/images/site/practical.jpg'},
                      {'product':"Here's Wally", 
                       'color':'#FF0000', 
                       'title':'Finding Wally using computer vision', 
-                      'image':'assets/images/site/wave.png'},
+                      'link': "https://github.com/zainabalasadi/PractiCal",
+                      'image':'assets/images/site/wave.jpg'},
                      {'product':'ANDI', 
                       'color':'#6500FF', 
-                      'title':'Smart clipboard for nuclear inspectors', 
-                      'image':'assets/images/site/wave.png'}]
+                      'title':'Smart clipboard for streamlining nuclear inspections', 
+                      'link': "https://github.com/zainabalasadi/PractiCal",
+                      'image':'assets/images/site/wave.jpg'}]
 
 site-case-quote:    ".f2-l .f3 .mb5 .mt5"

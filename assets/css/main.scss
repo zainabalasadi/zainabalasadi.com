@@ -5,36 +5,48 @@
 
 @import url('https://rsms.me/inter/inter.css');
 
-// // @font-face {
-// //    font-family: 'GT-Sectra', "Palatino Linotype", serif;
-// //    font-display: swap;
-// //    src: url('../fonts/GT-Sectra-Regular.eot');
-// //    src: url('../fonts/GT-Sectra-Regular.eot?#iefix') format('embedded-opentype'), 
-// //    url('../fonts/GT-Sectra-Regular.woff2') format('woff2'), 
-// //    url('../fonts/GT-Sectra-Regular.woff') format('woff'),
-// //    url('../fonts/GT-Sectra-Regular.ttf') format('truetype');
-// // }
-
-// @font-face {
-//    font-family: 'GT-Sectra', serif;
-//    font-display: swap;
-//    src: url('../fonts/GT-Sectra-Regular.eot');
-//    src: url('../fonts/GT-Sectra-Regular.eot?#iefix') format('embedded-opentype'), 
-//    url('../fonts/GT-Sectra-Regular.woff2') format('woff2'), 
-//    url('../fonts/GT-Sectra-Regular.woff') format('woff'),
-//    url('../fonts/GT-Sectra-Regular.ttf') format('truetype'),
-//    url('../fonts/GT-Sectra-Regular.svg#GT-Sectra') format('svg');
-// }
-
 @font-face {
-   font-family: 'GTSectra';
-   src: url('../fonts/GT-Sectra-Regular.eot');
-   src: url('../fonts/GT-Sectra-Regular.eot?#iefix') format('embedded-opentype'),
-   url('../fonts/GT-Sectra-Regular.woff2') format('woff2'),
-   url('../fonts/GT-Sectra-Regular.woff') format('woff'),
-   url('../fonts/GT-Sectra-Regular.ttf') format('truetype');
+   font-family: 'Canela';
+   src: url('../fonts/Canela-Light.eot');
+   src: url('../fonts/Canela-Light.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Canela-Light.woff2') format('woff2'),
+   url('../fonts/Canela-Light.woff') format('woff'),
+   url('../fonts/Canela-Light.ttf') format('truetype');
 
 }
+
+@font-face {
+   font-family: 'HaasGrot';
+   font-weight: 300;
+   font-style: normal;
+   src: url('../fonts/HaasGrot55.eot');
+   src: url('../fonts/HaasGrot55.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/HaasGrot55.woff2') format('woff2'),
+   url('../fonts/HaasGrot55.woff') format('woff'),
+   url('../fonts/HaasGrot55.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'HaasGrot';
+   font-style: italic;
+   src: url('../fonts/HaasGrot56.eot');
+   src: url('../fonts/HaasGrot56.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/HaasGrot56.woff2') format('woff2'),
+   url('../fonts/HaasGrot56.woff') format('woff'),
+   url('../fonts/HaasGrot56.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'HaasGrot';
+   font-weight: 700;
+   font-style: normal;
+   src: url('../fonts/HaasGrot65.eot');
+   src: url('../fonts/HaasGrot65.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/HaasGrot65.woff2') format('woff2'),
+   url('../fonts/HaasGrot65.woff') format('woff'),
+   url('../fonts/HaasGrot65.ttf') format('truetype');
+}
+
 
 // Font scaling
 @mixin relative-font-size($ratio) {

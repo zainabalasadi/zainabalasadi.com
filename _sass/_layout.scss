@@ -1,0 +1,218 @@
+/** Base overrides **/
+html, body {
+   background: $background-color;
+}
+
+div {
+   display: block;
+}
+
+%vertical-rhythm {
+   margin-bottom: 0;
+}
+
+.flush-left {
+   float: left;
+}
+
+.flush-right {
+   float: right;
+}
+
+/** Lists **/
+ul, ol {
+   margin-left: $spacing-unit * 2;
+   @extend .mt-3, .mb-3;
+
+   @media (max-width: $mobile) {
+      margin-left: $spacing-unit;
+   }
+}
+
+li {
+   padding-left: $spacing-unit * 0.25;
+   >ul, >ol {
+      margin-bottom: 0;
+   }
+}
+
+/** Margin, padding and width options **/
+.mt-medium { margin-top: 140px; }
+.mt-1 { margin-top: 4px; }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 16px; }
+.mt-4 { margin-top: 24px; }
+.mt-7 { margin-top: 48px; }
+
+.mb-medium { margin-bottom: 140px; }
+.mb-0 { margin-bottom: 0; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 16px; }
+.mb-4 { margin-bottom: 24px; }
+.mb-7 { margin-bottom: 48px; }
+
+.mr-3 { margin-right: 16px; }
+
+.img-mt { margin-top: $spacing-unit * 1.5; }
+.img-mb { margin-bottom: $spacing-unit * 1.5; }
+
+@media (min-width: $desktop) {
+   .mt-lg-6 { margin-top: 40px; }
+   .mt-lg-large { margin-top: 240px; }
+   .mb-lg-6 { margin-bottom: 40px; }
+}
+
+.w-10 {  width:  10%; }
+.w-20 {  width:  20%; }
+.w-25 {  width:  25%; }
+.w-30 {  width:  30%; }
+.w-33 {  width:  33%; }
+.w-34 {  width:  34%; }
+.w-40 {  width:  40%; }
+.w-50 {  width:  50%; }
+.w-60 {  width:  60%; }
+.w-70 {  width:  70%; }
+.w-75 {  width:  75%; }
+.w-80 {  width:  80%; }
+.w-90 {  width:  90%; }
+.w-100 { width: 100%; }
+
+@media (min-width: $laptop) {
+   .w-10-ns { width:  10%; }
+   .w-20-ns { width:  20%; }
+   .w-25-ns { width:  25%; }
+   .w-30-ns { width:  30%; }
+   .w-33-ns { width:  33%; }
+   .w-34-ns { width:  34%; }
+   .w-40-ns { width:  40%; }
+   .w-50-ns { width:  50%; }
+   .w-60-ns { width:  60%; }
+   .w-65-ns { width:  65%; }
+   .w-70-ns { width:  70%; }
+   .w-75-ns { width:  75%; }
+   .w-80-ns { width:  80%; }
+   .w-90-ns { width:  90%; }
+   .w-100-ns { width: 100%; }
+   .w-third-ns { width: calc(100% / 3); }
+   .w-two-thirds-ns { width: calc(100% / 1.5); }
+   .w-auto-ns { width: auto; }
+}
+
+/** Width of content display **/
+main {
+   padding: 0 32px;
+   max-width: $content-width;
+   margin: 0 auto;
+
+   @media (min-width: $small-mobile) {
+      padding: 40px;
+   }
+}
+
+/** Works list mechanism **/
+.hover-item:hover .hover-item-show {
+   opacity: 1;
+   visibility: inherit;
+   transition: opacity $time;
+   -webkit-transition: opacity $time;
+}
+
+.hover-item-show {
+   position: absolute;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity $time;
+   -webkit-transition: opacity $time;
+   z-index: 100;
+   top: 0;
+   right: 0;
+}
+
+.hover-item-show, .styled-list-img {
+   @include media-query($mobile) {
+      display: none !important;
+   }
+}
+
+.border-top {
+   border-top: 1px solid $grey;
+}
+
+.border-bottom {
+   border-bottom: 1px solid $grey;
+}
+
+.grid {
+   // width: 100%;
+   // display: inline-block;
+}
+
+.styled-list-img {
+   max-width: 400px;
+   width: 48vw;
+
+   @media (min-width: $laptop) {
+      width: 30vw;
+   }
+}
+
+.styled-list-img {
+   max-width: 400px;
+   width: 48vw;
+
+   @media (min-width: $laptop) {
+      width: 30vw;
+   }
+}
+
+.styled-list-item {
+   padding: 10px 0;
+
+   & h3 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      color: $text-color;
+      line-height: $base-line-height;
+      transition: color $time;
+      -webkit-transition: color $time;
+   }
+
+   &:hover h3 {
+      color: $text-color;
+      transition: color $time;
+      -webkit-transition: color $time;
+   }
+}
+
+.styled-list-img.horizontal {
+   width: 56vw;
+   max-width: 580px;
+
+   @media (min-width: $laptop) {
+      width: 38vw;
+   }
+}
+
+.shape-circle {
+   display: inline-block;
+   width: 2%;
+   height: 0;
+   padding-bottom: 2%;
+   border-radius: 50%;
+   margin: 0 1%;
+
+   @media (max-width: $mobile) {
+      width: 4%;
+      padding-bottom: 4%;
+   }
+
+   @media (min-width: $laptop) {
+      width: 2.5%;
+      padding-bottom: 2.5%;
+   }
+}
+
+.home {
+   margin-bottom: $spacing-unit * 2;
+}
