@@ -21,7 +21,7 @@ div {
 
 /** Lists **/
 ul, ol {
-   margin-left: $spacing-unit * 2;
+   margin-left: $spacing-unit * 1.2;
    @extend .mt-3, .mb-3;
 
    @media (max-width: $mobile) {
@@ -34,6 +34,10 @@ li {
    >ul, >ol {
       margin-bottom: 0;
    }
+}
+
+ul {
+   list-style-type: circle;
 }
 
 /** Margin, padding and width options **/
@@ -128,10 +132,15 @@ main {
    right: 0;
 }
 
-.hover-item-show, .styled-list-img {
-   @include media-query($mobile) {
-      display: none !important;
-   }
+#nowTitle {
+   cursor: crosshair;
+   width: fit-content;
+}
+
+.hover-item-textBox {
+   max-width: 440px;
+   padding: 56px;
+   background-color: #F8F8F8;
 }
 
 .border-top {
@@ -140,11 +149,6 @@ main {
 
 .border-bottom {
    border-bottom: 1px solid $grey;
-}
-
-.grid {
-   // width: 100%;
-   // display: inline-block;
 }
 
 .styled-list-img {

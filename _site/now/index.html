@@ -48,21 +48,42 @@
    <!-- Main -->
    <main>
       
+      <!-- Back Link -->
+      <p class="mt-4 mt-lg-6 overline"><a href="../" alt="Go back">← Back</a></p>
+      
       <article class="post">
 
-   <header class="heading">
-      <h2>Now*</h2>
+   <header>
+      
+      <div id="nowTitle" class="hover-item">
+         <h1 class="type-serif type-big">Now *</h1>
+         <div class="hover-item-show hover-item-textBox">
+            <span class="overline">Wtf*ck is this</span>
+            <p class="mt-3">Apart from showcasing what I've worked on in the past, I wanted a page where I can share what I'm focused on at this point in time.</p>
+            <p class="mt-3">Plus, is there any better way to hold myself accountable to things I want to complete than publicly sharing it? ¯\_(ツ)_/¯</p>
+         </div>
+      </div>
+      
    </header>
 
    <div class="w-70-ns">
-      <p>Uwu</p>
+      <ul>
+  <li>Working with the digital banking team at Macquarie Group</li>
+  <li>Refactoring this site to comply with <a href="https://a11yproject.com/checklist/" target="_blank">A11y standards</a></li>
+  <li>Creating my first Generative Adversarial Networks (GAN), get yourself ready to see some AI-generated artworks!</li>
+  <li>Incrementally improving <a href="https://twitter.com/censaus" target="_blank">CensAus</a> twitter bot</li>
+  <li>Reading <a href="https://www.amazon.com/Things-That-Make-Smart-Attributes/dp/0201626950" target="_blank">this book</a></li>
+</ul>
+
+<p>This page is part of the <a href="https://nownownow.com/" target="_blank">/now</a> movement.</p>
+
+<p class="type-small">Last modified 29th December 2019, 2:40pm.</p>
 
    </div>
 
 </article>
 
       
-   
       <!-- Footer -->
    <footer class="mt-medium mb-4 mb-lg-6">
       <h4 class="type-big"><span class="type-serif">Say hello — </span><a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a></h4>
@@ -75,7 +96,15 @@
             </h4>
       <h4 class="type-small pt2 mt-2 mb-4">Coded with <img class="emoji-small" src="../assets/images/site/heart.png"> (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</h4>  
    </footer>
-      </main>
+   </main>
    <!-- End Main -->
-</body>
+
+   
+   <!-- Script includes -->
+   <script>
+      if (screen && screen.width > 600) {
+      document.write('<script type="text/javascript" src="../assets/js/jquery.slim.min.js"><\/script>' +
+                     '<script type="text/javascript" src="../assets/js/index.js"><\/script>');
+      }
+   </script></body>
 </html>
