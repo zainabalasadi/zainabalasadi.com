@@ -31,6 +31,14 @@ body {
    color: $text-color;
 }
 
+.strong, strong {
+   font-weight: 700;
+}
+
+em {
+   font-style: italic;
+}
+
 /** Text highlighting **/
 ::-moz-selection {
    background: $highlight;
@@ -65,10 +73,6 @@ a {
    font-size: 14px;
    text-transform: uppercase;
    letter-spacing: $tracked;
-}
-
-.strong {
-   font-weight: 700;
 }
 
 /** Headings and typography types **/
@@ -149,7 +153,7 @@ p  {
 
 blockquote {
    font-weight: 700;
-   margin: 3em 0;
+   margin: $spacing-unit * 2 0;
    @extend .type-big;
 
    & p {

@@ -51,6 +51,12 @@ body {
   overflow-x: hidden;
   color: #24292E; }
 
+.strong, strong {
+  font-weight: 700; }
+
+em {
+  font-style: italic; }
+
 /** Text highlighting **/
 ::-moz-selection {
   background: #444444;
@@ -79,9 +85,6 @@ a {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.06em; }
-
-.strong {
-  font-weight: 700; }
 
 /** Headings and typography types **/
 h1 {
@@ -133,7 +136,7 @@ h1 {
 
 blockquote {
   font-weight: 700;
-  margin: 3em 0; }
+  margin: 4rem 0; }
   blockquote p {
     margin-bottom: 0; }
 
@@ -162,7 +165,7 @@ figcaption {
   text-align: center;
   color: #24292E;
   opacity: 0.75;
-  font-size: 0.8875rem; }
+  font-size: 0.95rem; }
 
 .styled-list-container {
   margin-left: 0;
