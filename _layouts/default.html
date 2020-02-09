@@ -5,6 +5,7 @@
 <body> 
    <!-- Main -->
    <main>
+      <div class="content-div">
       {% if page.id or page.url == "/about/" or page.url == "/now/" %}
       <!-- Back Link -->
       {% include back.html %}
@@ -23,6 +24,7 @@
          </div>
       </section>
       {% endif %}
+   </div>
       {% include footer.html %}
    </main>
    <!-- End Main -->
