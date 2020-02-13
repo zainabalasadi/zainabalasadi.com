@@ -194,7 +194,12 @@ body {
   height: 100%; }
 
 .content-div {
-  flex-grow: 1; }
+  flex-grow: 1;
+  max-width: 1160px; }
+  @media (min-width: 544px) {
+    .content-div {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 footer {
   flex-shrink: 0; }
@@ -204,14 +209,10 @@ footer {
 
 main {
   padding: 0 32px;
-  max-width: 1160px;
   margin: 0 auto;
   min-height: 100%;
   display: flex;
   flex-direction: column; }
-  @media (min-width: 544px) {
-    main {
-      padding: 40px; } }
 
 div {
   display: block; }
