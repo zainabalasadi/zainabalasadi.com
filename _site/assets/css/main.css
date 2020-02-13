@@ -198,8 +198,7 @@ body {
   max-width: 1160px; }
   @media (min-width: 544px) {
     .content-div {
-      padding-top: 40px;
-      padding-bottom: 40px; } }
+      padding: 40px 0 40px 0; } }
 
 footer {
   flex-shrink: 0; }
