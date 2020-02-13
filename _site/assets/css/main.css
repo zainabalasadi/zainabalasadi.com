@@ -196,9 +196,15 @@ body {
 .content-div {
   flex-grow: 1;
   max-width: 1160px; }
+  @media (min-width: 544px) {
+    .content-div {
+      padding-top: 40px; } }
 
 footer {
   flex-shrink: 0; }
+  @media (min-width: 544px) {
+    footer {
+      padding-bottom: 40px; } }
 
 main {
   padding: 0 32px;

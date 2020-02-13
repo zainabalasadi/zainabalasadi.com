@@ -12,23 +12,24 @@ body {
    display: flex;
    flex-direction: column;
    height: 100%;
+
 }
 
 .content-div {
    flex-grow: 1;
    max-width: $content-width;
 
-   // @media (min-width: $small-mobile) {
-   //    padding: 40px 0 40px 0;
-   // }
+   @media (min-width: $small-mobile) {
+      padding-top: 40px;
+   }
 }
 
 footer {
    flex-shrink: 0;
    
-   // @media (min-width: $small-mobile) {
-   //    padding-bottom: 40px;
-   // }
+   @media (min-width: $small-mobile) {
+      padding-bottom: 40px;
+   }
 }
 
 main {
