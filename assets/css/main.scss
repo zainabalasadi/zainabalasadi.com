@@ -3,57 +3,56 @@
 
 @charset "utf-8";
 
-@import url('https://rsms.me/inter/inter.css');
-
 @font-face {
-   font-family: 'Canela';
-   src: url('../fonts/Canela-Light.eot');
-   src: url('../fonts/Canela-Light.eot?#iefix') format('embedded-opentype'),
-   url('../fonts/Canela-Light.woff2') format('woff2'),
-   url('../fonts/Canela-Light.woff') format('woff'),
-   url('../fonts/Canela-Light.ttf') format('truetype');
-
+   font-family: 'Exchange';
+   font-style: normal;
+   font-weight: 200;
+   src: url('../fonts/Exchange-Light.woff') format('woff2'),
+   url('../fonts/Exchange-Light.woff') format('woff'),
 }
 
 @font-face {
-   font-family: 'HaasGrot';
+   font-family: 'Exchange';
+   font-style: normal;
    font-weight: 300;
-   font-style: normal;
-   src: url('../fonts/HaasGrot55.eot');
-   src: url('../fonts/HaasGrot55.eot?#iefix') format('embedded-opentype'),
-   url('../fonts/HaasGrot55.woff2') format('woff2'),
-   url('../fonts/HaasGrot55.woff') format('woff'),
-   url('../fonts/HaasGrot55.ttf') format('truetype');
+   src: url('../fonts/Exchange-Book.woff') format('woff2'),
+   url('../fonts/Exchange-Book.woff') format('woff'),
 }
 
 @font-face {
-   font-family: 'HaasGrot';
+   font-family: 'Exchange';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../fonts/Exchange-Medium.woff') format('woff2'),
+   url('../fonts/Exchange-Medium.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Colfax';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/Colfax-Regular.woff') format('woff2'),
+   url('../fonts/Colfax-Regular.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Colfax';
    font-style: italic;
-   src: url('../fonts/HaasGrot56.eot');
-   src: url('../fonts/HaasGrot56.eot?#iefix') format('embedded-opentype'),
-   url('../fonts/HaasGrot56.woff2') format('woff2'),
-   url('../fonts/HaasGrot56.woff') format('woff'),
-   url('../fonts/HaasGrot56.ttf') format('truetype');
+   font-weight: 400;
+   src: url('../fonts/Colfax-RegularItalic.woff') format('woff2'),
+   url('../fonts/Colfax-RegularItalic.woff') format('woff'),
 }
 
 @font-face {
-   font-family: 'HaasGrot';
-   font-weight: 700;
+   font-family: 'Colfax';
    font-style: normal;
-   src: url('../fonts/HaasGrot65.eot');
-   src: url('../fonts/HaasGrot65.eot?#iefix') format('embedded-opentype'),
-   url('../fonts/HaasGrot65.woff2') format('woff2'),
-   url('../fonts/HaasGrot65.woff') format('woff'),
-   url('../fonts/HaasGrot65.ttf') format('truetype');
-}
-
-
-// Font scaling
-@mixin relative-font-size($ratio) {
-   font-size: $base-font-size * $ratio;
+   font-weight: 500;
+   src: url('../fonts/Colfax-Medium.woff') format('woff2'),
+   url('../fonts/Colfax-Medium.woff') format('woff'),
 }
 
 // Media Queries
+// TODO
 @mixin media-query($device) {
    @media screen and (max-width: $device) {
       @content;
@@ -63,6 +62,5 @@
 // Import partials
 @import 
 "theme",
-"typography",
-"layout",
+"styles",
 "syntax-highlighting";

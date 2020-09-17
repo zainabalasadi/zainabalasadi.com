@@ -2,12 +2,13 @@
 layout:      page
 title:       "Zainab Alasadi · About"
 heading:     "About"
-keywords:    zainab alasadi, zainab alasadi designer, product designer, sydney, computer science, designer unsw, zainab, ux, design
 description: "Zainab Alasadi is a product designer."
 ---
 
-Hey there, thanks for clicking!
+I'm humbled that you made it here!
 
-My name is Zainab and I’m a designer with a background in Computer Science. I spend my time designing products, services and experiences that are purposeful, joyful and empowering. As a final year Computer Science and Media Arts student at UNSW (with a triple-major in artificial intelligence, graphic design and animation/VFX), I have a deep thirst to create, whatever the medium.
+I'm Zainab (zay-nab). I gravitate towards projects that have a great impact, from helping kids with low-literacy find books they love to supporting a sustainable future through sharing.
 
-When my nose isn’t pressed up against the screen and when I’m not interviewing users about their experiences, you can find me binge-watching TV shows, advocating for women in tech or organising my shirts by rainbow order. If you want to learn more about me, my work or where to get the best cheesecake in Sydney, feel free to [contact me](mailto:hello@zainabalasadi.com).
+When my nose isn’t pressed up against the screen, you can find me baking, reading and exploring the coasts of ever-sunny Sydney.
+
+If you want to learn more, say hi or find out where to get the best cheesecake in town, [reach out](mailto:hello@zainabalasadi.com)!

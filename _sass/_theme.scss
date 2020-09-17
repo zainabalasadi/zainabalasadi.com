@@ -1,33 +1,20 @@
-// Typography
-$body:                'HaasGrot', Helvetica, sans-serif;
-$serif:               'Canela', serif;
+:root {
+    --serif: Exchange, Georgia, serif;
+    --sans-serif: Colfax, Helvetica, sans-serif;
 
-// Base
-$base-font-family:     $body;
-$base-font-size:       1rem;
-$base-font-weight:     400;
-$base-line-height:     1.8;
-$base-letter-spacing:  0.6px;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-grey:  #696969;
+    --color-text:  #050505;
 
-// Spacing
-$spacing-unit:         2rem;
-$spacing-unit-sm:      1rem;
-$tracked:             .06em;
-
-// Media queries
-$content-width:        1160px;
-$small-mobile:         544px;
-$mobile:               600px;
-$laptop:               768px;
-$desktop:              1200px;
-
-// Colors
-$white:                #FFFFFF;
-$black:                #000000;
-$grey:                 #D9D9D9;
-$highlight:            #444444;
-$text-color:           #24292E;
-$background-color:       $white;
-
-// Misc
-$time:                 0.5s;
+    --breakpoint-sm-max: 720px;
+    --breakpoint-sm-min: calc(var(--breakpoint-sm-max) - 1);
+    --breakpoint-md-max: 1024px;
+    --breakpoint-md-min: calc(var(--breakpoint-md-max) - 1);;
+    
+    --space-base: 8px;
+    --space-micro: calc(var(--space-base) / 2);
+    --space-small: calc(var(--space-base) * 2);
+    --space-medium: calc(var(--space-base) * 3);
+    --space-large: calc(var(--space-base) * 4);
+}

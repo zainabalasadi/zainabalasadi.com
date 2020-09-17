@@ -3,24 +3,27 @@
    <!-- Sizing -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-   <!-- Basics -->
+   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+   <meta name="msapplication-tap-highlight" content="no"/>
+
+   <!-- Basic SEO, formatted [Default, Twitter, Open Graph] -->
    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
    <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.title }}{% endif %}">
+   <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+   <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+   <meta name="theme-color" content="{% if page.color %}{{ page.color }}{% else %}{{ site.color }}{% endif %}">
 
    <!-- Twitter Card data -->
    <meta name="twitter:site" content="@{{ site.twitter_username }}">
-   <meta name="twitter:title" content="{{ page.title }}">
-   <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
    <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:image" content="{{ site.site_image }}"/>
+
    <!-- Open Graph data -->
-   <meta property="og:title" content="{{ page.title }}"/>
    <meta property="og:type" content="website"/>
    <meta property="og:image" content="{{ site.site_image }}"/>
-   <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
    <meta property="og:site_name" content="{{ site.title }}"/>
 
    <!-- Styling -->

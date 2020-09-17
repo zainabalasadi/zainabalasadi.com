@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!--
+
+      |--------------------|
+      |    HELLO  THERE!   |
+      |--------------------|
+   (\__/)  ||
+   (•ㅅ•) ||
+   / 　 づ      
+
+  No need to peek! 
+  The code for this site is publicly accessible
+  https://github.com/zainabalasadi/zainabalasadi.com
+
+-->
+
+<html lang="en">
 {% include head.html %}
-<!-- Body -->
 <body> 
-   <!-- Main -->
-   <main>
-      <div class="content-div">
-      {% if page.id or page.url == "/about/" or page.url == "/now/" %}
-      <!-- Back Link -->
+   <div>
       {% include back.html %}
-      {% endif %}
       {{ content }}
 
       {% if page.id %}
-      <section>
-         <div class="flush-left w-50-ns">
-            <!-- Back Link -->
+      <div>
+         <div>
             <p><a href="{{ site.baseurl }}" alt="Go back">← Back</a></p>
          </div>
-         <div class="flush-right align-right w-50-ns">
-            <!-- Next Page -->
+         <div>
             {% include next.html %}
          </div>
-      </section>
+      </div>
       {% endif %}
    </div>
-      {% include footer.html %}
-   </main>
-   <!-- End Main -->
 
-   {% if page.layout == 'home' or page.url == "/now/" %}
-   <!-- Script includes -->
+   {% if page.layout == 'home'%}
    <script>
-      if (screen && screen.width > 600) {
+      if (screen && screen.width > 719) {
       document.write('<script type="text/javascript" src="../assets/js/jquery.slim.min.js"><\/script>' +
                      '<script type="text/javascript" src="../assets/js/index.js"><\/script>');
       }
