@@ -4,33 +4,10 @@
 @charset "utf-8";
 
 @font-face {
-   font-family: 'Exchange';
-   font-style: normal;
-   font-weight: 200;
-   src: url('../fonts/Exchange-Light.woff') format('woff2'),
-   url('../fonts/Exchange-Light.woff') format('woff'),
-}
-
-@font-face {
-   font-family: 'Exchange';
-   font-style: normal;
-   font-weight: 300;
-   src: url('../fonts/Exchange-Book.woff') format('woff2'),
-   url('../fonts/Exchange-Book.woff') format('woff'),
-}
-
-@font-face {
-   font-family: 'Exchange';
-   font-style: normal;
-   font-weight: 500;
-   src: url('../fonts/Exchange-Medium.woff') format('woff2'),
-   url('../fonts/Exchange-Medium.woff') format('woff'),
-}
-
-@font-face {
    font-family: 'Colfax';
    font-style: normal;
    font-weight: 400;
+   font-display: swap;
    src: url('../fonts/Colfax-Regular.woff') format('woff2'),
    url('../fonts/Colfax-Regular.woff') format('woff'),
 }
@@ -39,6 +16,7 @@
    font-family: 'Colfax';
    font-style: italic;
    font-weight: 400;
+   font-display: swap;
    src: url('../fonts/Colfax-RegularItalic.woff') format('woff2'),
    url('../fonts/Colfax-RegularItalic.woff') format('woff'),
 }
@@ -47,16 +25,54 @@
    font-family: 'Colfax';
    font-style: normal;
    font-weight: 500;
+   font-display: swap;
    src: url('../fonts/Colfax-Medium.woff') format('woff2'),
    url('../fonts/Colfax-Medium.woff') format('woff'),
 }
 
-// Media Queries
-// TODO
-@mixin media-query($device) {
-   @media screen and (max-width: $device) {
-      @content;
-   }
+@font-face {
+   font-family: 'Bradford';
+   font-style: normal;
+   font-weight: 200;
+   font-display: swap;
+   src: url('../fonts/BradfordLL-Light.woff') format('woff2'),
+   url('../fonts/BradfordLL-Light.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Bradford';
+   font-style: italic;
+   font-weight: 200;
+   font-display: swap;
+   src: url('../fonts/BradfordLL-LightItalic.woff') format('woff2'),
+   url('../fonts/BradfordLL-LightItalic.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Bradford';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url('../fonts/BradfordLL-Medium.woff') format('woff2'),
+   url('../fonts/BradfordLL-Medium.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Bradford';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('../fonts/BradfordLL-Regular.woff') format('woff2'),
+   url('../fonts/BradfordLL-Regular.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'Bradford';
+   font-style: italic;
+   font-weight: 400;
+   font-display: swap;
+   src: url('../fonts/BradfordLL-RegularItalic.woff') format('woff2'),
+   url('../fonts/BradfordLL-RegularItalic.woff') format('woff'),
 }
 
 // Import partials

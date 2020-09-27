@@ -6,7 +6,7 @@ image:        "../assets/images/oscar/oscar_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "oscar"
-color:        "#00A8A6"
+color:        "#680032"
 weight:       2
 
 role:         "Lead Product Design Intern"
@@ -20,7 +20,7 @@ description:  "Launched in 2016, Oscar is a budding startup and peer-to-peer mar
 ### Hello I'm a H3
 #### Hello I'm a H4
 
-In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience.
+In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience. 00A8A6 
 
 ## The Problem
 Oscar’s premise is simple—tap a couple buttons to book a parking spot or tap a couple buttons to list your parking spot and start earning. However, as the product and user base began to grow, more features were piled on that generated a myriad of friction points that effectively impeded users from completing their goals.
@@ -35,7 +35,10 @@ The high level goals were to:
 
 As a sole UX designer on this effort, I joined a team of 2 developers and a project manager to create a vision for sharing experiences of the future all in under 3 short months.
 
+> Geoff Ryman: 253 (Harper Collins, origionally online only 1996, physically published in 1998)
+
 ## Picking up the Pieces
+{: #approach }
 Besides heuristic analysis and initial chats with the team, I had little insight into where—within the product—usability issues were arising from. I began speaking to stakeholders at Oscar to learn about the business and the product goals. These interviews helped in learning about previous research, determining the scope for the project and to better understand the opportunity for the redesign.
 
 ## Learning from the Users

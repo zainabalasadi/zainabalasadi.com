@@ -29,7 +29,7 @@
    <meta name="description" content="Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empt...">
    <meta name="twitter:description" content="Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empt...">
    <meta property="og:description" content="Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empt...">
-   <meta name="theme-color" content="#00A8A6">
+   <meta name="theme-color" content="#680032">
 
    <!-- Twitter Card data -->
    <meta name="twitter:site" content="@ohhizainab">
@@ -63,25 +63,48 @@
 </head>
 
 <body> 
-   <div>
-      <p>
-    <a href="../" alt="Go back">← Back</a>
-</p>
-      <div class="article-page layout-grid"> 
-   <div class="article-page__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-      <h1>Learning to summarise with feedback</h1>
-      <h2>Oscar</h2>
-      <p>Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living.</p>
-      <p>Lead Product Design Intern</p>
-      <p>PM and 2 developers</p>
-      <p>June 2018 - August 2018</p>
-      <img src="../assets/images/oscar/oscar_hero.jpg">
-      <h1>Hello I’m a H1</h1>
+   <div class="article-hero">
+   <div class="article-hero__img"></div>
+
+
+
+
+   <div class="article layout-grid">
+      <div style="z-index: 1" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+         <h1>Learning to summarise with feedback</h1>
+         <h2>Oscar</h2>
+         <p>Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living.</p>
+         <p>Lead Product Design Intern</p>
+         <p>PM and 2 developers</p>
+         <p>June 2018 - August 2018</p>
+         END
+      </div>
+      <div id="container">
+         <div id="box" style="background-color: #680032; translate3d(0px, -28px, 0px); position: absolute; left: 0; width: 100%; height: 550px;"></div> 
+      </div>
+
+
+      <aside class="sans-serif-text grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
+         <p>Contents</p>
+         <ol class="article__structure-list">
+           <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
+           <li><a class="no-underline" href="#approach">Approach</a></li>
+           <li><a class="no-underline" href="#limitations">Limitations</a></li>
+           <li><a class="no-underline" href="#futuredirections">Future&nbsp;directions</a></li>
+           <li><a class="no-underline" href="#timeline">Timeline</a></li>
+         </ol>
+         <hr class="md-none">
+      </aside>
+      
+
+      <div class="article__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+         
+         <h1>Hello I’m a H1</h1>
 <h2>Hello I’m a H2</h2>
 <h3>Hello I’m a H3</h3>
 <h4>Hello I’m a H4</h4>
 
-<p>In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience.</p>
+<p>In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience. 00A8A6</p>
 
 <h2>The Problem</h2>
 <p>Oscar’s premise is simple—tap a couple buttons to book a parking spot or tap a couple buttons to list your parking spot and start earning. However, as the product and user base began to grow, more features were piled on that generated a myriad of friction points that effectively impeded users from completing their goals.</p>
@@ -98,7 +121,11 @@
 
 <p>As a sole UX designer on this effort, I joined a team of 2 developers and a project manager to create a vision for sharing experiences of the future all in under 3 short months.</p>
 
-<h2>Picking up the Pieces</h2>
+<blockquote>
+  <p>Geoff Ryman: 253 (Harper Collins, origionally online only 1996, physically published in 1998)</p>
+</blockquote>
+
+<h2 id="approach">Picking up the Pieces</h2>
 <p>Besides heuristic analysis and initial chats with the team, I had little insight into where—within the product—usability issues were arising from. I began speaking to stakeholders at Oscar to learn about the business and the product goals. These interviews helped in learning about previous research, determining the scope for the project and to better understand the opportunity for the redesign.</p>
 
 <h2>Learning from the Users</h2>
@@ -128,23 +155,47 @@
 
 <p><img src="../assets/images/oscar/oscar_research_toolkit.jpg" alt="The Oscar research toolkit" /></p>
 
-
-      <footer>
+   
+         <footer>
    <div class="sans-serif-text">
-      Say hello — <a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a>
+      <span>Say hello — </span>
+      <span><a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a></span>
    </div>
-   <div class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</div>  
+   <span class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
 </footer>
+      </div>
    </div>
 </div>
 
+<!-- <script>
+   window.addEventListener('load', function() {
+   var box = document.getElementById('box'),
+   docHeight = document.documentElement.offsetHeight;
+  
+   window.addEventListener('scroll', function() {
+      // normalize scroll position as percentage
+      var scrolled = window.scrollY / ( window.innerHeight - 0.5),
+      transformValue = 'scale3d('+scrolled+', '+scrolled+', '+scrolled+')';
+
+      box.style.WebkitTransform = transformValue;
+      box.style.MozTransform = transformValue;
+      box.style.OTransform = transformValue;
+      box.style.transform = transformValue;
       
+      }, false);
+  
+   }, false);
+</script> -->
+
+
+
+   
+   <div>
       <div>
-         <div>
-            <p><a href="" alt="Go back">← Back</a></p>
-         </div>
-         <div>
-            <p><a href="## Defining the problem
+         <p><a href="" alt="Go back">← Back</a></p>
+      </div>
+      <div>
+         <p><a href="## Defining the problem
 The start of a user's relationship with the Oscar app is the perfect opportunity to tell a complete, consistent and compelling story. Nowhere else is it more important to get the tone right, the instructions clear and allow user to begin to develop trust in the product.
 
 Reviewing our statistics just a couple of weeks prior to redesigning, we knew that onboarding was letting us down. We were experiencing big dropout rates in onboarding (around 20% at every screen involved in the onboarding process) and returning users often had difficulty accessing their account, reaching out to customer support or even resorting to resetting their password.
@@ -302,10 +353,9 @@ Louise Chen (Co-founder, Project Manager)
 Dmitri Zakharov (Developer)
 
 Danny Kim (Developer)" alt="Next Post">Next Project →</a></p>
-         </div>
       </div>
-      
    </div>
+   
 
    </body>
 </html>

@@ -63,20 +63,43 @@
 </head>
 
 <body> 
-   <div>
-      <p>
-    <a href="../" alt="Go back">← Back</a>
-</p>
-      <div class="article-page layout-grid"> 
-   <div class="article-page__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-      <h1>Reimagining the onboarding experience</h1>
-      <h2>Oscar</h2>
-      <p>Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces in order to effectively support a sustainable future through sharing.</p>
-      <p>Product Design Intern</p>
-      <p>PM and 2 developers</p>
-      <p>June 2018 - July 2018</p>
-      <img src="../assets/images/oscar/oscar_hero.jpg">
-      <h2>Defining the problem</h2>
+   <div class="article-hero">
+   <div class="article-hero__img"></div>
+
+
+
+
+   <div class="article layout-grid">
+      <div style="z-index: 1" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+         <h1>Reimagining the onboarding experience</h1>
+         <h2>Oscar</h2>
+         <p>Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces in order to effectively support a sustainable future through sharing.</p>
+         <p>Product Design Intern</p>
+         <p>PM and 2 developers</p>
+         <p>June 2018 - July 2018</p>
+         END
+      </div>
+      <div id="container">
+         <div id="box" style="background-color: #00A8A6; translate3d(0px, -28px, 0px); position: absolute; left: 0; width: 100%; height: 550px;"></div> 
+      </div>
+
+
+      <aside class="sans-serif-text grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
+         <p>Contents</p>
+         <ol class="article__structure-list">
+           <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
+           <li><a class="no-underline" href="#approach">Approach</a></li>
+           <li><a class="no-underline" href="#limitations">Limitations</a></li>
+           <li><a class="no-underline" href="#futuredirections">Future&nbsp;directions</a></li>
+           <li><a class="no-underline" href="#timeline">Timeline</a></li>
+         </ol>
+         <hr class="md-none">
+      </aside>
+      
+
+      <div class="article__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+         
+         <h2>Defining the problem</h2>
 <p>The start of a user’s relationship with the Oscar app is the perfect opportunity to tell a complete, consistent and compelling story. Nowhere else is it more important to get the tone right, the instructions clear and allow user to begin to develop trust in the product.</p>
 
 <p>Reviewing our statistics just a couple of weeks prior to redesigning, we knew that onboarding was letting us down. We were experiencing big dropout rates in onboarding (around 20% at every screen involved in the onboarding process) and returning users often had difficulty accessing their account, reaching out to customer support or even resorting to resetting their password.</p>
@@ -253,27 +276,50 @@ Read on how I redesigned the rest of the app here.</p>
 
 <p>Danny Kim (Developer)</p>
 
-
-      <footer>
+   
+         <footer>
    <div class="sans-serif-text">
-      Say hello — <a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a>
+      <span>Say hello — </span>
+      <span><a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a></span>
    </div>
-   <div class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</div>  
+   <span class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
 </footer>
+      </div>
    </div>
 </div>
 
+<!-- <script>
+   window.addEventListener('load', function() {
+   var box = document.getElementById('box'),
+   docHeight = document.documentElement.offsetHeight;
+  
+   window.addEventListener('scroll', function() {
+      // normalize scroll position as percentage
+      var scrolled = window.scrollY / ( window.innerHeight - 0.5),
+      transformValue = 'scale3d('+scrolled+', '+scrolled+', '+scrolled+')';
+
+      box.style.WebkitTransform = transformValue;
+      box.style.MozTransform = transformValue;
+      box.style.OTransform = transformValue;
+      box.style.transform = transformValue;
       
+      }, false);
+  
+   }, false);
+</script> -->
+
+
+
+   
+   <div>
       <div>
-         <div>
-            <p><a href="" alt="Go back">← Back</a></p>
-         </div>
-         <div>
-            <p><a href="" alt="Next Post">Next Project →</a></p>
-         </div>
+         <p><a href="" alt="Go back">← Back</a></p>
       </div>
-      
+      <div>
+         <p><a href="" alt="Next Post">Next Project →</a></p>
+      </div>
    </div>
+   
 
    </body>
 </html>

@@ -17,21 +17,18 @@
 <html lang="en">
 {% include head.html %}
 <body> 
-   <div>
-      {% include back.html %}
-      {{ content }}
+   {{ content }}
 
-      {% if page.id %}
+   {% if page.id %}
+   <div>
       <div>
-         <div>
-            <p><a href="{{ site.baseurl }}" alt="Go back">← Back</a></p>
-         </div>
-         <div>
-            {% include next.html %}
-         </div>
+         <p><a href="{{ site.baseurl }}" alt="Go back">← Back</a></p>
       </div>
-      {% endif %}
+      <div>
+         {% include next.html %}
+      </div>
    </div>
+   {% endif %}
 
    {% if page.layout == 'home'%}
    <script>

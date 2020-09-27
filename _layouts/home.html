@@ -1,5 +1,26 @@
 ---
 layout: default
 ---
-   {{ content }}
-   {% include footer.html %}
+<div class="homepage">
+   <div class="homepage__grid layout-grid"> 
+      <div class="homepage__content layout-grid__cell layout-grid__cell--span-7-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+      {{ content }}
+      <h2>Work</h2>
+      <hr>
+      {%- for post in site.posts -%}
+      {% if post.categories contains 'case-study' and post.status != 'draft' %}
+      
+      <div class="homepage__works">
+         <a href="{{ post.url }}">
+            <h3 class="sans-serif-text">{{ post.catchy-title }}</h3>
+            <h3 class="sans-serif-text grey-text">{{ post.company }}</h3>
+         </a>
+      </div>
+      <hr>
+      {% endif %}
+      {%- endfor -%} 
+
+      {% include footer.html %}
+      </div>
+   </div>
+</div>
