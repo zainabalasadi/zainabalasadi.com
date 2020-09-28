@@ -44,6 +44,7 @@
 
    <!-- Styling -->
    <link rel="stylesheet" href="assets/css/main.css">
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
    
    <!-- Favicon -->
    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/site/favicon-180x180.png">
@@ -76,50 +77,77 @@
       <hr>
       
       <div class="homepage__works">
-         <a href="/macquarie/">
-            <h3 class="sans-serif-text">Scaling design systems</h3>
-            <h3 class="sans-serif-text grey-text">Macquarie Group</h3>
+         <a id="macquarie" onmouseover="addClass(body, 'macquarie')" onmouseout="removeClass(body, 'macquarie')" onmouseout="" href="/macquarie/">
+            <h3 class="sans-serif">Scaling design systems</h3>
+            <h3 class="sans-serif grey-text">Macquarie Group</h3>
          </a>
       </div>
       <hr>
       
       
       <div class="homepage__works">
-         <a href="/oscar-onboarding/">
-            <h3 class="sans-serif-text">Reimagining the onboarding experience</h3>
-            <h3 class="sans-serif-text grey-text">Oscar</h3>
+         <a id="oscar-onboarding" onmouseover="addClass(body, 'oscar-onboarding')" onmouseout="removeClass(body, 'oscar-onboarding')" onmouseout="" href="/oscar-onboarding/">
+            <h3 class="sans-serif">Reimagining the onboarding experience</h3>
+            <h3 class="sans-serif grey-text">Oscar</h3>
          </a>
       </div>
       <hr>
       
       
       <div class="homepage__works">
-         <a href="/oscar/">
-            <h3 class="sans-serif-text">Learning to summarise with feedback</h3>
-            <h3 class="sans-serif-text grey-text">Oscar</h3>
+         <a id="oscar" onmouseover="addClass(body, 'oscar')" onmouseout="removeClass(body, 'oscar')" onmouseout="" href="/oscar/">
+            <h3 class="sans-serif">Learning to summarise with feedback</h3>
+            <h3 class="sans-serif grey-text">Oscar</h3>
          </a>
       </div>
       <hr>
       
       
       <div class="homepage__works">
-         <a href="/mixer/">
-            <h3 class="sans-serif-text">Enabling music discovery with voice</h3>
-            <h3 class="sans-serif-text grey-text">Amazon Alexa</h3>
+         <a id="mixer" onmouseover="addClass(body, 'mixer')" onmouseout="removeClass(body, 'mixer')" onmouseout="" href="/mixer/">
+            <h3 class="sans-serif">Enabling music discovery with voice</h3>
+            <h3 class="sans-serif grey-text">Amazon Alexa</h3>
          </a>
       </div>
       <hr>
       <footer>
-   <div class="sans-serif-text">
+   <div class="sans-serif">
       <span>Say hello — </span>
       <span><a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a></span>
    </div>
-   <span class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
+   <span class="sans-serif">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
 </footer>
       </div>
    </div>
 </div>
 
+<script>
+   var body = document.body;
+
+   function addClass(element, nameOfClass) {
+      if (element.classList) {
+         element.classList.add(nameOfClass);
+      }
+      else {
+         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
+         if (!element.className.match(regExp)) {
+            element.className += " " + nameOfClass;
+         }
+      }
+   }
+
+   function removeClass(element, nameOfClass) {
+      if (element.classList) {
+         element.classList.remove(nameOfClass);
+      }
+      else {
+         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
+         if (element.className.match(regExp)) {
+            element.className.replace(regExp, ' ');
+         }
+      }
+   }
+</script>
 
    
 

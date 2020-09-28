@@ -3,27 +3,22 @@ layout: default
 ---
 
 <div class="article-hero">
-   <div class="article-hero__img"></div>
-
-
-
+   <!-- <div class="article-hero__img"></div> -->
+   <div style="background-color: {{ page.color }}; width: 100%; height: 100%">
+      <div class="article layout-grid">
+         <div id="article__hero" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+            <p class="overline">{{ page.company }}</p>
+            <h1>{{ page.catchy-title }}</h1>
+            <p class="sans-serif sans-serif--large">{{ page.description }}</p>
+            <p class="sans-serif sans-serif--small">{{ page.role }}</p>
+            <p class="sans-serif sans-serif--small">{{ page.team }}</p>
+            <p class="sans-serif sans-serif--small">{{ page.timeline }}</p>
+         </div>
+      </div>
+   </div>
 
    <div class="article layout-grid">
-      <div style="z-index: 1" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-         <h1>{{ page.catchy-title }}</h1>
-         <h2>{{ page.company }}</h2>
-         <p>{{ page.description }}</p>
-         <p>{{ page.role }}</p>
-         <p>{{ page.team }}</p>
-         <p>{{ page.timeline }}</p>
-         END
-      </div>
-      <div id="container">
-         <div id="box" style="background-color: {{ page.color }}; translate3d(0px, -28px, 0px); position: absolute; left: 0; width: 100%; height: 550px;"></div> 
-      </div>
-
-
-      <aside class="sans-serif-text grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
+      <aside class="sans-serif grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
          <p>Contents</p>
          <ol class="article__structure-list">
            <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
@@ -45,23 +40,25 @@ layout: default
    </div>
 </div>
 
-<!-- <script>
-   window.addEventListener('load', function() {
-   var box = document.getElementById('box'),
-   docHeight = document.documentElement.offsetHeight;
-  
-   window.addEventListener('scroll', function() {
-      // normalize scroll position as percentage
-      var scrolled = window.scrollY / ( window.innerHeight - 0.5),
-      transformValue = 'scale3d('+scrolled+', '+scrolled+', '+scrolled+')';
+<script>
+   $(window).scroll(function(e){ 
+      var $element = $('.article__structure'); 
+      var isPositionFixed = ($element.css('position') == 'fixed');
 
-      box.style.WebkitTransform = transformValue;
-      box.style.MozTransform = transformValue;
-      box.style.OTransform = transformValue;
-      box.style.transform = transformValue;
-      
-      }, false);
-  
-   }, false);
-</script> -->
+      var topHeight = document.getElementById("article__hero").offsetHeight;
+      var top = 40;
+      var scrollLimit = topHeight - top; 
+
+      if ($(window).width() > 1024) {
+         if ($(this).scrollTop() > scrollLimit && !isPositionFixed) { 
+            $element.css({'position': 'fixed', 'top': top}); 
+         } else if ($(this).scrollTop() < scrollLimit && isPositionFixed) {
+            $element.css({'position': 'static', 'top': '0px'}); 
+         } 
+      } else if (isPositionFixed && $(window).width() < 1024) {
+         $element.css({'position': 'static', 'top': '0px'}); 
+      }
+   });
+</script>
+
 

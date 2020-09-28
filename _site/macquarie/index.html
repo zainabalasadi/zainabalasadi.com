@@ -44,6 +44,7 @@
 
    <!-- Styling -->
    <link rel="stylesheet" href="../assets/css/main.css">
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
    
    <!-- Favicon -->
    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/site/favicon-180x180.png">
@@ -64,27 +65,22 @@
 
 <body> 
    <div class="article-hero">
-   <div class="article-hero__img"></div>
-
-
-
+   <!-- <div class="article-hero__img"></div> -->
+   <div style="background-color: #000000; width: 100%; height: 100%">
+      <div class="article layout-grid">
+         <div id="article__hero" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+            <p class="overline">Macquarie Group</p>
+            <h1>Scaling design systems</h1>
+            <p class="sans-serif sans-serif--large">As part of a 3 day design challenge, I designed an Amazon Alexa extension, Playlist Mixer that takes the knowledge base from a users Amazon Music account and humanises music suggestions through Alexa, creating an effortless music discovery experience and effectively closing the gap between the two native Amazon products.</p>
+            <p class="sans-serif sans-serif--small">UX Designer</p>
+            <p class="sans-serif sans-serif--small">N/A</p>
+            <p class="sans-serif sans-serif--small">February 2019</p>
+         </div>
+      </div>
+   </div>
 
    <div class="article layout-grid">
-      <div style="z-index: 1" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-         <h1>Scaling design systems</h1>
-         <h2>Macquarie Group</h2>
-         <p>As part of a 3 day design challenge, I designed an Amazon Alexa extension, Playlist Mixer that takes the knowledge base from a users Amazon Music account and humanises music suggestions through Alexa, creating an effortless music discovery experience and effectively closing the gap between the two native Amazon products.</p>
-         <p>UX Designer</p>
-         <p>N/A</p>
-         <p>February 2019</p>
-         END
-      </div>
-      <div id="container">
-         <div id="box" style="background-color: #000000; translate3d(0px, -28px, 0px); position: absolute; left: 0; width: 100%; height: 550px;"></div> 
-      </div>
-
-
-      <aside class="sans-serif-text grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
+      <aside class="sans-serif grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
          <p>Contents</p>
          <ol class="article__structure-list">
            <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
@@ -103,35 +99,37 @@
 
    
          <footer>
-   <div class="sans-serif-text">
+   <div class="sans-serif">
       <span>Say hello — </span>
       <span><a href="mailto:hello@zainabalasadi.com">hello@zainabalasadi.com</a></span>
    </div>
-   <span class="sans-serif-text">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
+   <span class="sans-serif">Built with ❤ (<a href="https://github.com/zainabalasadi/zainabalasadi.com" target="_blank">source</a>).</span>  
 </footer>
       </div>
    </div>
 </div>
 
-<!-- <script>
-   window.addEventListener('load', function() {
-   var box = document.getElementById('box'),
-   docHeight = document.documentElement.offsetHeight;
-  
-   window.addEventListener('scroll', function() {
-      // normalize scroll position as percentage
-      var scrolled = window.scrollY / ( window.innerHeight - 0.5),
-      transformValue = 'scale3d('+scrolled+', '+scrolled+', '+scrolled+')';
+<script>
+   $(window).scroll(function(e){ 
+      var $element = $('.article__structure'); 
+      var isPositionFixed = ($element.css('position') == 'fixed');
 
-      box.style.WebkitTransform = transformValue;
-      box.style.MozTransform = transformValue;
-      box.style.OTransform = transformValue;
-      box.style.transform = transformValue;
-      
-      }, false);
-  
-   }, false);
-</script> -->
+      var topHeight = document.getElementById("article__hero").offsetHeight;
+      var top = 40;
+      var scrollLimit = topHeight - top; 
+
+      if ($(window).width() > 1024) {
+         if ($(this).scrollTop() > scrollLimit && !isPositionFixed) { 
+            $element.css({'position': 'fixed', 'top': top}); 
+         } else if ($(this).scrollTop() < scrollLimit && isPositionFixed) {
+            $element.css({'position': 'static', 'top': '0px'}); 
+         } 
+      } else if (isPositionFixed && $(window).width() < 1024) {
+         $element.css({'position': 'static', 'top': '0px'}); 
+      }
+   });
+</script>
+
 
 
 

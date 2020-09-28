@@ -11,9 +11,9 @@ layout: default
       {% if post.categories contains 'case-study' and post.status != 'draft' %}
       
       <div class="homepage__works">
-         <a href="{{ post.url }}">
-            <h3 class="sans-serif-text">{{ post.catchy-title }}</h3>
-            <h3 class="sans-serif-text grey-text">{{ post.company }}</h3>
+         <a id="{{ post.slug }}" onmouseover="addClass(body, '{{ post.slug }}')" onmouseout="removeClass(body, '{{ post.slug }}')" onmouseout="" href="{{ post.url }}">
+            <h3 class="sans-serif">{{ post.catchy-title }}</h3>
+            <h3 class="sans-serif grey-text">{{ post.company }}</h3>
          </a>
       </div>
       <hr>
@@ -24,3 +24,31 @@ layout: default
       </div>
    </div>
 </div>
+
+<script>
+   var body = document.body;
+
+   function addClass(element, nameOfClass) {
+      if (element.classList) {
+         element.classList.add(nameOfClass);
+      }
+      else {
+         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
+         if (!element.className.match(regExp)) {
+            element.className += " " + nameOfClass;
+         }
+      }
+   }
+
+   function removeClass(element, nameOfClass) {
+      if (element.classList) {
+         element.classList.remove(nameOfClass);
+      }
+      else {
+         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
+         if (element.className.match(regExp)) {
+            element.className.replace(regExp, ' ');
+         }
+      }
+   }
+</script>

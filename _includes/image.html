@@ -1,7 +1,12 @@
 {% if include.caption %}
-<div>
+<div class="image-block">
    <img src="{{ include.url }}" alt="{{ include.description }}">
-   <caption>{{ include.caption }}</caption>
+   <figcaption>
+      {% if include.caption-strong %}
+      <p class="caption caption--strong">{{ include.caption-strong }}</p>
+      {% endif %}
+      <p class="caption">{{ include.caption }}</p>
+   </figcaption>
 </div>
 {% else %}
 <img src="{{ include.url }}" alt="{{ include.description }}">

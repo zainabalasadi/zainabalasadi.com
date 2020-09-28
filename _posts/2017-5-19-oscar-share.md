@@ -6,24 +6,29 @@ image:        "../assets/images/oscar/oscar_hero.jpg"
 categories:   case-study
 layout:       post
 slug:         "oscar"
-color:        "#680032"
+color:        "#0E2065"
 weight:       2
 
 role:         "Lead Product Design Intern"
 team:         "PM and 2 developers"
 timeline:     "June 2018 - August 2018"
-description:  "Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living."
+description:  "Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living. Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living. Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living. Launched in 2016, Oscar is a budding startup and peer-to-peer marketplace that connects drivers looking for parking spaces with property owners who have empty parking spaces to effectively support a sustainable future through co-living."
 ---
 
 # Hello I'm a H1
 ## Hello I'm a H2
 ### Hello I'm a H3
-#### Hello I'm a H4
 
-In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience. 00A8A6 
+In 2018, I interned at Oscar where I was responsible for undertaking a complete overhaul of the product and create a painless sharing experience. 680032 
 
 ## The Problem
 Oscar’s premise is simple—tap a couple buttons to book a parking spot or tap a couple buttons to list your parking spot and start earning. However, as the product and user base began to grow, more features were piled on that generated a myriad of friction points that effectively impeded users from completing their goals.
+
+{% include image.html url="../assets/images/site/test.jpg" caption="My cat, Robert Downey Jr." caption-strong="I am strong" %}
+
+{% include image.html url="../assets/images/site/test.jpg" caption="My cat, Robert Downey Jr is an amazing little guy with the best patience and cuddles." %}
+
+However, as the product and user base began to grow, more features were piled on that generated a myriad of friction points that effectively impeded users from completing their goals.
 
 ## The Challenge
 Quite simply, our goal was to restore the original premise of Oscar but to also create strong foundation that evolves with user needs. 
@@ -56,7 +61,3 @@ To further cement the impact that each feature had on the user when conducting u
 5. What happens afterwards?
 6. After the interaction with this feature, how do I want users to feel?
 7. What do I want users to take away from the experience?
-
-{% include image.html url="/images/my-cat.jpg" caption="My cat, Robert Downey Jr." %}
-
-![The Oscar research toolkit](../assets/images/oscar/oscar_research_toolkit.jpg)
