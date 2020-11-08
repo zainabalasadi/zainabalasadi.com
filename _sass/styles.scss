@@ -170,8 +170,7 @@ hr {
 
 /** Article **/
 .article {
-   margin-left: 0;
-   margin-right: 0;
+   margin: 4rem auto;
    padding: 0 1.5rem;
 
    @media screen and (min-width: $breakpoint-md-max) {
@@ -196,7 +195,7 @@ hr {
       font-size: 1.5rem;
       line-height: 2rem;
       margin-bottom: 0.5rem;
-      margin-top: 2.5rem;
+      margin-top: 3rem;
 
       @media screen and (min-width: $breakpoint-md-max) {
          font-size: 2rem;

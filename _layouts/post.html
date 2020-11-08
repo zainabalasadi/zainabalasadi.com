@@ -17,25 +17,27 @@ layout: default
       </div>
    </div>
 
-   <div class="article layout-grid">
-      <aside class="sans-serif grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
-         <p>Contents</p>
-         <ol class="article__structure-list">
-           <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
-           <li><a class="no-underline" href="#approach">Approach</a></li>
-           <li><a class="no-underline" href="#limitations">Limitations</a></li>
-           <li><a class="no-underline" href="#futuredirections">Future&nbsp;directions</a></li>
-           <li><a class="no-underline" href="#timeline">Timeline</a></li>
-         </ol>
-         <hr class="md-none">
-      </aside>
-      
-
-      <div class="article__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+   <div class="article">
+      <div class="layout-grid">
+         <aside class="sans-serif grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
+            <p>Contents</p>
+            <ol class="article__structure-list">
+            <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
+            <li><a class="no-underline" href="#approach">Approach</a></li>
+            <li><a class="no-underline" href="#limitations">Limitations</a></li>
+            <li><a class="no-underline" href="#futuredirections">Future&nbsp;directions</a></li>
+            <li><a class="no-underline" href="#timeline">Timeline</a></li>
+            </ol>
+            <hr class="md-none">
+         </aside>
          
-         {{ content }}
-   
-         {% include footer.html %}
+
+         <div class="article__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
+            
+            {{ content }}
+      
+            {% include footer.html %}
+         </div>
       </div>
    </div>
 </div>
