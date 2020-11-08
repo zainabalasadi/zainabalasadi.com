@@ -3,52 +3,10 @@ layout: default
 ---
 <div class="homepage">
    <div class="homepage__grid layout-grid"> 
-      <div class="homepage__content layout-grid__cell layout-grid__cell--span-7-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-      {{ content }}
-      <h2>Work</h2>
-      <hr>
-      {%- for post in site.posts -%}
-      {% if post.categories contains 'case-study' and post.status != 'draft' %}
-      
-      <div class="homepage__works">
-         <a id="{{ post.slug }}" onmouseover="addClass(body, '{{ post.slug }}')" onmouseout="removeClass(body, '{{ post.slug }}')" onmouseout="" href="{{ post.url }}">
-            <h3 class="sans-serif">{{ post.catchy-title }}</h3>
-            <h3 class="sans-serif grey-text">{{ post.company }}</h3>
-         </a>
-      </div>
-      <hr>
-      {% endif %}
-      {%- endfor -%} 
+      <!-- <div class="homepage__content layout-grid__cell layout-grid__cell--span-5-desktop layout-grid__cell--span-6-tablet layout-grid__cell--span-4-phone"> -->
+      <div class="homepage__content layout-grid__cell layout-grid__cell--span-8-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
 
-      {% include footer.html %}
+         {{ content }}
       </div>
    </div>
 </div>
-
-<script>
-   var body = document.body;
-
-   function addClass(element, nameOfClass) {
-      if (element.classList) {
-         element.classList.add(nameOfClass);
-      }
-      else {
-         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
-         if (!element.className.match(regExp)) {
-            element.className += " " + nameOfClass;
-         }
-      }
-   }
-
-   function removeClass(element, nameOfClass) {
-      if (element.classList) {
-         element.classList.remove(nameOfClass);
-      }
-      else {
-         var regExp = new RegExp('(\\s|^)' + nameOfClass + '(\\s|$)');
-         if (element.className.match(regExp)) {
-            element.className.replace(regExp, ' ');
-         }
-      }
-   }
-</script>

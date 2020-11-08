@@ -1,58 +1,11 @@
-@font-face {
-  font-family: 'Colfax';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Colfax-Regular.woff") format("woff2"), url("../fonts/Colfax-Regular.woff") format("woff"); }
-@font-face {
-  font-family: 'Colfax';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Colfax-RegularItalic.woff") format("woff2"), url("../fonts/Colfax-RegularItalic.woff") format("woff"); }
-@font-face {
-  font-family: 'Colfax';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("../fonts/Colfax-Medium.woff") format("woff2"), url("../fonts/Colfax-Medium.woff") format("woff"); }
-@font-face {
-  font-family: 'Bradford';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url("../fonts/BradfordLL-Light.woff") format("woff2"), url("../fonts/BradfordLL-Light.woff") format("woff"); }
-@font-face {
-  font-family: 'Bradford';
-  font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url("../fonts/BradfordLL-LightItalic.woff") format("woff2"), url("../fonts/BradfordLL-LightItalic.woff") format("woff"); }
-@font-face {
-  font-family: 'Bradford';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("../fonts/BradfordLL-Medium.woff") format("woff2"), url("../fonts/BradfordLL-Medium.woff") format("woff"); }
-@font-face {
-  font-family: 'Bradford';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/BradfordLL-Regular.woff") format("woff2"), url("../fonts/BradfordLL-Regular.woff") format("woff"); }
-@font-face {
-  font-family: 'Bradford';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/BradfordLL-RegularItalic.woff") format("woff2"), url("../fonts/BradfordLL-RegularItalic.woff") format("woff"); }
 :root {
-  --serif: Bradford, Georgia, serif;
-  --sans-serif: Colfax, Helvetica, sans-serif;
+  --serif: "Times New Roman", Times, serif;
+  --sans-serif: "Times New Roman", Times, serif;
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-grey: #696969;
   --color-text: #2b2b2b;
+  --color-accent:#DBA326;
   --breakpoint-sm-max: 720px;
   --breakpoint-sm-min: calc(var(--breakpoint-sm-max) - 1);
   --breakpoint-md-max: 1024px;
@@ -83,16 +36,6 @@ ruby, section, summary, time, mark, audio, video {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
 
-body.oscar {
-  background: #6B4DE4;
-  color: #fafafa; }
-
-body.oscar a {
-  color: #fafafa; }
-
-body {
-  transition: 0.2s ease; }
-
 ::-moz-selection {
   background: var(--color-text);
   color: var(--color-white); }
@@ -105,42 +48,54 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: var(--serif);
   color: var(--color-text); }
 
 /** Type styles **/
-h1 {
-  font-family: var(--serif);
-  font-weight: 200;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  letter-spacing: 0.01rem;
-  margin-bottom: 1.5rem; }
-
-h2 {
-  margin-top: 2.1rem;
-  margin-bottom: .7rem;
-  font-size: 1.25rem;
-  line-height: 1.3;
-  font-family: var(--sans-serif);
-  font-weight: 500; }
-
+h1,
+h2,
+h3,
+h4,
+body,
+em,
 p,
 ul,
 ol {
   font-family: var(--serif);
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 1.75rem;
-  margin-bottom: 1.5rem; }
+  line-height: 1.625rem;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 720px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    body,
+    em,
+    p,
+    ul,
+    ol {
+      font-size: 1.625rem;
+      line-height: 2.25rem;
+      margin-bottom: 1.5rem; } }
+
+em {
+  font-style: italic; }
+
+ol,
+ul {
+  list-style-position: outside;
+  padding-left: 1.125rem; }
+  @media screen and (min-width: 720px) {
+    ol,
+    ul {
+      padding-left: 1.5rem; } }
 
 a {
   text-decoration: none;
-  border-bottom: solid 1px;
-  color: inherit; }
+  color: var(--color-accent); }
   a:hover {
-    opacity: 65%;
-    border-bottom: none; }
+    opacity: 65%; }
 
 .grey-text {
   color: var(--color-grey); }
@@ -161,9 +116,6 @@ a {
 .no-underline {
   border-bottom: none; }
 
-footer {
-  margin-top: 3rem; }
-
 hr {
   opacity: 0.0875;
   border: 0;
@@ -173,23 +125,35 @@ hr {
   height: 1px;
   background-color: var(--color-text); }
 
+.section {
+  margin-bottom: 3rem;
+  width: 16rem; }
+  @media screen and (min-width: 720px) {
+    .section {
+      margin-bottom: 5rem;
+      width: 32rem; } }
+  .section--exempt {
+    width: auto; }
+
 .homepage {
-  margin: 2.5rem 0 2rem 0; }
-  .homepage__grid {
-    padding: 0 1.5rem; }
-  .homepage__works {
-    padding: 1rem 0 0.8rem 0; }
-  .homepage__intro {
-    margin-bottom: 4.5rem; }
+  margin: 6rem 0; }
   @media screen and (min-width: 720px) {
     .homepage {
-      margin: 6rem 0 2rem 0; } }
+      margin: 5rem 0; } }
+  .homepage__grid {
+    padding: 0 1.5rem; }
+    @media screen and (min-width: 720px) {
+      .homepage__grid {
+        padding: 0 5rem; } }
+  @media screen and (min-width: 720px) {
+    .homepage {
+      margin: 5rem 0; } }
   @media (min-width: 720px) {
     .homepage__content {
-      grid-column-start: 2; } }
+      grid-column-start: 1; } }
   @media (min-width: 1024px) {
     .homepage__content {
-      grid-column-start: 2; } }
+      grid-column-start: 1; } }
 
 /** Article **/
 .article {
@@ -257,7 +221,8 @@ hr {
         font-size: 0.9375rem; } }
   .article ul,
   .article ol {
-    margin-left: 2rem; }
+    margin-left: 2rem;
+    list-style-position: outside; }
   .article li {
     margin-bottom: 0.5rem; }
   .article__structure {
