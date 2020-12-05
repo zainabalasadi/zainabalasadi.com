@@ -2,64 +2,8 @@
 layout: default
 ---
 
-<div class="article-hero">
-   <!-- <div class="article-hero__img"></div> -->
-   <div style="background-color: {{ page.color }}; width: 100%; height: 100%">
-      <div class="article layout-grid">
-         <div id="article__hero" class="article__content article-hero__bg layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-            <p class="overline">{{ page.company }}</p>
-            <h1>{{ page.catchy-title }}</h1>
-            <p class="sans-serif sans-serif--large">{{ page.description }}</p>
-            <p class="sans-serif sans-serif--small">{{ page.role }}</p>
-            <p class="sans-serif sans-serif--small">{{ page.team }}</p>
-            <p class="sans-serif sans-serif--small">{{ page.timeline }}</p>
-         </div>
-      </div>
-   </div>
-
-   <div class="article">
-      <div class="layout-grid">
-         <aside class="sans-serif grey-text article__structure layout-grid__cell layout-grid__cell--span-3-desktop layout-grid__cell--span-12-tablet layout-grid__cell--span-4-phone">
-            <p>Contents</p>
-            <ol class="article__structure-list">
-            <li><a class="no-underline" href="#motivationandpriorwork">Motivation and prior&nbsp;work</a></li>
-            <li><a class="no-underline" href="#approach">Approach</a></li>
-            <li><a class="no-underline" href="#limitations">Limitations</a></li>
-            <li><a class="no-underline" href="#futuredirections">Future&nbsp;directions</a></li>
-            <li><a class="no-underline" href="#timeline">Timeline</a></li>
-            </ol>
-            <hr class="md-none">
-         </aside>
-         
-
-         <div class="article__content layout-grid__cell layout-grid__cell--span-6-desktop layout-grid__cell--span-8-tablet layout-grid__cell--span-4-phone">
-            
-            {{ content }}
-      
-         </div>
-      </div>
-   </div>
+<div>
+   {{ content }}
 </div>
-
-<script>
-   $(window).scroll(function(e){ 
-      var $element = $('.article__structure'); 
-      var isPositionFixed = ($element.css('position') == 'fixed');
-
-      var topHeight = document.getElementById("article__hero").offsetHeight;
-      var top = 40;
-      var scrollLimit = topHeight - top; 
-
-      if ($(window).width() > 1024) {
-         if ($(this).scrollTop() > scrollLimit && !isPositionFixed) { 
-            $element.css({'position': 'fixed', 'top': top}); 
-         } else if ($(this).scrollTop() < scrollLimit && isPositionFixed) {
-            $element.css({'position': 'static', 'top': '0px'}); 
-         } 
-      } else if (isPositionFixed && $(window).width() < 1024) {
-         $element.css({'position': 'static', 'top': '0px'}); 
-      }
-   });
-</script>
 
 

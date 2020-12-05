@@ -5,13 +5,12 @@ $breakpoint-md-min: calc(#{$breakpoint-md-max} - 1px);
 
 :root {
     --serif: "Times New Roman", Times, serif;
-    --sans-serif: "Times New Roman", Times, serif;
 
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-grey:  #696969;
-    --color-text:  #2b2b2b;
-    --color-accent:#DBA326;
+    --color-text:  #000000;
+    --color-accent:#066541;
 
     --breakpoint-sm-max: 720px;
     --breakpoint-sm-min: calc(var(--breakpoint-sm-max) - 1);

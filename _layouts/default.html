@@ -17,7 +17,6 @@
 <html lang="en">
 {% include head.html %}
 <body> 
-   
    {{ content }}
 
    {% if page.id %}
@@ -25,19 +24,7 @@
       <div>
          <p><a href="{{ site.baseurl }}" alt="Go back">← Back</a></p>
       </div>
-      <div>
-         {% include next.html %}
-      </div>
    </div>
    {% endif %}
-
-   {% if page.layout == 'home'%}
-   <script>
-      if (screen && screen.width > 719) {
-      document.write('<script type="text/javascript" src="../assets/js/jquery.slim.min.js"><\/script>' +
-                     '<script type="text/javascript" src="../assets/js/index.js"><\/script>');
-      }
-   </script>
-   {%- endif -%}
 </body>
 </html>

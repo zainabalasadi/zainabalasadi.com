@@ -21,62 +21,7 @@
 //    url('../fonts/Colfax-RegularItalic.woff') format('woff'),
 // }
 
-// @font-face {
-//    font-family: 'Colfax';
-//    font-style: normal;
-//    font-weight: 500;
-//    font-display: swap;
-//    src: url('../fonts/Colfax-Medium.woff') format('woff2'),
-//    url('../fonts/Colfax-Medium.woff') format('woff'),
-// }
-
-// @font-face {
-//    font-family: 'Bradford';
-//    font-style: normal;
-//    font-weight: 200;
-//    font-display: swap;
-//    src: url('../fonts/BradfordLL-Light.woff') format('woff2'),
-//    url('../fonts/BradfordLL-Light.woff') format('woff'),
-// }
-
-// @font-face {
-//    font-family: 'Bradford';
-//    font-style: italic;
-//    font-weight: 200;
-//    font-display: swap;
-//    src: url('../fonts/BradfordLL-LightItalic.woff') format('woff2'),
-//    url('../fonts/BradfordLL-LightItalic.woff') format('woff'),
-// }
-
-// @font-face {
-//    font-family: 'Bradford';
-//    font-style: normal;
-//    font-weight: 500;
-//    font-display: swap;
-//    src: url('../fonts/BradfordLL-Medium.woff') format('woff2'),
-//    url('../fonts/BradfordLL-Medium.woff') format('woff'),
-// }
-
-// @font-face {
-//    font-family: 'Bradford';
-//    font-style: normal;
-//    font-weight: 400;
-//    font-display: swap;
-//    src: url('../fonts/BradfordLL-Regular.woff') format('woff2'),
-//    url('../fonts/BradfordLL-Regular.woff') format('woff'),
-// }
-
-// @font-face {
-//    font-family: 'Bradford';
-//    font-style: italic;
-//    font-weight: 400;
-//    font-display: swap;
-//    src: url('../fonts/BradfordLL-RegularItalic.woff') format('woff2'),
-//    url('../fonts/BradfordLL-RegularItalic.woff') format('woff'),
-// }
-
 // Import partials
 @import 
 "theme",
-"styles",
-"syntax-highlighting";
+"styles";

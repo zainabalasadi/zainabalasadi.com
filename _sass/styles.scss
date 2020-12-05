@@ -76,296 +76,41 @@ ul {
 
 
 a {
-   text-decoration: none;
+   text-decoration: underline;
    color: var(--color-accent);
 
    &:hover {
-      opacity: 65%;
+      text-decoration: underline;
    }
 }
 
-.grey-text {
-   color: var(--color-grey);
-}
-
-.sans-serif {
-   font-family: var(--sans-serif);
-   font-weight: 300;
-   font-size: 1rem;
-   line-height: 1.25rem;
-
-   &--small {
-      font-size: 0.8125rem;
-      line-height: 1.25rem;
-   }
-
-   &--large {
-      font-size: 1.125rem;
-      line-height: 1.875rem;
-   }
+:focus {
+   outline: -webkit-focus-ring-color auto 1px;
 }
 
 /** Homepage **/
-.no-underline {
-   border-bottom: none;
+.homepage {
+   margin: 6rem 1.5rem;
+   // padding: 0 1.5rem;
+
+   @media screen and (min-width: $breakpoint-sm-max) {
+      margin: 5rem;
+   }
 }
 
-hr {
-   opacity: 0.0875;
-   border: 0;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   height: 1px;
-   background-color: var(--color-text);
-}
-
-.section {
+section {
    margin-bottom: 3rem;
-   width: 16rem;
+   max-width: 16rem;
 
    @media screen and (min-width: $breakpoint-sm-max) {
       margin-bottom: 5rem;
-      width: 32rem;
-   }
-
-   &--exempt {
-      width: auto;
+      max-width: 32rem;
    }
 }
 
-.homepage {
-   margin: 6rem 0;
-
-   @media screen and (min-width: $breakpoint-sm-max) {
-      margin: 5rem 0;
-   }
-
-   &__grid {
-      padding: 0 1.5rem;
-
-      @media screen and (min-width: $breakpoint-sm-max) {
-         padding: 0 5rem;
-      }
-   }
-
-   @media screen and (min-width: $breakpoint-sm-max) {
-      margin: 5rem 0;
-   }
-
-   &__content {
-      @media (min-width: $breakpoint-sm-max) {
-         grid-column-start: 1;
-      }
-   
-      @media (min-width: $breakpoint-md-max) {
-         grid-column-start: 1;
-      }
-   }
+.no-width {
+   max-width: none;
 }
-
-
-
-
-/** Article **/
-.article {
-   margin: 4rem auto;
-   padding: 0 1.5rem;
-
-   @media screen and (min-width: $breakpoint-md-max) {
-      max-width: 1280px;
-   }
-
-   h1, 
-   h2, 
-   h3 {
-      font-family: var(--sans-serif);
-      font-weight: 500;
-   }
-
-   h1 {
-      font-size: 3rem;
-      line-height: 4rem;
-      letter-spacing: 0.01rem; 
-      // color: var(--color-white);
-   }
-
-   h2 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-      margin-bottom: 0.5rem;
-      margin-top: 3rem;
-
-      @media screen and (min-width: $breakpoint-md-max) {
-         font-size: 2rem;
-         line-height: 2.5rem;
-      }
-   }
-
-   h3 {
-      font-size: 1.25rem;
-      line-height: 1.75rem;
-      margin-bottom: 0.5rem;
-   }
-
-   blockquote p {
-      font-family: var(--sans-serif) !important;
-      font-weight: 300;
-      font-size: 1.5rem;
-      line-height: 1.75rem;
-      letter-spacing: -0.01rem; 
-      margin: 3rem 0;
-   }
-
-   .image-block {
-      margin: 2rem 0;
-   }
-
-   img {
-      width: 100%;
-      // TODO margin
-      margin-bottom: 0.5rem;
-
-      @media (min-width: $breakpoint-sm-max) {
-         width: calc(100% + 8rem);
-         margin-left: -4rem;
-         margin-bottom: 1rem;
-      }
-   
-      @media (min-width: $breakpoint-md-max) {
-         width: calc(100% + 10rem);
-         margin-left: -5em;
-         margin-bottom: 1rem;
-      }
-   }
-
-   .caption {
-      font-family: var(--sans-serif);
-      font-weight: 300;
-      font-size: 0.8125rem;
-      line-height: 1.25rem;
-      margin: 0;
-      color: var(--color-grey);
-
-      &--strong {
-         font-weight: 500;
-         color: var(--color-text);
-      }
-
-      @media (min-width: $breakpoint-sm-max) {
-         font-size: 0.9375rem;
-      }
-   }
-
-   ul, 
-   ol {
-      margin-left: 2rem;
-      list-style-position: outside;
-   }
-
-   li {
-      margin-bottom: 0.5rem;
-   }
-
-   &__structure {
-      grid-column-start: 1;
-      // position: fixed;
-      // top: 0;
-
-      &--scrolled {
-         position: fixed;
-         top: 42px;
-      }
-
-      p,
-      ol {
-         font: inherit;
-         margin-bottom: 0.5rem;
-      }
-   
-      ol {
-         list-style-position: inside;
-         margin-left: 0;
-      }
-
-      li {
-         margin-bottom: 0.125rem;
-      }
-   
-      @media (min-width: $breakpoint-sm-max) {
-         grid-column-start: 3;
-      }
-   
-      @media (min-width: $breakpoint-md-max) {
-         grid-column-start: 1;
-      }
-   }
-
-   &__content {
-      @media (min-width: $breakpoint-sm-max) {
-         grid-column-start: 3;
-      }
-   
-      @media (min-width: $breakpoint-md-max) {
-         grid-column-start: 4;
-      }
-   }
-}
-
-.overline {
-   font-family: var(--sans-serif);
-   font-weight: 500;
-   font-size: 0.875rem;
-   line-height: 0.875rem; 
-   letter-spacing: 0.05rem;
-   text-transform: uppercase;
-   margin-bottom: 0.5rem;
-   opacity: 0.6;
-}
-
-.article-hero {
-
-   &__bg {
-      color: var(--color-white);
-      left: 0;
-      width: 100%;
-      height: 100%;
-      padding: 4rem 0;
-
-      @media (min-width: $breakpoint-sm-max) {
-         padding: 6rem 0;
-      }
-
-      @media (min-width: $breakpoint-md-max) {
-         padding: 8rem 0;
-      }
-   }
-
-   &__img {
-      background: url("https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/GD_AtapSoli_Hero_012020.jpg") no-repeat top center fixed;
-      background-size: cover;
-      height: 400px;
-      width: 100%;
-   }
-}
-
-
-.md-none {
-   @media (min-width: $breakpoint-md-max) {
-      display: none;
-   }
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /** Grid **/
 :root {

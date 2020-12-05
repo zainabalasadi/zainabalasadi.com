@@ -3,39 +3,49 @@ layout:      home
 title:       Zainab Alasadi
 description: Zainab Alasadi is a product designer. 
 ---
-<div markdown="1" class="section">
+<section markdown="1">
 # Zainab Alasadi
-## *UX Researcher & Developer*
+
+## *UX Designer & Developer*
+
 ## [hello@zainabalasadi.com](mailto:hello@zainabalasadi.com)
-</div>
+</section>
 
-<div markdown="1" class="section">
+
+<section markdown="1">
 ### About me:
-I’m a interaction designer and engineer living in Sydney, Australia. I rethink the status quo through experimentation, compassion and inclusivity.
-</div>
 
-<div markdown="1" class="section">
-### Recent works:
-Currently, I’m helping scale the design systems that help teams ship high-quality and accessible products at [Macquarie](#). Previously, I’ve worked for [Wriveted](#), [Oscar](#) and [180DC](#).
-</div>
+I’m a designer and engineer living in Sydney, Australia. I rethink the status quo through experimentation, compassion and inclusivity.
+</section>
 
-<div markdown="1" class="section section--exempt">
-### Writing:
-1. [NCWG RFC 001](#) *2019*
-2. [New Computers](#) *2019*
-3. [Personal Computer, Vending Machine](#) *2018*
-4. [Knowledge Networks](#) *2018*
-</div>
 
-<div markdown="1" class="section section--exempt">
+<section markdown="1">
+### Work:
+
+Currently, I’m a CS thesis student at [UNSW](https://www.engineering.unsw.edu.au/computer-science-engineering/){:target="_blank" rel="noopener"}, exploring how scientists can automate lab tasks through human-robot interaction.
+
+I’m also a researcher at [Wriveted](https://www.wriveted.com/){:target="_blank" rel="noopener"}, helping students find books they love through a conversational interface. Before that, I was at [Macquarie Bank](https://www.macquarie.com.au/){:target="_blank" rel="noopener"}, [Oscar](https://www.sharewithoscar.com/){:target="_blank" rel="noopener"} and [180DC](https://180dc.org/){:target="_blank" rel="noopener"}.
+</section>
+
+
+<section markdown="1" class="no-width">
+### Recent projects:
+
+*Coming soon.*
+</section>
+
+
+<section markdown="1" class="no-width">
 ### Elsewhere on the interwebs:
-1. Retweeting cool things on [Twitter](#)
-2. Expanding my [bookshelf](#)
-3. Another cool place [here](#)
-4. And [here](#)
-</div>
 
-<div markdown="1" class="section">
-### Closing thoughts:
-More often than not, the most meaningful human activity boils down to providing support structure for one another. In turn, the most meaningful “designed” output is the infrastructural.
-</div>
+1. Retweeting cool things on [Twitter](https://twitter.com/zalasadi_){:target="_blank" rel="noopener"} (say hi!)
+2. Expanding my [bookshelf](https://www.goodreads.com/zainabalasadi){:target="_blank" rel="noopener"}
+3. Transforming Australian census data into [real narratives](https://twitter.com/censaus?lang=en){:target="_blank" rel="noopener"}
+</section>
+
+<section markdown="1">
+### Recent musings:
+
+“An exclusion habit is the belief that whoever starts the game also sets the rules of the game. We think we don’t have power to change a game, so we abdicate our accountability."  
+(Kat Holmes, 2018)
+</section>
