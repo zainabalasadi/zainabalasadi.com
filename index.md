@@ -1,7 +1,7 @@
 ---
 layout:      home
 title:       Zainab Alasadi
-description: "Zainab Alasadi is a UX designer and developer rethinking the status quo through experimentation, compassion and inclusivity. Currently a HCI thesis student at UNSW."
+description: "Zainab Alasadi is a UX designer and developer. Currently a HCI thesis student at UNSW."
 ---
 <section markdown="1">
 # Zainab Alasadi
