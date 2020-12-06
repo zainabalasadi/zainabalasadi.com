@@ -1,0 +1,20 @@
+{
+  "name": "zainabalasadi",
+  "version": "1.0.0",
+  "description": "My little corner of the world wide web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainabalasadi/zainabalasadi.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zainabalasadi/zainabalasadi.com/issues"
+  },
+  "homepage": "https://github.com/zainabalasadi/zainabalasadi.com#readme"
+}
