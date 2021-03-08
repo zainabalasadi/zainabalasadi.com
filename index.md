@@ -22,7 +22,7 @@ I’m a designer and engineer living in Sydney, Australia. I rethink the status 
 <section markdown="1">
 ### Work:
 
-Currently, I’m a CS thesis student at [UNSW](https://www.engineering.unsw.edu.au/computer-science-engineering/){:target="_blank" rel="noopener"}, exploring how scientists can automate lab tasks through human-robot interaction.
+Currently, I’m a CS thesis student at [UNSW](https://www.engineering.unsw.edu.au/computer-science-engineering/){:target="_blank" rel="noopener"}, exploring the affects of on-screen assistive agents on teleoperation performance.
 
 I’m also a researcher at [Wriveted](https://www.wriveted.com/){:target="_blank" rel="noopener"}, helping students find books they love through a conversational interface. Before that, I was at [Macquarie Bank](https://www.macquarie.com.au/){:target="_blank" rel="noopener"}, [Oscar](https://www.sharewithoscar.com/){:target="_blank" rel="noopener"} and [180DC](https://180dc.org/){:target="_blank" rel="noopener"}.
 </section>
